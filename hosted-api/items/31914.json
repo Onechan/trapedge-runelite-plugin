@@ -1,0 +1,249 @@
+{
+  "itemId": 31914,
+  "itemName": "Rune cannonball",
+  "executionConfidence": "fragile",
+  "executionConfidenceLabel": "Fragile",
+  "trapScore": 32,
+  "trapFlags": [
+    "limit_constrained",
+    "thin_liquidity",
+    "fake_spread_risk",
+    "style_repeat_risk"
+  ],
+  "recommendedAction": "wait",
+  "recommendedActionLabel": "Wait",
+  "reasonSummary": "This is tradeable, but the usable profit is still a bit light for the bankroll target. Recent fill flow looks too thin relative to the size the market claims to support.",
+  "flagDetails": [
+    {
+      "trapType": "limit_constrained",
+      "severity": "low",
+      "explanation": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+      "evidenceBasis": "Usable profit estimate 44000, threshold 80000.",
+      "safeAlternative": "Prefer normal size only if you specifically want lower-risk turnover.",
+      "score": 6
+    },
+    {
+      "trapType": "thin_liquidity",
+      "severity": "high",
+      "explanation": "Recent fill flow looks too thin relative to the size the market claims to support.",
+      "evidenceBasis": "5m flow 0, 1h flow 4406, buy limit 11000.",
+      "safeAlternative": "Avoid or trade far smaller size.",
+      "score": 24
+    },
+    {
+      "trapType": "fake_spread_risk",
+      "severity": "medium",
+      "explanation": "The headline spread looks exciting, but short-term execution support is too weak to trust it blindly.",
+      "evidenceBasis": "Gross margin 2.48%, 5m flow 0, 1h flow 4406.",
+      "safeAlternative": "Wait for stronger evidence instead of paying up for the headline spread.",
+      "score": 16
+    },
+    {
+      "trapType": "style_repeat_risk",
+      "severity": "low",
+      "explanation": "This also matches a broader execution mistake pattern already present in your memory log.",
+      "evidenceBasis": "Repeated memory patterns: fake spread.",
+      "safeAlternative": "Trade smaller or wait for a cleaner setup.",
+      "score": 3
+    }
+  ],
+  "strengths": [
+    {
+      "strengthType": "clean_margin",
+      "explanation": "Net margin survives tax with enough room to still matter.",
+      "evidenceBasis": "Net margin 0.58%.",
+      "score": 8
+    },
+    {
+      "strengthType": "fresh_signal",
+      "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+      "evidenceBasis": "Freshness 50s.",
+      "score": 4
+    },
+    {
+      "strengthType": "stable_window",
+      "explanation": "The market looks relatively stable instead of violently stretched.",
+      "evidenceBasis": "Latest-vs-5m 0.36%, 5m-vs-1h 1.17%.",
+      "score": 5
+    }
+  ],
+  "strengthLabels": [
+    "clean_margin",
+    "fresh_signal",
+    "stable_window"
+  ],
+  "memoryNotes": [
+    "Broader repeated style pattern detected: fake spread."
+  ],
+  "matchedRules": [],
+  "matchedPatternKeys": [
+    "fake_spread"
+  ],
+  "usableProfitEstimate": 44000,
+  "grossMarginPct": 0.024817518248175182,
+  "netMarginPct": 0.00583941605839416,
+  "fiveMinuteFlow": 0,
+  "oneHourFlow": 4406,
+  "caseCategory": "Fake spread trap",
+  "raw": {
+    "itemId": 31914,
+    "itemName": "Rune cannonball",
+    "members": true,
+    "buyLimit": 11000,
+    "buyPrice": 702,
+    "sellPrice": 685,
+    "apparentMargin": 17,
+    "geTax": 13,
+    "taxAdjustedMargin": 4,
+    "grossMarginPct": 0.024817518248175182,
+    "netMarginPct": 0.00583941605839416,
+    "taxDragPct": 0.7647058823529411,
+    "usableProfitEstimate": 44000,
+    "capturedAt": "2026-04-05T20:15:00.674Z",
+    "freshnessSeconds": 50,
+    "freshnessLabel": "fresh",
+    "fiveMinuteHighVolume": 0,
+    "fiveMinuteLowVolume": 2773,
+    "oneHourHighVolume": 4406,
+    "oneHourLowVolume": 64157,
+    "fiveMinuteFlow": 0,
+    "oneHourFlow": 4406,
+    "fiveMinuteFlowVsLimit": 0,
+    "oneHourFlowVsLimit": 0.40054545454545454,
+    "fiveMinuteVolumeLabel": "very_low",
+    "oneHourVolumeLabel": "medium",
+    "fiveMinuteTrend": "flat",
+    "oneHourTrend": "flat",
+    "fiveMinuteVsHourDeltaPct": 0.01171303074670571,
+    "latestVsFiveMinuteDeltaPct": 0.00361794500723589,
+    "notes": "higher-ticket cannonball comparison",
+    "status": "active"
+  },
+  "deliveryMode": "hosted-static",
+  "sourceLabel": "Hosted read-only snapshot feed",
+  "sourceBaseUrl": "https://onechan.github.io/trapedge-runelite-plugin/hosted-api",
+  "proofCase": null,
+  "liveAssessment": {
+    "itemId": 31914,
+    "itemName": "Rune cannonball",
+    "executionConfidence": "fragile",
+    "executionConfidenceLabel": "Fragile",
+    "trapScore": 32,
+    "trapFlags": [
+      "limit_constrained",
+      "thin_liquidity",
+      "fake_spread_risk",
+      "style_repeat_risk"
+    ],
+    "recommendedAction": "wait",
+    "recommendedActionLabel": "Wait",
+    "reasonSummary": "This is tradeable, but the usable profit is still a bit light for the bankroll target. Recent fill flow looks too thin relative to the size the market claims to support.",
+    "flagDetails": [
+      {
+        "trapType": "limit_constrained",
+        "severity": "low",
+        "explanation": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+        "evidenceBasis": "Usable profit estimate 44000, threshold 80000.",
+        "safeAlternative": "Prefer normal size only if you specifically want lower-risk turnover.",
+        "score": 6
+      },
+      {
+        "trapType": "thin_liquidity",
+        "severity": "high",
+        "explanation": "Recent fill flow looks too thin relative to the size the market claims to support.",
+        "evidenceBasis": "5m flow 0, 1h flow 4406, buy limit 11000.",
+        "safeAlternative": "Avoid or trade far smaller size.",
+        "score": 24
+      },
+      {
+        "trapType": "fake_spread_risk",
+        "severity": "medium",
+        "explanation": "The headline spread looks exciting, but short-term execution support is too weak to trust it blindly.",
+        "evidenceBasis": "Gross margin 2.48%, 5m flow 0, 1h flow 4406.",
+        "safeAlternative": "Wait for stronger evidence instead of paying up for the headline spread.",
+        "score": 16
+      },
+      {
+        "trapType": "style_repeat_risk",
+        "severity": "low",
+        "explanation": "This also matches a broader execution mistake pattern already present in your memory log.",
+        "evidenceBasis": "Repeated memory patterns: fake spread.",
+        "safeAlternative": "Trade smaller or wait for a cleaner setup.",
+        "score": 3
+      }
+    ],
+    "strengths": [
+      {
+        "strengthType": "clean_margin",
+        "explanation": "Net margin survives tax with enough room to still matter.",
+        "evidenceBasis": "Net margin 0.58%.",
+        "score": 8
+      },
+      {
+        "strengthType": "fresh_signal",
+        "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+        "evidenceBasis": "Freshness 50s.",
+        "score": 4
+      },
+      {
+        "strengthType": "stable_window",
+        "explanation": "The market looks relatively stable instead of violently stretched.",
+        "evidenceBasis": "Latest-vs-5m 0.36%, 5m-vs-1h 1.17%.",
+        "score": 5
+      }
+    ],
+    "strengthLabels": [
+      "clean_margin",
+      "fresh_signal",
+      "stable_window"
+    ],
+    "memoryNotes": [
+      "Broader repeated style pattern detected: fake spread."
+    ],
+    "matchedRules": [],
+    "matchedPatternKeys": [
+      "fake_spread"
+    ],
+    "usableProfitEstimate": 44000,
+    "grossMarginPct": 0.024817518248175182,
+    "netMarginPct": 0.00583941605839416,
+    "fiveMinuteFlow": 0,
+    "oneHourFlow": 4406,
+    "caseCategory": "Fake spread trap",
+    "raw": {
+      "itemId": 31914,
+      "itemName": "Rune cannonball",
+      "members": true,
+      "buyLimit": 11000,
+      "buyPrice": 702,
+      "sellPrice": 685,
+      "apparentMargin": 17,
+      "geTax": 13,
+      "taxAdjustedMargin": 4,
+      "grossMarginPct": 0.024817518248175182,
+      "netMarginPct": 0.00583941605839416,
+      "taxDragPct": 0.7647058823529411,
+      "usableProfitEstimate": 44000,
+      "capturedAt": "2026-04-05T20:15:00.674Z",
+      "freshnessSeconds": 50,
+      "freshnessLabel": "fresh",
+      "fiveMinuteHighVolume": 0,
+      "fiveMinuteLowVolume": 2773,
+      "oneHourHighVolume": 4406,
+      "oneHourLowVolume": 64157,
+      "fiveMinuteFlow": 0,
+      "oneHourFlow": 4406,
+      "fiveMinuteFlowVsLimit": 0,
+      "oneHourFlowVsLimit": 0.40054545454545454,
+      "fiveMinuteVolumeLabel": "very_low",
+      "oneHourVolumeLabel": "medium",
+      "fiveMinuteTrend": "flat",
+      "oneHourTrend": "flat",
+      "fiveMinuteVsHourDeltaPct": 0.01171303074670571,
+      "latestVsFiveMinuteDeltaPct": 0.00361794500723589,
+      "notes": "higher-ticket cannonball comparison",
+      "status": "active"
+    }
+  },
+  "runtimePostmortems": []
+}

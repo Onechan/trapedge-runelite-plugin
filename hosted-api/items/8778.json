@@ -1,0 +1,205 @@
+{
+  "itemId": 8778,
+  "itemName": "Oak plank",
+  "executionConfidence": "tradable",
+  "executionConfidenceLabel": "Tradable",
+  "trapScore": 27,
+  "trapFlags": [
+    "tax_margin_collapse",
+    "limit_constrained"
+  ],
+  "recommendedAction": "small_size_only",
+  "recommendedActionLabel": "Small size only",
+  "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+  "flagDetails": [
+    {
+      "trapType": "tax_margin_collapse",
+      "severity": "high",
+      "explanation": "Tax and spread wipe out the usable edge.",
+      "evidenceBasis": "Apparent margin 4, tax-adjusted -6.",
+      "safeAlternative": "Avoid unless the spread improves materially.",
+      "score": 34
+    },
+    {
+      "trapType": "limit_constrained",
+      "severity": "medium",
+      "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+      "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item.",
+      "score": 12
+    }
+  ],
+  "strengths": [
+    {
+      "strengthType": "high_flow_support",
+      "explanation": "Recent flow is strong enough that the market looks genuinely active.",
+      "evidenceBasis": "5m flow 1257, 1h flow 62347.",
+      "score": 10
+    },
+    {
+      "strengthType": "fresh_signal",
+      "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+      "evidenceBasis": "Freshness 57s.",
+      "score": 4
+    },
+    {
+      "strengthType": "stable_window",
+      "explanation": "The market looks relatively stable instead of violently stretched.",
+      "evidenceBasis": "Latest-vs-5m -0.09%, 5m-vs-1h -0.73%.",
+      "score": 5
+    }
+  ],
+  "strengthLabels": [
+    "high_flow_support",
+    "fresh_signal",
+    "stable_window"
+  ],
+  "memoryNotes": [],
+  "matchedRules": [],
+  "matchedPatternKeys": [],
+  "usableProfitEstimate": 0,
+  "grossMarginPct": 0.007352941176470588,
+  "netMarginPct": -0.011029411764705883,
+  "fiveMinuteFlow": 1257,
+  "oneHourFlow": 62347,
+  "caseCategory": "Limit-constrained grind",
+  "raw": {
+    "itemId": 8778,
+    "itemName": "Oak plank",
+    "members": true,
+    "buyLimit": 13000,
+    "buyPrice": 548,
+    "sellPrice": 544,
+    "apparentMargin": 4,
+    "geTax": 10,
+    "taxAdjustedMargin": -6,
+    "grossMarginPct": 0.007352941176470588,
+    "netMarginPct": -0.011029411764705883,
+    "taxDragPct": 2.5,
+    "usableProfitEstimate": 0,
+    "capturedAt": "2026-04-05T20:15:00.674Z",
+    "freshnessSeconds": 57,
+    "freshnessLabel": "fresh",
+    "fiveMinuteHighVolume": 3054,
+    "fiveMinuteLowVolume": 1257,
+    "oneHourHighVolume": 134607,
+    "oneHourLowVolume": 62347,
+    "fiveMinuteFlow": 1257,
+    "oneHourFlow": 62347,
+    "fiveMinuteFlowVsLimit": 0.09669230769230769,
+    "oneHourFlowVsLimit": 4.795923076923077,
+    "fiveMinuteVolumeLabel": "medium",
+    "oneHourVolumeLabel": "very_high",
+    "fiveMinuteTrend": "flat",
+    "oneHourTrend": "flat",
+    "fiveMinuteVsHourDeltaPct": -0.007266121707538601,
+    "latestVsFiveMinuteDeltaPct": -0.0009149130832570906,
+    "notes": "builder-material control case",
+    "status": "active"
+  },
+  "deliveryMode": "hosted-static",
+  "sourceLabel": "Hosted read-only snapshot feed",
+  "sourceBaseUrl": "https://onechan.github.io/trapedge-runelite-plugin/hosted-api",
+  "proofCase": null,
+  "liveAssessment": {
+    "itemId": 8778,
+    "itemName": "Oak plank",
+    "executionConfidence": "tradable",
+    "executionConfidenceLabel": "Tradable",
+    "trapScore": 27,
+    "trapFlags": [
+      "tax_margin_collapse",
+      "limit_constrained"
+    ],
+    "recommendedAction": "small_size_only",
+    "recommendedActionLabel": "Small size only",
+    "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+    "flagDetails": [
+      {
+        "trapType": "tax_margin_collapse",
+        "severity": "high",
+        "explanation": "Tax and spread wipe out the usable edge.",
+        "evidenceBasis": "Apparent margin 4, tax-adjusted -6.",
+        "safeAlternative": "Avoid unless the spread improves materially.",
+        "score": 34
+      },
+      {
+        "trapType": "limit_constrained",
+        "severity": "medium",
+        "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+        "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+        "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item.",
+        "score": 12
+      }
+    ],
+    "strengths": [
+      {
+        "strengthType": "high_flow_support",
+        "explanation": "Recent flow is strong enough that the market looks genuinely active.",
+        "evidenceBasis": "5m flow 1257, 1h flow 62347.",
+        "score": 10
+      },
+      {
+        "strengthType": "fresh_signal",
+        "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+        "evidenceBasis": "Freshness 57s.",
+        "score": 4
+      },
+      {
+        "strengthType": "stable_window",
+        "explanation": "The market looks relatively stable instead of violently stretched.",
+        "evidenceBasis": "Latest-vs-5m -0.09%, 5m-vs-1h -0.73%.",
+        "score": 5
+      }
+    ],
+    "strengthLabels": [
+      "high_flow_support",
+      "fresh_signal",
+      "stable_window"
+    ],
+    "memoryNotes": [],
+    "matchedRules": [],
+    "matchedPatternKeys": [],
+    "usableProfitEstimate": 0,
+    "grossMarginPct": 0.007352941176470588,
+    "netMarginPct": -0.011029411764705883,
+    "fiveMinuteFlow": 1257,
+    "oneHourFlow": 62347,
+    "caseCategory": "Limit-constrained grind",
+    "raw": {
+      "itemId": 8778,
+      "itemName": "Oak plank",
+      "members": true,
+      "buyLimit": 13000,
+      "buyPrice": 548,
+      "sellPrice": 544,
+      "apparentMargin": 4,
+      "geTax": 10,
+      "taxAdjustedMargin": -6,
+      "grossMarginPct": 0.007352941176470588,
+      "netMarginPct": -0.011029411764705883,
+      "taxDragPct": 2.5,
+      "usableProfitEstimate": 0,
+      "capturedAt": "2026-04-05T20:15:00.674Z",
+      "freshnessSeconds": 57,
+      "freshnessLabel": "fresh",
+      "fiveMinuteHighVolume": 3054,
+      "fiveMinuteLowVolume": 1257,
+      "oneHourHighVolume": 134607,
+      "oneHourLowVolume": 62347,
+      "fiveMinuteFlow": 1257,
+      "oneHourFlow": 62347,
+      "fiveMinuteFlowVsLimit": 0.09669230769230769,
+      "oneHourFlowVsLimit": 4.795923076923077,
+      "fiveMinuteVolumeLabel": "medium",
+      "oneHourVolumeLabel": "very_high",
+      "fiveMinuteTrend": "flat",
+      "oneHourTrend": "flat",
+      "fiveMinuteVsHourDeltaPct": -0.007266121707538601,
+      "latestVsFiveMinuteDeltaPct": -0.0009149130832570906,
+      "notes": "builder-material control case",
+      "status": "active"
+    }
+  },
+  "runtimePostmortems": []
+}

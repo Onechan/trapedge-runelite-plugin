@@ -6,6 +6,10 @@ class TrapEdgeSnapshot
 {
 	String generatedAt;
 	String sourceGeneratedAt;
+	String deliveryMode;
+	String sourceLabel;
+	String sourceBaseUrl;
+	String helpText;
 	List<TriageRow> triage;
 	List<ActionRow> actions;
 	List<MemoryRow> memoryPressure;
@@ -95,6 +99,9 @@ class ProofCase
 
 class ItemDetail extends ProofCase
 {
+	String deliveryMode;
+	String sourceLabel;
+	String sourceBaseUrl;
 	List<FlagDetail> flagDetails;
 	List<StrengthDetail> strengths;
 	List<String> matchedRules;

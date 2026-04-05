@@ -15,6 +15,14 @@ The backend should carry:
 
 ---
 
+# Hosted default path
+
+The Plugin Hub-facing default is now a public hosted read-only snapshot feed:
+- `https://onechan.github.io/trapedge-runelite-plugin/hosted-api`
+- raw fallback inside the client: `https://raw.githubusercontent.com/Onechan/trapedge-runelite-plugin/main/hosted-api`
+
+This keeps the plugin usable without requiring a localhost service for normal users.
+
 # Local dev server
 
 Run locally from the TrapEdge repo:
@@ -70,7 +78,11 @@ Returns proof-pack payload for demo / tester sessions.
 ## Plugin Hub prep truth
 The current TrapEdge Plugin Hub prep pass treats the plugin client as read-only.
 
-That means the Plugin Hub-ready client path relies on:
+That means the Plugin Hub-ready client path relies primarily on hosted read-only JSON:
+- `GET /hosted-api/bootstrap.json`
+- `GET /hosted-api/items/:itemId.json`
+
+Local dev may still use:
 - `GET /api/plugin/bootstrap`
 - `GET /api/plugin/item/:itemId`
 - optional `GET /api/plugin/tester-pack`

@@ -6,7 +6,7 @@ Private / sideload-first RuneLite plugin scaffold for TrapEdge.
 A thin RuneLite sidebar over the TrapEdge judgment engine.
 
 ## Current v1 scope
-- fetch triage from local TrapEdge plugin API
+- fetch triage from the hosted read-only TrapEdge feed by default
 - show next action
 - show compact selected item detail
 - show memory notes / matched rules
@@ -33,6 +33,11 @@ A narrower future submission plan is documented in:
 - `../../docs/TRAPEDGE_PRIVATE_TESTER_STACK_COMMAND_PACK_V1.md`
 - `../../docs/TRAPEDGE_FIRST_TESTER_OUTREACH_PACK_V1.md`
 
+## Default user path
+The default config now points to the public hosted read-only feed:
+- `https://onechan.github.io/trapedge-runelite-plugin/hosted-api`
+- with raw GitHub fallback inside the client if Pages is temporarily unavailable
+
 ## Local dev
 From the TrapEdge repo root:
 
@@ -40,6 +45,9 @@ From the TrapEdge repo root:
 npm run plugin:prepare
 npm run plugin:api
 ```
+
+Then set plugin config `API base URL` to:
+- `http://127.0.0.1:4311`
 
 Then in this directory:
 
@@ -61,6 +69,7 @@ npm run hub-safe:check
 
 ## Notes
 - The scaffold is currently private / sideload-first, but now aligned much closer to Plugin Hub-safe read-only posture.
+- `npm run plugin:hosted-api` builds the hosted static snapshot feed used by the public/plugin-hub-ready build.
 - `npm run pluginhub:export` builds a standalone Plugin Hub-ready repo shell from the private workspace.
 - Gradle toolchain auto-download is enabled so the project can compile even when a full local JDK is missing.
 - `./gradlew run` is now wired to the Java 11 toolchain launcher instead of the old Java 8 applet runtime path that previously broke local launch.

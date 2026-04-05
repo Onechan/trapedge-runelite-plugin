@@ -1,0 +1,382 @@
+{
+  "itemId": 24511,
+  "itemName": "Harmonised orb",
+  "executionConfidence": "avoid",
+  "executionConfidenceLabel": "Avoid",
+  "trapScore": 94,
+  "trapFlags": [
+    "tax_margin_collapse",
+    "limit_constrained",
+    "thin_liquidity",
+    "concentration_risk",
+    "stale_signal",
+    "style_repeat_risk"
+  ],
+  "recommendedAction": "avoid",
+  "recommendedActionLabel": "Avoid",
+  "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+  "flagDetails": [
+    {
+      "trapType": "tax_margin_collapse",
+      "severity": "high",
+      "explanation": "Tax and spread wipe out the usable edge.",
+      "evidenceBasis": "Apparent margin 1758998, tax-adjusted -2161002.",
+      "safeAlternative": "Avoid unless the spread improves materially.",
+      "score": 34
+    },
+    {
+      "trapType": "limit_constrained",
+      "severity": "medium",
+      "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+      "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item.",
+      "score": 12
+    },
+    {
+      "trapType": "thin_liquidity",
+      "severity": "high",
+      "explanation": "Recent fill flow looks too thin relative to the size the market claims to support.",
+      "evidenceBasis": "5m flow 0, 1h flow 2, buy limit 8.",
+      "safeAlternative": "Avoid or trade far smaller size.",
+      "score": 24
+    },
+    {
+      "trapType": "concentration_risk",
+      "severity": "medium",
+      "explanation": "This is a high-ticket item with weak hourly turnover. You may be reading a highly concentrated market, not a clean opportunity.",
+      "evidenceBasis": "Sell price 196000000, 1h flow 2.",
+      "safeAlternative": "Treat as trap-prone unless you have unusually strong reason to believe the fills are real.",
+      "score": 18
+    },
+    {
+      "trapType": "stale_signal",
+      "severity": "low",
+      "explanation": "The latest signal is stale enough that the displayed edge may already have moved.",
+      "evidenceBasis": "Freshness 477s.",
+      "safeAlternative": "Refresh before acting aggressively.",
+      "score": 8
+    },
+    {
+      "trapType": "style_repeat_risk",
+      "severity": "low",
+      "explanation": "This also matches a broader execution mistake pattern already present in your memory log.",
+      "evidenceBasis": "Repeated memory patterns: fake spread.",
+      "safeAlternative": "Trade smaller or wait for a cleaner setup.",
+      "score": 3
+    }
+  ],
+  "strengths": [
+    {
+      "strengthType": "stable_window",
+      "explanation": "The market looks relatively stable instead of violently stretched.",
+      "evidenceBasis": "Latest-vs-5m 0.45%, 5m-vs-1h 0.35%.",
+      "score": 5
+    }
+  ],
+  "strengthLabels": [
+    "stable_window"
+  ],
+  "memoryNotes": [
+    "Broader repeated style pattern detected: fake spread."
+  ],
+  "matchedRules": [],
+  "matchedPatternKeys": [
+    "fake_spread"
+  ],
+  "usableProfitEstimate": 0,
+  "grossMarginPct": 0.008974479591836735,
+  "netMarginPct": -0.011025520408163266,
+  "fiveMinuteFlow": 0,
+  "oneHourFlow": 2,
+  "caseCategory": "Thin liquidity trap",
+  "raw": {
+    "itemId": 24511,
+    "itemName": "Harmonised orb",
+    "members": true,
+    "buyLimit": 8,
+    "buyPrice": 197758998,
+    "sellPrice": 196000000,
+    "apparentMargin": 1758998,
+    "geTax": 3920000,
+    "taxAdjustedMargin": -2161002,
+    "grossMarginPct": 0.008974479591836735,
+    "netMarginPct": -0.011025520408163266,
+    "taxDragPct": 2.2285414764542084,
+    "usableProfitEstimate": 0,
+    "capturedAt": "2026-04-05T20:15:00.674Z",
+    "freshnessSeconds": 477,
+    "freshnessLabel": "stale",
+    "fiveMinuteHighVolume": 0,
+    "fiveMinuteLowVolume": 2,
+    "oneHourHighVolume": 6,
+    "oneHourLowVolume": 2,
+    "fiveMinuteFlow": 0,
+    "oneHourFlow": 2,
+    "fiveMinuteFlowVsLimit": 0,
+    "oneHourFlowVsLimit": 0.25,
+    "fiveMinuteVolumeLabel": "very_low",
+    "oneHourVolumeLabel": "very_low",
+    "fiveMinuteTrend": "flat",
+    "oneHourTrend": "flat",
+    "fiveMinuteVsHourDeltaPct": 0.003452686146079304,
+    "latestVsFiveMinuteDeltaPct": 0.004487239795918367,
+    "notes": "ultra-thin high-ticket trap",
+    "status": "active"
+  },
+  "deliveryMode": "hosted-static",
+  "sourceLabel": "Hosted read-only snapshot feed",
+  "sourceBaseUrl": "https://onechan.github.io/trapedge-runelite-plugin/hosted-api",
+  "proofCase": {
+    "itemId": 24511,
+    "itemName": "Harmonised orb",
+    "executionConfidence": "avoid",
+    "executionConfidenceLabel": "Avoid",
+    "trapScore": 94,
+    "trapFlags": [
+      "tax_margin_collapse",
+      "limit_constrained",
+      "thin_liquidity",
+      "concentration_risk",
+      "stale_signal",
+      "style_repeat_risk"
+    ],
+    "recommendedAction": "avoid",
+    "recommendedActionLabel": "Avoid",
+    "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+    "flagDetails": [
+      {
+        "trapType": "tax_margin_collapse",
+        "severity": "high",
+        "explanation": "Tax and spread wipe out the usable edge.",
+        "evidenceBasis": "Apparent margin 1758998, tax-adjusted -2161002.",
+        "safeAlternative": "Avoid unless the spread improves materially.",
+        "score": 34
+      },
+      {
+        "trapType": "limit_constrained",
+        "severity": "medium",
+        "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+        "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+        "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item.",
+        "score": 12
+      },
+      {
+        "trapType": "thin_liquidity",
+        "severity": "high",
+        "explanation": "Recent fill flow looks too thin relative to the size the market claims to support.",
+        "evidenceBasis": "5m flow 0, 1h flow 2, buy limit 8.",
+        "safeAlternative": "Avoid or trade far smaller size.",
+        "score": 24
+      },
+      {
+        "trapType": "concentration_risk",
+        "severity": "medium",
+        "explanation": "This is a high-ticket item with weak hourly turnover. You may be reading a highly concentrated market, not a clean opportunity.",
+        "evidenceBasis": "Sell price 196000000, 1h flow 2.",
+        "safeAlternative": "Treat as trap-prone unless you have unusually strong reason to believe the fills are real.",
+        "score": 18
+      },
+      {
+        "trapType": "stale_signal",
+        "severity": "low",
+        "explanation": "The latest signal is stale enough that the displayed edge may already have moved.",
+        "evidenceBasis": "Freshness 477s.",
+        "safeAlternative": "Refresh before acting aggressively.",
+        "score": 8
+      },
+      {
+        "trapType": "style_repeat_risk",
+        "severity": "low",
+        "explanation": "This also matches a broader execution mistake pattern already present in your memory log.",
+        "evidenceBasis": "Repeated memory patterns: fake spread.",
+        "safeAlternative": "Trade smaller or wait for a cleaner setup.",
+        "score": 3
+      }
+    ],
+    "strengths": [
+      {
+        "strengthType": "stable_window",
+        "explanation": "The market looks relatively stable instead of violently stretched.",
+        "evidenceBasis": "Latest-vs-5m 0.45%, 5m-vs-1h 0.35%.",
+        "score": 5
+      }
+    ],
+    "strengthLabels": [
+      "stable_window"
+    ],
+    "memoryNotes": [
+      "Broader repeated style pattern detected: fake spread."
+    ],
+    "matchedRules": [],
+    "matchedPatternKeys": [
+      "fake_spread"
+    ],
+    "usableProfitEstimate": 0,
+    "grossMarginPct": 0.008974479591836735,
+    "netMarginPct": -0.011025520408163266,
+    "fiveMinuteFlow": 0,
+    "oneHourFlow": 2,
+    "caseCategory": "Thin liquidity trap",
+    "raw": {
+      "itemId": 24511,
+      "itemName": "Harmonised orb",
+      "members": true,
+      "buyLimit": 8,
+      "buyPrice": 197758998,
+      "sellPrice": 196000000,
+      "apparentMargin": 1758998,
+      "geTax": 3920000,
+      "taxAdjustedMargin": -2161002,
+      "grossMarginPct": 0.008974479591836735,
+      "netMarginPct": -0.011025520408163266,
+      "taxDragPct": 2.2285414764542084,
+      "usableProfitEstimate": 0,
+      "capturedAt": "2026-04-05T20:15:01.231Z",
+      "freshnessSeconds": 477,
+      "freshnessLabel": "stale",
+      "fiveMinuteHighVolume": 0,
+      "fiveMinuteLowVolume": 2,
+      "oneHourHighVolume": 6,
+      "oneHourLowVolume": 2,
+      "fiveMinuteFlow": 0,
+      "oneHourFlow": 2,
+      "fiveMinuteFlowVsLimit": 0,
+      "oneHourFlowVsLimit": 0.25,
+      "fiveMinuteVolumeLabel": "very_low",
+      "oneHourVolumeLabel": "very_low",
+      "fiveMinuteTrend": "flat",
+      "oneHourTrend": "flat",
+      "fiveMinuteVsHourDeltaPct": 0.003452686146079304,
+      "latestVsFiveMinuteDeltaPct": 0.004487239795918367,
+      "notes": "ultra-thin high-ticket trap",
+      "status": "active"
+    }
+  },
+  "liveAssessment": {
+    "itemId": 24511,
+    "itemName": "Harmonised orb",
+    "executionConfidence": "avoid",
+    "executionConfidenceLabel": "Avoid",
+    "trapScore": 94,
+    "trapFlags": [
+      "tax_margin_collapse",
+      "limit_constrained",
+      "thin_liquidity",
+      "concentration_risk",
+      "stale_signal",
+      "style_repeat_risk"
+    ],
+    "recommendedAction": "avoid",
+    "recommendedActionLabel": "Avoid",
+    "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+    "flagDetails": [
+      {
+        "trapType": "tax_margin_collapse",
+        "severity": "high",
+        "explanation": "Tax and spread wipe out the usable edge.",
+        "evidenceBasis": "Apparent margin 1758998, tax-adjusted -2161002.",
+        "safeAlternative": "Avoid unless the spread improves materially.",
+        "score": 34
+      },
+      {
+        "trapType": "limit_constrained",
+        "severity": "medium",
+        "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+        "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+        "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item.",
+        "score": 12
+      },
+      {
+        "trapType": "thin_liquidity",
+        "severity": "high",
+        "explanation": "Recent fill flow looks too thin relative to the size the market claims to support.",
+        "evidenceBasis": "5m flow 0, 1h flow 2, buy limit 8.",
+        "safeAlternative": "Avoid or trade far smaller size.",
+        "score": 24
+      },
+      {
+        "trapType": "concentration_risk",
+        "severity": "medium",
+        "explanation": "This is a high-ticket item with weak hourly turnover. You may be reading a highly concentrated market, not a clean opportunity.",
+        "evidenceBasis": "Sell price 196000000, 1h flow 2.",
+        "safeAlternative": "Treat as trap-prone unless you have unusually strong reason to believe the fills are real.",
+        "score": 18
+      },
+      {
+        "trapType": "stale_signal",
+        "severity": "low",
+        "explanation": "The latest signal is stale enough that the displayed edge may already have moved.",
+        "evidenceBasis": "Freshness 477s.",
+        "safeAlternative": "Refresh before acting aggressively.",
+        "score": 8
+      },
+      {
+        "trapType": "style_repeat_risk",
+        "severity": "low",
+        "explanation": "This also matches a broader execution mistake pattern already present in your memory log.",
+        "evidenceBasis": "Repeated memory patterns: fake spread.",
+        "safeAlternative": "Trade smaller or wait for a cleaner setup.",
+        "score": 3
+      }
+    ],
+    "strengths": [
+      {
+        "strengthType": "stable_window",
+        "explanation": "The market looks relatively stable instead of violently stretched.",
+        "evidenceBasis": "Latest-vs-5m 0.45%, 5m-vs-1h 0.35%.",
+        "score": 5
+      }
+    ],
+    "strengthLabels": [
+      "stable_window"
+    ],
+    "memoryNotes": [
+      "Broader repeated style pattern detected: fake spread."
+    ],
+    "matchedRules": [],
+    "matchedPatternKeys": [
+      "fake_spread"
+    ],
+    "usableProfitEstimate": 0,
+    "grossMarginPct": 0.008974479591836735,
+    "netMarginPct": -0.011025520408163266,
+    "fiveMinuteFlow": 0,
+    "oneHourFlow": 2,
+    "caseCategory": "Thin liquidity trap",
+    "raw": {
+      "itemId": 24511,
+      "itemName": "Harmonised orb",
+      "members": true,
+      "buyLimit": 8,
+      "buyPrice": 197758998,
+      "sellPrice": 196000000,
+      "apparentMargin": 1758998,
+      "geTax": 3920000,
+      "taxAdjustedMargin": -2161002,
+      "grossMarginPct": 0.008974479591836735,
+      "netMarginPct": -0.011025520408163266,
+      "taxDragPct": 2.2285414764542084,
+      "usableProfitEstimate": 0,
+      "capturedAt": "2026-04-05T20:15:00.674Z",
+      "freshnessSeconds": 477,
+      "freshnessLabel": "stale",
+      "fiveMinuteHighVolume": 0,
+      "fiveMinuteLowVolume": 2,
+      "oneHourHighVolume": 6,
+      "oneHourLowVolume": 2,
+      "fiveMinuteFlow": 0,
+      "oneHourFlow": 2,
+      "fiveMinuteFlowVsLimit": 0,
+      "oneHourFlowVsLimit": 0.25,
+      "fiveMinuteVolumeLabel": "very_low",
+      "oneHourVolumeLabel": "very_low",
+      "fiveMinuteTrend": "flat",
+      "oneHourTrend": "flat",
+      "fiveMinuteVsHourDeltaPct": 0.003452686146079304,
+      "latestVsFiveMinuteDeltaPct": 0.004487239795918367,
+      "notes": "ultra-thin high-ticket trap",
+      "status": "active"
+    }
+  },
+  "runtimePostmortems": []
+}

@@ -1,0 +1,241 @@
+{
+  "itemId": 20997,
+  "itemName": "Twisted bow",
+  "executionConfidence": "fragile",
+  "executionConfidenceLabel": "Fragile",
+  "trapScore": 34,
+  "trapFlags": [
+    "tax_margin_collapse",
+    "concentration_risk",
+    "memory_repeat_risk",
+    "style_repeat_risk"
+  ],
+  "recommendedAction": "wait",
+  "recommendedActionLabel": "Wait",
+  "reasonSummary": "The trade survives tax, but most of the edge is still too thin to trust heavily. This is a high-ticket item with weak hourly turnover. You may be reading a highly concentrated market, not a clean opportunity.",
+  "flagDetails": [
+    {
+      "trapType": "tax_margin_collapse",
+      "severity": "medium",
+      "explanation": "The trade survives tax, but most of the edge is still too thin to trust heavily.",
+      "evidenceBasis": "Apparent margin 6343341, tax-adjusted 1343341.",
+      "safeAlternative": "Treat as a thin edge unless the rest of the execution picture is exceptionally clean.",
+      "score": 14
+    },
+    {
+      "trapType": "concentration_risk",
+      "severity": "medium",
+      "explanation": "This is a high-ticket item with weak hourly turnover. You may be reading a highly concentrated market, not a clean opportunity.",
+      "evidenceBasis": "Sell price 1593156654, 1h flow 10.",
+      "safeAlternative": "Treat as trap-prone unless you have unusually strong reason to believe the fills are real.",
+      "score": 18
+    },
+    {
+      "trapType": "memory_repeat_risk",
+      "severity": "medium",
+      "explanation": "You have repeated this same mistake on this item before.",
+      "evidenceBasis": "2 matching postmortems already exist for Twisted bow.",
+      "safeAlternative": "Treat mega-ticket items as trap-prone unless hourly flow is clearly real.",
+      "score": 12
+    },
+    {
+      "trapType": "style_repeat_risk",
+      "severity": "low",
+      "explanation": "This also matches a broader execution mistake pattern already present in your memory log.",
+      "evidenceBasis": "Repeated memory patterns: fake spread.",
+      "safeAlternative": "Treat mega-ticket items as trap-prone unless hourly flow is clearly real.",
+      "score": 3
+    }
+  ],
+  "strengths": [
+    {
+      "strengthType": "stable_window",
+      "explanation": "The market looks relatively stable instead of violently stretched.",
+      "evidenceBasis": "Latest-vs-5m 0.25%, 5m-vs-1h -0.24%.",
+      "score": 5
+    },
+    {
+      "strengthType": "bankroll_fit",
+      "explanation": "Usable profit clears the bankroll target for this profile.",
+      "evidenceBasis": "Usable profit estimate 10746728, threshold 80000.",
+      "score": 8
+    }
+  ],
+  "strengthLabels": [
+    "stable_window",
+    "bankroll_fit"
+  ],
+  "memoryNotes": [
+    "Repeated item-specific mistake history on Twisted bow.",
+    "Broader repeated style pattern detected: fake spread."
+  ],
+  "matchedRules": [
+    "Treat mega-ticket items as trap-prone unless hourly flow is clearly real."
+  ],
+  "matchedPatternKeys": [
+    "fake_spread"
+  ],
+  "usableProfitEstimate": 10746728,
+  "grossMarginPct": 0.003981617867943826,
+  "netMarginPct": 0.0008431945450105122,
+  "fiveMinuteFlow": 0,
+  "oneHourFlow": 10,
+  "caseCategory": "Thin liquidity trap",
+  "raw": {
+    "itemId": 20997,
+    "itemName": "Twisted bow",
+    "members": true,
+    "buyLimit": 8,
+    "buyPrice": 1599499995,
+    "sellPrice": 1593156654,
+    "apparentMargin": 6343341,
+    "geTax": 5000000,
+    "taxAdjustedMargin": 1343341,
+    "grossMarginPct": 0.003981617867943826,
+    "netMarginPct": 0.0008431945450105122,
+    "taxDragPct": 0.7882281592618149,
+    "usableProfitEstimate": 10746728,
+    "capturedAt": "2026-04-05T20:15:00.674Z",
+    "freshnessSeconds": 222,
+    "freshnessLabel": "stale",
+    "fiveMinuteHighVolume": 0,
+    "fiveMinuteLowVolume": 1,
+    "oneHourHighVolume": 10,
+    "oneHourLowVolume": 22,
+    "fiveMinuteFlow": 0,
+    "oneHourFlow": 10,
+    "fiveMinuteFlowVsLimit": 0,
+    "oneHourFlowVsLimit": 1.25,
+    "fiveMinuteVolumeLabel": "very_low",
+    "oneHourVolumeLabel": "very_low",
+    "fiveMinuteTrend": "flat",
+    "oneHourTrend": "flat",
+    "fiveMinuteVsHourDeltaPct": -0.002421834902498292,
+    "latestVsFiveMinuteDeltaPct": 0.0025021757233361637,
+    "notes": "concentration-risk showcase",
+    "status": "active"
+  },
+  "deliveryMode": "hosted-static",
+  "sourceLabel": "Hosted read-only snapshot feed",
+  "sourceBaseUrl": "https://onechan.github.io/trapedge-runelite-plugin/hosted-api",
+  "proofCase": null,
+  "liveAssessment": {
+    "itemId": 20997,
+    "itemName": "Twisted bow",
+    "executionConfidence": "fragile",
+    "executionConfidenceLabel": "Fragile",
+    "trapScore": 34,
+    "trapFlags": [
+      "tax_margin_collapse",
+      "concentration_risk",
+      "memory_repeat_risk",
+      "style_repeat_risk"
+    ],
+    "recommendedAction": "wait",
+    "recommendedActionLabel": "Wait",
+    "reasonSummary": "The trade survives tax, but most of the edge is still too thin to trust heavily. This is a high-ticket item with weak hourly turnover. You may be reading a highly concentrated market, not a clean opportunity.",
+    "flagDetails": [
+      {
+        "trapType": "tax_margin_collapse",
+        "severity": "medium",
+        "explanation": "The trade survives tax, but most of the edge is still too thin to trust heavily.",
+        "evidenceBasis": "Apparent margin 6343341, tax-adjusted 1343341.",
+        "safeAlternative": "Treat as a thin edge unless the rest of the execution picture is exceptionally clean.",
+        "score": 14
+      },
+      {
+        "trapType": "concentration_risk",
+        "severity": "medium",
+        "explanation": "This is a high-ticket item with weak hourly turnover. You may be reading a highly concentrated market, not a clean opportunity.",
+        "evidenceBasis": "Sell price 1593156654, 1h flow 10.",
+        "safeAlternative": "Treat as trap-prone unless you have unusually strong reason to believe the fills are real.",
+        "score": 18
+      },
+      {
+        "trapType": "memory_repeat_risk",
+        "severity": "medium",
+        "explanation": "You have repeated this same mistake on this item before.",
+        "evidenceBasis": "2 matching postmortems already exist for Twisted bow.",
+        "safeAlternative": "Treat mega-ticket items as trap-prone unless hourly flow is clearly real.",
+        "score": 12
+      },
+      {
+        "trapType": "style_repeat_risk",
+        "severity": "low",
+        "explanation": "This also matches a broader execution mistake pattern already present in your memory log.",
+        "evidenceBasis": "Repeated memory patterns: fake spread.",
+        "safeAlternative": "Treat mega-ticket items as trap-prone unless hourly flow is clearly real.",
+        "score": 3
+      }
+    ],
+    "strengths": [
+      {
+        "strengthType": "stable_window",
+        "explanation": "The market looks relatively stable instead of violently stretched.",
+        "evidenceBasis": "Latest-vs-5m 0.25%, 5m-vs-1h -0.24%.",
+        "score": 5
+      },
+      {
+        "strengthType": "bankroll_fit",
+        "explanation": "Usable profit clears the bankroll target for this profile.",
+        "evidenceBasis": "Usable profit estimate 10746728, threshold 80000.",
+        "score": 8
+      }
+    ],
+    "strengthLabels": [
+      "stable_window",
+      "bankroll_fit"
+    ],
+    "memoryNotes": [
+      "Repeated item-specific mistake history on Twisted bow.",
+      "Broader repeated style pattern detected: fake spread."
+    ],
+    "matchedRules": [
+      "Treat mega-ticket items as trap-prone unless hourly flow is clearly real."
+    ],
+    "matchedPatternKeys": [
+      "fake_spread"
+    ],
+    "usableProfitEstimate": 10746728,
+    "grossMarginPct": 0.003981617867943826,
+    "netMarginPct": 0.0008431945450105122,
+    "fiveMinuteFlow": 0,
+    "oneHourFlow": 10,
+    "caseCategory": "Thin liquidity trap",
+    "raw": {
+      "itemId": 20997,
+      "itemName": "Twisted bow",
+      "members": true,
+      "buyLimit": 8,
+      "buyPrice": 1599499995,
+      "sellPrice": 1593156654,
+      "apparentMargin": 6343341,
+      "geTax": 5000000,
+      "taxAdjustedMargin": 1343341,
+      "grossMarginPct": 0.003981617867943826,
+      "netMarginPct": 0.0008431945450105122,
+      "taxDragPct": 0.7882281592618149,
+      "usableProfitEstimate": 10746728,
+      "capturedAt": "2026-04-05T20:15:00.674Z",
+      "freshnessSeconds": 222,
+      "freshnessLabel": "stale",
+      "fiveMinuteHighVolume": 0,
+      "fiveMinuteLowVolume": 1,
+      "oneHourHighVolume": 10,
+      "oneHourLowVolume": 22,
+      "fiveMinuteFlow": 0,
+      "oneHourFlow": 10,
+      "fiveMinuteFlowVsLimit": 0,
+      "oneHourFlowVsLimit": 1.25,
+      "fiveMinuteVolumeLabel": "very_low",
+      "oneHourVolumeLabel": "very_low",
+      "fiveMinuteTrend": "flat",
+      "oneHourTrend": "flat",
+      "fiveMinuteVsHourDeltaPct": -0.002421834902498292,
+      "latestVsFiveMinuteDeltaPct": 0.0025021757233361637,
+      "notes": "concentration-risk showcase",
+      "status": "active"
+    }
+  },
+  "runtimePostmortems": []
+}

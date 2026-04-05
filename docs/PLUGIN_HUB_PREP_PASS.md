@@ -36,6 +36,13 @@ Removed or reduced:
 - writeback capture
 - dual-mode private/hub-safe presentation
 - extra reviewer ambiguity around client behavior
+- localhost dependency for normal first-run plugin usage
+
+## 4. First-run path improved
+Added or changed:
+- default hosted read-only snapshot feed
+- raw GitHub fallback in the client if Pages is temporarily unavailable
+- clearer in-panel source/help messaging for first run and local-dev override
 
 ---
 

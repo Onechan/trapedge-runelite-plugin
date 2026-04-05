@@ -1,0 +1,205 @@
+{
+  "itemId": 11212,
+  "itemName": "Dragon arrow",
+  "executionConfidence": "tradable",
+  "executionConfidenceLabel": "Tradable",
+  "trapScore": 27,
+  "trapFlags": [
+    "tax_margin_collapse",
+    "limit_constrained"
+  ],
+  "recommendedAction": "small_size_only",
+  "recommendedActionLabel": "Small size only",
+  "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+  "flagDetails": [
+    {
+      "trapType": "tax_margin_collapse",
+      "severity": "high",
+      "explanation": "Tax and spread wipe out the usable edge.",
+      "evidenceBasis": "Apparent margin 49, tax-adjusted -11.",
+      "safeAlternative": "Avoid unless the spread improves materially.",
+      "score": 34
+    },
+    {
+      "trapType": "limit_constrained",
+      "severity": "medium",
+      "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+      "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item.",
+      "score": 12
+    }
+  ],
+  "strengths": [
+    {
+      "strengthType": "high_flow_support",
+      "explanation": "Recent flow is strong enough that the market looks genuinely active.",
+      "evidenceBasis": "5m flow 3492, 1h flow 86208.",
+      "score": 10
+    },
+    {
+      "strengthType": "fresh_signal",
+      "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+      "evidenceBasis": "Freshness 52s.",
+      "score": 4
+    },
+    {
+      "strengthType": "stable_window",
+      "explanation": "The market looks relatively stable instead of violently stretched.",
+      "evidenceBasis": "Latest-vs-5m 0.40%, 5m-vs-1h 0.48%.",
+      "score": 5
+    }
+  ],
+  "strengthLabels": [
+    "high_flow_support",
+    "fresh_signal",
+    "stable_window"
+  ],
+  "memoryNotes": [],
+  "matchedRules": [],
+  "matchedPatternKeys": [],
+  "usableProfitEstimate": 0,
+  "grossMarginPct": 0.016327890703098966,
+  "netMarginPct": -0.0036654448517160947,
+  "fiveMinuteFlow": 3492,
+  "oneHourFlow": 86208,
+  "caseCategory": "Limit-constrained grind",
+  "raw": {
+    "itemId": 11212,
+    "itemName": "Dragon arrow",
+    "members": true,
+    "buyLimit": 11000,
+    "buyPrice": 3050,
+    "sellPrice": 3001,
+    "apparentMargin": 49,
+    "geTax": 60,
+    "taxAdjustedMargin": -11,
+    "grossMarginPct": 0.016327890703098966,
+    "netMarginPct": -0.0036654448517160947,
+    "taxDragPct": 1.2244897959183674,
+    "usableProfitEstimate": 0,
+    "capturedAt": "2026-04-05T20:15:00.674Z",
+    "freshnessSeconds": 52,
+    "freshnessLabel": "fresh",
+    "fiveMinuteHighVolume": 3492,
+    "fiveMinuteLowVolume": 7177,
+    "oneHourHighVolume": 178814,
+    "oneHourLowVolume": 86208,
+    "fiveMinuteFlow": 3492,
+    "oneHourFlow": 86208,
+    "fiveMinuteFlowVsLimit": 0.31745454545454543,
+    "oneHourFlowVsLimit": 7.837090909090909,
+    "fiveMinuteVolumeLabel": "medium",
+    "oneHourVolumeLabel": "very_high",
+    "fiveMinuteTrend": "flat",
+    "oneHourTrend": "flat",
+    "fiveMinuteVsHourDeltaPct": 0.004834944981660554,
+    "latestVsFiveMinuteDeltaPct": 0.003982080637132902,
+    "notes": "stronger spread candidate with good liquidity",
+    "status": "active"
+  },
+  "deliveryMode": "hosted-static",
+  "sourceLabel": "Hosted read-only snapshot feed",
+  "sourceBaseUrl": "https://onechan.github.io/trapedge-runelite-plugin/hosted-api",
+  "proofCase": null,
+  "liveAssessment": {
+    "itemId": 11212,
+    "itemName": "Dragon arrow",
+    "executionConfidence": "tradable",
+    "executionConfidenceLabel": "Tradable",
+    "trapScore": 27,
+    "trapFlags": [
+      "tax_margin_collapse",
+      "limit_constrained"
+    ],
+    "recommendedAction": "small_size_only",
+    "recommendedActionLabel": "Small size only",
+    "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+    "flagDetails": [
+      {
+        "trapType": "tax_margin_collapse",
+        "severity": "high",
+        "explanation": "Tax and spread wipe out the usable edge.",
+        "evidenceBasis": "Apparent margin 49, tax-adjusted -11.",
+        "safeAlternative": "Avoid unless the spread improves materially.",
+        "score": 34
+      },
+      {
+        "trapType": "limit_constrained",
+        "severity": "medium",
+        "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+        "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+        "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item.",
+        "score": 12
+      }
+    ],
+    "strengths": [
+      {
+        "strengthType": "high_flow_support",
+        "explanation": "Recent flow is strong enough that the market looks genuinely active.",
+        "evidenceBasis": "5m flow 3492, 1h flow 86208.",
+        "score": 10
+      },
+      {
+        "strengthType": "fresh_signal",
+        "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+        "evidenceBasis": "Freshness 52s.",
+        "score": 4
+      },
+      {
+        "strengthType": "stable_window",
+        "explanation": "The market looks relatively stable instead of violently stretched.",
+        "evidenceBasis": "Latest-vs-5m 0.40%, 5m-vs-1h 0.48%.",
+        "score": 5
+      }
+    ],
+    "strengthLabels": [
+      "high_flow_support",
+      "fresh_signal",
+      "stable_window"
+    ],
+    "memoryNotes": [],
+    "matchedRules": [],
+    "matchedPatternKeys": [],
+    "usableProfitEstimate": 0,
+    "grossMarginPct": 0.016327890703098966,
+    "netMarginPct": -0.0036654448517160947,
+    "fiveMinuteFlow": 3492,
+    "oneHourFlow": 86208,
+    "caseCategory": "Limit-constrained grind",
+    "raw": {
+      "itemId": 11212,
+      "itemName": "Dragon arrow",
+      "members": true,
+      "buyLimit": 11000,
+      "buyPrice": 3050,
+      "sellPrice": 3001,
+      "apparentMargin": 49,
+      "geTax": 60,
+      "taxAdjustedMargin": -11,
+      "grossMarginPct": 0.016327890703098966,
+      "netMarginPct": -0.0036654448517160947,
+      "taxDragPct": 1.2244897959183674,
+      "usableProfitEstimate": 0,
+      "capturedAt": "2026-04-05T20:15:00.674Z",
+      "freshnessSeconds": 52,
+      "freshnessLabel": "fresh",
+      "fiveMinuteHighVolume": 3492,
+      "fiveMinuteLowVolume": 7177,
+      "oneHourHighVolume": 178814,
+      "oneHourLowVolume": 86208,
+      "fiveMinuteFlow": 3492,
+      "oneHourFlow": 86208,
+      "fiveMinuteFlowVsLimit": 0.31745454545454543,
+      "oneHourFlowVsLimit": 7.837090909090909,
+      "fiveMinuteVolumeLabel": "medium",
+      "oneHourVolumeLabel": "very_high",
+      "fiveMinuteTrend": "flat",
+      "oneHourTrend": "flat",
+      "fiveMinuteVsHourDeltaPct": 0.004834944981660554,
+      "latestVsFiveMinuteDeltaPct": 0.003982080637132902,
+      "notes": "stronger spread candidate with good liquidity",
+      "status": "active"
+    }
+  },
+  "runtimePostmortems": []
+}

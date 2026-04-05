@@ -20,6 +20,8 @@ TrapEdge is a RuneLite plugin for one narrow job:
 ## Current design posture
 This Plugin Hub-ready version is intentionally read-only.
 
+The default config now points to a public hosted read-only snapshot feed instead of localhost, so normal users do not need to run a local service just to load the plugin.
+
 The goal is a boring, reviewer-safe utility panel — not a broad platform shell.
 
 ## Best-fit user

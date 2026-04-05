@@ -1,0 +1,325 @@
+{
+  "itemId": 565,
+  "itemName": "Blood rune",
+  "executionConfidence": "strong",
+  "executionConfidenceLabel": "Strong",
+  "trapScore": 0,
+  "trapFlags": [
+    "tax_margin_collapse",
+    "limit_constrained"
+  ],
+  "recommendedAction": "small_size_only",
+  "recommendedActionLabel": "Small size only",
+  "reasonSummary": "The trade survives tax, but most of the edge is still too thin to trust heavily. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+  "flagDetails": [
+    {
+      "trapType": "tax_margin_collapse",
+      "severity": "medium",
+      "explanation": "The trade survives tax, but most of the edge is still too thin to trust heavily.",
+      "evidenceBasis": "Apparent margin 6, tax-adjusted 1.",
+      "safeAlternative": "Treat as a thin edge unless the rest of the execution picture is exceptionally clean.",
+      "score": 14
+    },
+    {
+      "trapType": "limit_constrained",
+      "severity": "medium",
+      "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "evidenceBasis": "Usable profit estimate 25000, threshold 80000.",
+      "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item.",
+      "score": 12
+    }
+  ],
+  "strengths": [
+    {
+      "strengthType": "clean_margin",
+      "explanation": "Net margin survives tax with enough room to still matter.",
+      "evidenceBasis": "Net margin 0.35%.",
+      "score": 8
+    },
+    {
+      "strengthType": "high_flow_support",
+      "explanation": "Recent flow is strong enough that the market looks genuinely active.",
+      "evidenceBasis": "5m flow 77880, 1h flow 663506.",
+      "score": 10
+    },
+    {
+      "strengthType": "fresh_signal",
+      "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+      "evidenceBasis": "Freshness 55s.",
+      "score": 4
+    },
+    {
+      "strengthType": "stable_window",
+      "explanation": "The market looks relatively stable instead of violently stretched.",
+      "evidenceBasis": "Latest-vs-5m -0.52%, 5m-vs-1h 0.35%.",
+      "score": 5
+    }
+  ],
+  "strengthLabels": [
+    "clean_margin",
+    "high_flow_support",
+    "fresh_signal",
+    "stable_window"
+  ],
+  "memoryNotes": [],
+  "matchedRules": [],
+  "matchedPatternKeys": [],
+  "usableProfitEstimate": 25000,
+  "grossMarginPct": 0.02097902097902098,
+  "netMarginPct": 0.0034965034965034965,
+  "fiveMinuteFlow": 77880,
+  "oneHourFlow": 663506,
+  "caseCategory": "Limit-constrained grind",
+  "raw": {
+    "itemId": 565,
+    "itemName": "Blood rune",
+    "members": true,
+    "buyLimit": 25000,
+    "buyPrice": 292,
+    "sellPrice": 286,
+    "apparentMargin": 6,
+    "geTax": 5,
+    "taxAdjustedMargin": 1,
+    "grossMarginPct": 0.02097902097902098,
+    "netMarginPct": 0.0034965034965034965,
+    "taxDragPct": 0.8333333333333334,
+    "usableProfitEstimate": 25000,
+    "capturedAt": "2026-04-05T20:15:00.674Z",
+    "freshnessSeconds": 55,
+    "freshnessLabel": "fresh",
+    "fiveMinuteHighVolume": 77880,
+    "fiveMinuteLowVolume": 134720,
+    "oneHourHighVolume": 2236639,
+    "oneHourLowVolume": 663506,
+    "fiveMinuteFlow": 77880,
+    "oneHourFlow": 663506,
+    "fiveMinuteFlowVsLimit": 3.1152,
+    "oneHourFlowVsLimit": 26.54024,
+    "fiveMinuteVolumeLabel": "very_high",
+    "oneHourVolumeLabel": "very_high",
+    "fiveMinuteTrend": "flat",
+    "oneHourTrend": "flat",
+    "fiveMinuteVsHourDeltaPct": 0.0034542314335060447,
+    "latestVsFiveMinuteDeltaPct": -0.0051635111876075735,
+    "notes": "high-volume rune control case",
+    "status": "active"
+  },
+  "deliveryMode": "hosted-static",
+  "sourceLabel": "Hosted read-only snapshot feed",
+  "sourceBaseUrl": "https://onechan.github.io/trapedge-runelite-plugin/hosted-api",
+  "proofCase": {
+    "itemId": 565,
+    "itemName": "Blood rune",
+    "executionConfidence": "strong",
+    "executionConfidenceLabel": "Strong",
+    "trapScore": 0,
+    "trapFlags": [
+      "tax_margin_collapse",
+      "limit_constrained"
+    ],
+    "recommendedAction": "small_size_only",
+    "recommendedActionLabel": "Small size only",
+    "reasonSummary": "The trade survives tax, but most of the edge is still too thin to trust heavily. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+    "flagDetails": [
+      {
+        "trapType": "tax_margin_collapse",
+        "severity": "medium",
+        "explanation": "The trade survives tax, but most of the edge is still too thin to trust heavily.",
+        "evidenceBasis": "Apparent margin 6, tax-adjusted 1.",
+        "safeAlternative": "Treat as a thin edge unless the rest of the execution picture is exceptionally clean.",
+        "score": 14
+      },
+      {
+        "trapType": "limit_constrained",
+        "severity": "medium",
+        "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+        "evidenceBasis": "Usable profit estimate 25000, threshold 80000.",
+        "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item.",
+        "score": 12
+      }
+    ],
+    "strengths": [
+      {
+        "strengthType": "clean_margin",
+        "explanation": "Net margin survives tax with enough room to still matter.",
+        "evidenceBasis": "Net margin 0.35%.",
+        "score": 8
+      },
+      {
+        "strengthType": "high_flow_support",
+        "explanation": "Recent flow is strong enough that the market looks genuinely active.",
+        "evidenceBasis": "5m flow 77880, 1h flow 663506.",
+        "score": 10
+      },
+      {
+        "strengthType": "fresh_signal",
+        "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+        "evidenceBasis": "Freshness 55s.",
+        "score": 4
+      },
+      {
+        "strengthType": "stable_window",
+        "explanation": "The market looks relatively stable instead of violently stretched.",
+        "evidenceBasis": "Latest-vs-5m -0.52%, 5m-vs-1h 0.35%.",
+        "score": 5
+      }
+    ],
+    "strengthLabels": [
+      "clean_margin",
+      "high_flow_support",
+      "fresh_signal",
+      "stable_window"
+    ],
+    "memoryNotes": [],
+    "matchedRules": [],
+    "matchedPatternKeys": [],
+    "usableProfitEstimate": 25000,
+    "grossMarginPct": 0.02097902097902098,
+    "netMarginPct": 0.0034965034965034965,
+    "fiveMinuteFlow": 77880,
+    "oneHourFlow": 663506,
+    "caseCategory": "Limit-constrained grind",
+    "raw": {
+      "itemId": 565,
+      "itemName": "Blood rune",
+      "members": true,
+      "buyLimit": 25000,
+      "buyPrice": 292,
+      "sellPrice": 286,
+      "apparentMargin": 6,
+      "geTax": 5,
+      "taxAdjustedMargin": 1,
+      "grossMarginPct": 0.02097902097902098,
+      "netMarginPct": 0.0034965034965034965,
+      "taxDragPct": 0.8333333333333334,
+      "usableProfitEstimate": 25000,
+      "capturedAt": "2026-04-05T20:15:01.231Z",
+      "freshnessSeconds": 55,
+      "freshnessLabel": "fresh",
+      "fiveMinuteHighVolume": 77880,
+      "fiveMinuteLowVolume": 134720,
+      "oneHourHighVolume": 2236639,
+      "oneHourLowVolume": 663506,
+      "fiveMinuteFlow": 77880,
+      "oneHourFlow": 663506,
+      "fiveMinuteFlowVsLimit": 3.1152,
+      "oneHourFlowVsLimit": 26.54024,
+      "fiveMinuteVolumeLabel": "very_high",
+      "oneHourVolumeLabel": "very_high",
+      "fiveMinuteTrend": "flat",
+      "oneHourTrend": "flat",
+      "fiveMinuteVsHourDeltaPct": 0.0034542314335060447,
+      "latestVsFiveMinuteDeltaPct": -0.0051635111876075735,
+      "notes": "high-volume rune control case",
+      "status": "active"
+    }
+  },
+  "liveAssessment": {
+    "itemId": 565,
+    "itemName": "Blood rune",
+    "executionConfidence": "strong",
+    "executionConfidenceLabel": "Strong",
+    "trapScore": 0,
+    "trapFlags": [
+      "tax_margin_collapse",
+      "limit_constrained"
+    ],
+    "recommendedAction": "small_size_only",
+    "recommendedActionLabel": "Small size only",
+    "reasonSummary": "The trade survives tax, but most of the edge is still too thin to trust heavily. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+    "flagDetails": [
+      {
+        "trapType": "tax_margin_collapse",
+        "severity": "medium",
+        "explanation": "The trade survives tax, but most of the edge is still too thin to trust heavily.",
+        "evidenceBasis": "Apparent margin 6, tax-adjusted 1.",
+        "safeAlternative": "Treat as a thin edge unless the rest of the execution picture is exceptionally clean.",
+        "score": 14
+      },
+      {
+        "trapType": "limit_constrained",
+        "severity": "medium",
+        "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+        "evidenceBasis": "Usable profit estimate 25000, threshold 80000.",
+        "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item.",
+        "score": 12
+      }
+    ],
+    "strengths": [
+      {
+        "strengthType": "clean_margin",
+        "explanation": "Net margin survives tax with enough room to still matter.",
+        "evidenceBasis": "Net margin 0.35%.",
+        "score": 8
+      },
+      {
+        "strengthType": "high_flow_support",
+        "explanation": "Recent flow is strong enough that the market looks genuinely active.",
+        "evidenceBasis": "5m flow 77880, 1h flow 663506.",
+        "score": 10
+      },
+      {
+        "strengthType": "fresh_signal",
+        "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+        "evidenceBasis": "Freshness 55s.",
+        "score": 4
+      },
+      {
+        "strengthType": "stable_window",
+        "explanation": "The market looks relatively stable instead of violently stretched.",
+        "evidenceBasis": "Latest-vs-5m -0.52%, 5m-vs-1h 0.35%.",
+        "score": 5
+      }
+    ],
+    "strengthLabels": [
+      "clean_margin",
+      "high_flow_support",
+      "fresh_signal",
+      "stable_window"
+    ],
+    "memoryNotes": [],
+    "matchedRules": [],
+    "matchedPatternKeys": [],
+    "usableProfitEstimate": 25000,
+    "grossMarginPct": 0.02097902097902098,
+    "netMarginPct": 0.0034965034965034965,
+    "fiveMinuteFlow": 77880,
+    "oneHourFlow": 663506,
+    "caseCategory": "Limit-constrained grind",
+    "raw": {
+      "itemId": 565,
+      "itemName": "Blood rune",
+      "members": true,
+      "buyLimit": 25000,
+      "buyPrice": 292,
+      "sellPrice": 286,
+      "apparentMargin": 6,
+      "geTax": 5,
+      "taxAdjustedMargin": 1,
+      "grossMarginPct": 0.02097902097902098,
+      "netMarginPct": 0.0034965034965034965,
+      "taxDragPct": 0.8333333333333334,
+      "usableProfitEstimate": 25000,
+      "capturedAt": "2026-04-05T20:15:00.674Z",
+      "freshnessSeconds": 55,
+      "freshnessLabel": "fresh",
+      "fiveMinuteHighVolume": 77880,
+      "fiveMinuteLowVolume": 134720,
+      "oneHourHighVolume": 2236639,
+      "oneHourLowVolume": 663506,
+      "fiveMinuteFlow": 77880,
+      "oneHourFlow": 663506,
+      "fiveMinuteFlowVsLimit": 3.1152,
+      "oneHourFlowVsLimit": 26.54024,
+      "fiveMinuteVolumeLabel": "very_high",
+      "oneHourVolumeLabel": "very_high",
+      "fiveMinuteTrend": "flat",
+      "oneHourTrend": "flat",
+      "fiveMinuteVsHourDeltaPct": 0.0034542314335060447,
+      "latestVsFiveMinuteDeltaPct": -0.0051635111876075735,
+      "notes": "high-volume rune control case",
+      "status": "active"
+    }
+  },
+  "runtimePostmortems": []
+}

@@ -1,0 +1,283 @@
+{
+  "itemId": 4151,
+  "itemName": "Abyssal whip",
+  "executionConfidence": "fragile",
+  "executionConfidenceLabel": "Fragile",
+  "trapScore": 37,
+  "trapFlags": [
+    "tax_margin_collapse",
+    "limit_constrained"
+  ],
+  "recommendedAction": "rotate_elsewhere",
+  "recommendedActionLabel": "Rotate elsewhere",
+  "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+  "flagDetails": [
+    {
+      "trapType": "tax_margin_collapse",
+      "severity": "high",
+      "explanation": "Tax and spread wipe out the usable edge.",
+      "evidenceBasis": "Apparent margin 0, tax-adjusted -23400.",
+      "safeAlternative": "Avoid unless the spread improves materially.",
+      "score": 34
+    },
+    {
+      "trapType": "limit_constrained",
+      "severity": "medium",
+      "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+      "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item.",
+      "score": 12
+    }
+  ],
+  "strengths": [
+    {
+      "strengthType": "fresh_signal",
+      "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+      "evidenceBasis": "Freshness 52s.",
+      "score": 4
+    },
+    {
+      "strengthType": "stable_window",
+      "explanation": "The market looks relatively stable instead of violently stretched.",
+      "evidenceBasis": "Latest-vs-5m 0.19%, 5m-vs-1h -0.58%.",
+      "score": 5
+    }
+  ],
+  "strengthLabels": [
+    "fresh_signal",
+    "stable_window"
+  ],
+  "memoryNotes": [],
+  "matchedRules": [],
+  "matchedPatternKeys": [],
+  "usableProfitEstimate": 0,
+  "grossMarginPct": 0,
+  "netMarginPct": -0.02,
+  "fiveMinuteFlow": 12,
+  "oneHourFlow": 88,
+  "caseCategory": "Tax margin collapse",
+  "raw": {
+    "itemId": 4151,
+    "itemName": "Abyssal whip",
+    "members": true,
+    "buyLimit": 70,
+    "buyPrice": 1168451,
+    "sellPrice": 1170000,
+    "apparentMargin": 0,
+    "geTax": 23400,
+    "taxAdjustedMargin": -23400,
+    "grossMarginPct": 0,
+    "netMarginPct": -0.02,
+    "taxDragPct": 0.02,
+    "usableProfitEstimate": 0,
+    "capturedAt": "2026-04-05T20:15:00.674Z",
+    "freshnessSeconds": 52,
+    "freshnessLabel": "fresh",
+    "fiveMinuteHighVolume": 12,
+    "fiveMinuteLowVolume": 17,
+    "oneHourHighVolume": 88,
+    "oneHourLowVolume": 152,
+    "fiveMinuteFlow": 12,
+    "oneHourFlow": 88,
+    "fiveMinuteFlowVsLimit": 0.17142857142857143,
+    "oneHourFlowVsLimit": 1.2571428571428571,
+    "fiveMinuteVolumeLabel": "very_low",
+    "oneHourVolumeLabel": "very_low",
+    "fiveMinuteTrend": "flat",
+    "oneHourTrend": "flat",
+    "fiveMinuteVsHourDeltaPct": -0.005788472212223819,
+    "latestVsFiveMinuteDeltaPct": 0.0019035924469839006,
+    "notes": "classic fake-spread / thin-liquidity candidate",
+    "status": "active"
+  },
+  "deliveryMode": "hosted-static",
+  "sourceLabel": "Hosted read-only snapshot feed",
+  "sourceBaseUrl": "https://onechan.github.io/trapedge-runelite-plugin/hosted-api",
+  "proofCase": {
+    "itemId": 4151,
+    "itemName": "Abyssal whip",
+    "executionConfidence": "fragile",
+    "executionConfidenceLabel": "Fragile",
+    "trapScore": 37,
+    "trapFlags": [
+      "tax_margin_collapse",
+      "limit_constrained"
+    ],
+    "recommendedAction": "rotate_elsewhere",
+    "recommendedActionLabel": "Rotate elsewhere",
+    "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+    "flagDetails": [
+      {
+        "trapType": "tax_margin_collapse",
+        "severity": "high",
+        "explanation": "Tax and spread wipe out the usable edge.",
+        "evidenceBasis": "Apparent margin 0, tax-adjusted -23400.",
+        "safeAlternative": "Avoid unless the spread improves materially.",
+        "score": 34
+      },
+      {
+        "trapType": "limit_constrained",
+        "severity": "medium",
+        "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+        "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+        "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item.",
+        "score": 12
+      }
+    ],
+    "strengths": [
+      {
+        "strengthType": "fresh_signal",
+        "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+        "evidenceBasis": "Freshness 52s.",
+        "score": 4
+      },
+      {
+        "strengthType": "stable_window",
+        "explanation": "The market looks relatively stable instead of violently stretched.",
+        "evidenceBasis": "Latest-vs-5m 0.19%, 5m-vs-1h -0.58%.",
+        "score": 5
+      }
+    ],
+    "strengthLabels": [
+      "fresh_signal",
+      "stable_window"
+    ],
+    "memoryNotes": [],
+    "matchedRules": [],
+    "matchedPatternKeys": [],
+    "usableProfitEstimate": 0,
+    "grossMarginPct": 0,
+    "netMarginPct": -0.02,
+    "fiveMinuteFlow": 12,
+    "oneHourFlow": 88,
+    "caseCategory": "Tax margin collapse",
+    "raw": {
+      "itemId": 4151,
+      "itemName": "Abyssal whip",
+      "members": true,
+      "buyLimit": 70,
+      "buyPrice": 1168451,
+      "sellPrice": 1170000,
+      "apparentMargin": 0,
+      "geTax": 23400,
+      "taxAdjustedMargin": -23400,
+      "grossMarginPct": 0,
+      "netMarginPct": -0.02,
+      "taxDragPct": 0.02,
+      "usableProfitEstimate": 0,
+      "capturedAt": "2026-04-05T20:15:01.231Z",
+      "freshnessSeconds": 52,
+      "freshnessLabel": "fresh",
+      "fiveMinuteHighVolume": 12,
+      "fiveMinuteLowVolume": 17,
+      "oneHourHighVolume": 88,
+      "oneHourLowVolume": 152,
+      "fiveMinuteFlow": 12,
+      "oneHourFlow": 88,
+      "fiveMinuteFlowVsLimit": 0.17142857142857143,
+      "oneHourFlowVsLimit": 1.2571428571428571,
+      "fiveMinuteVolumeLabel": "very_low",
+      "oneHourVolumeLabel": "very_low",
+      "fiveMinuteTrend": "flat",
+      "oneHourTrend": "flat",
+      "fiveMinuteVsHourDeltaPct": -0.005788472212223819,
+      "latestVsFiveMinuteDeltaPct": 0.0019035924469839006,
+      "notes": "classic fake-spread / thin-liquidity candidate",
+      "status": "active"
+    }
+  },
+  "liveAssessment": {
+    "itemId": 4151,
+    "itemName": "Abyssal whip",
+    "executionConfidence": "fragile",
+    "executionConfidenceLabel": "Fragile",
+    "trapScore": 37,
+    "trapFlags": [
+      "tax_margin_collapse",
+      "limit_constrained"
+    ],
+    "recommendedAction": "rotate_elsewhere",
+    "recommendedActionLabel": "Rotate elsewhere",
+    "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+    "flagDetails": [
+      {
+        "trapType": "tax_margin_collapse",
+        "severity": "high",
+        "explanation": "Tax and spread wipe out the usable edge.",
+        "evidenceBasis": "Apparent margin 0, tax-adjusted -23400.",
+        "safeAlternative": "Avoid unless the spread improves materially.",
+        "score": 34
+      },
+      {
+        "trapType": "limit_constrained",
+        "severity": "medium",
+        "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+        "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+        "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item.",
+        "score": 12
+      }
+    ],
+    "strengths": [
+      {
+        "strengthType": "fresh_signal",
+        "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+        "evidenceBasis": "Freshness 52s.",
+        "score": 4
+      },
+      {
+        "strengthType": "stable_window",
+        "explanation": "The market looks relatively stable instead of violently stretched.",
+        "evidenceBasis": "Latest-vs-5m 0.19%, 5m-vs-1h -0.58%.",
+        "score": 5
+      }
+    ],
+    "strengthLabels": [
+      "fresh_signal",
+      "stable_window"
+    ],
+    "memoryNotes": [],
+    "matchedRules": [],
+    "matchedPatternKeys": [],
+    "usableProfitEstimate": 0,
+    "grossMarginPct": 0,
+    "netMarginPct": -0.02,
+    "fiveMinuteFlow": 12,
+    "oneHourFlow": 88,
+    "caseCategory": "Tax margin collapse",
+    "raw": {
+      "itemId": 4151,
+      "itemName": "Abyssal whip",
+      "members": true,
+      "buyLimit": 70,
+      "buyPrice": 1168451,
+      "sellPrice": 1170000,
+      "apparentMargin": 0,
+      "geTax": 23400,
+      "taxAdjustedMargin": -23400,
+      "grossMarginPct": 0,
+      "netMarginPct": -0.02,
+      "taxDragPct": 0.02,
+      "usableProfitEstimate": 0,
+      "capturedAt": "2026-04-05T20:15:00.674Z",
+      "freshnessSeconds": 52,
+      "freshnessLabel": "fresh",
+      "fiveMinuteHighVolume": 12,
+      "fiveMinuteLowVolume": 17,
+      "oneHourHighVolume": 88,
+      "oneHourLowVolume": 152,
+      "fiveMinuteFlow": 12,
+      "oneHourFlow": 88,
+      "fiveMinuteFlowVsLimit": 0.17142857142857143,
+      "oneHourFlowVsLimit": 1.2571428571428571,
+      "fiveMinuteVolumeLabel": "very_low",
+      "oneHourVolumeLabel": "very_low",
+      "fiveMinuteTrend": "flat",
+      "oneHourTrend": "flat",
+      "fiveMinuteVsHourDeltaPct": -0.005788472212223819,
+      "latestVsFiveMinuteDeltaPct": 0.0019035924469839006,
+      "notes": "classic fake-spread / thin-liquidity candidate",
+      "status": "active"
+    }
+  },
+  "runtimePostmortems": []
+}

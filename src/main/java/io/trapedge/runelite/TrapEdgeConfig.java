@@ -10,11 +10,11 @@ public interface TrapEdgeConfig extends Config
 	@ConfigItem(
 		keyName = "apiBaseUrl",
 		name = "API base URL",
-		description = "TrapEdge plugin API base URL"
+		description = "Default is the public hosted read-only TrapEdge snapshot feed. Use http://127.0.0.1:4311 for local live development."
 	)
 	default String apiBaseUrl()
 	{
-		return "http://127.0.0.1:4311";
+		return TrapEdgeApiClient.DEFAULT_HOSTED_BASE_URL;
 	}
 
 	@ConfigItem(

@@ -22,13 +22,19 @@ It is intended as decision support.
 
 ## What data is fetched
 
-Current plugin API calls:
+Current plugin default data path:
+- `GET https://onechan.github.io/trapedge-runelite-plugin/hosted-api/bootstrap.json`
+- `GET https://onechan.github.io/trapedge-runelite-plugin/hosted-api/items/:itemId.json`
+- raw GitHub fallback exists in-client if Pages is temporarily unavailable
+
+Local dev path may still use:
 - `GET /api/plugin/bootstrap`
 - `GET /api/plugin/item/:itemId`
 
 Current Plugin Hub prep posture:
 - read-oriented client
 - no postmortem writeback from the plugin client
+- no localhost requirement for normal first-run usage
 
 ---
 

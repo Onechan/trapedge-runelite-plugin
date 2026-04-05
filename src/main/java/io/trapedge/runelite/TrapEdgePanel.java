@@ -60,6 +60,8 @@ public class TrapEdgePanel extends PluginPanel
 
 	private final JLabel statusLabel = buildValueLabel("No data loaded yet");
 	private final JLabel summaryLabel = buildValueLabel("No snapshot yet");
+	private final JLabel sourceLabel = buildMutedLabel("<html>Source: hosted read-only snapshot feed</html>");
+	private final JLabel helpLabel = buildMutedLabel("<html>Tip: leave API base URL at default for hosted use, or switch to local live dev only when running the local API.</html>");
 	private final JLabel filterSummaryLabel = buildMutedLabel("No active filters");
 	private final JLabel itemCountChip = buildChipLabel("Items —", CHIP_INFO);
 	private final JLabel replayChip = buildChipLabel("Replay —", CHIP_NEUTRAL);
@@ -130,7 +132,11 @@ public class TrapEdgePanel extends PluginPanel
 			}
 			catch (Exception ex)
 			{
-				SwingUtilities.invokeLater(() -> statusLabel.setText("Load failed: " + ex.getMessage()));
+				SwingUtilities.invokeLater(() -> {
+					statusLabel.setText(apiClient.failureStatusMessage(ex));
+					sourceLabel.setText("<html>Source: " + apiClient.configuredBaseUrl() + "</html>");
+					helpLabel.setText("<html>Tip: " + apiClient.recoveryHint() + "</html>");
+				});
 			}
 		}, "trapedge-refresh").start();
 	}
@@ -146,6 +152,10 @@ public class TrapEdgePanel extends PluginPanel
 		body.add(summaryLabel);
 		body.add(Box.createVerticalStrut(4));
 		body.add(statusLabel);
+		body.add(Box.createVerticalStrut(4));
+		body.add(sourceLabel);
+		body.add(Box.createVerticalStrut(4));
+		body.add(helpLabel);
 		body.add(Box.createVerticalStrut(8));
 		body.add(buildChipRow(itemCountChip, replayChip, historyChip));
 		panel.add(body, BorderLayout.CENTER);
@@ -253,6 +263,8 @@ public class TrapEdgePanel extends PluginPanel
 		this.lastSnapshot = snapshot;
 		statusLabel.setText("Snapshot loaded: " + snapshot.sourceGeneratedAt);
 		summaryLabel.setText(buildSummary(snapshot));
+		sourceLabel.setText("<html>Source: " + apiClient.sourceSummary(snapshot) + "</html>");
+		helpLabel.setText("<html>Tip: " + (snapshot.helpText != null && !snapshot.helpText.isBlank() ? snapshot.helpText : apiClient.recoveryHint()) + "</html>");
 		itemCountChip.setText("Items " + (snapshot.assessmentSummary != null ? snapshot.assessmentSummary.total : 0));
 		replayChip.setText(snapshot.replaySummary != null
 			? "Replay " + snapshot.replaySummary.exactPasses + "/" + snapshot.replaySummary.total
@@ -413,7 +425,10 @@ public class TrapEdgePanel extends PluginPanel
 			}
 			catch (Exception ex)
 			{
-				SwingUtilities.invokeLater(() -> detailArea.setText("Detail load failed: " + ex.getMessage()));
+				SwingUtilities.invokeLater(() -> {
+					detailArea.setText("Detail load failed: " + ex.getMessage());
+					helpLabel.setText("<html>Tip: " + apiClient.recoveryHint() + "</html>");
+				});
 			}
 		}, "trapedge-detail").start();
 	}

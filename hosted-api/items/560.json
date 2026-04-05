@@ -1,0 +1,298 @@
+{
+  "itemId": 560,
+  "itemName": "Death rune",
+  "executionConfidence": "strong",
+  "executionConfidenceLabel": "Strong",
+  "trapScore": 0,
+  "trapFlags": [
+    "limit_constrained"
+  ],
+  "recommendedAction": "small_size_only",
+  "recommendedActionLabel": "Small size only",
+  "reasonSummary": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+  "flagDetails": [
+    {
+      "trapType": "limit_constrained",
+      "severity": "low",
+      "explanation": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+      "evidenceBasis": "Usable profit estimate 50000, threshold 80000.",
+      "safeAlternative": "Prefer normal size only if you specifically want lower-risk turnover.",
+      "score": 6
+    }
+  ],
+  "strengths": [
+    {
+      "strengthType": "clean_margin",
+      "explanation": "Net margin survives tax with enough room to still matter.",
+      "evidenceBasis": "Net margin 1.09%.",
+      "score": 8
+    },
+    {
+      "strengthType": "high_flow_support",
+      "explanation": "Recent flow is strong enough that the market looks genuinely active.",
+      "evidenceBasis": "5m flow 57228, 1h flow 832168.",
+      "score": 10
+    },
+    {
+      "strengthType": "fresh_signal",
+      "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+      "evidenceBasis": "Freshness 57s.",
+      "score": 4
+    },
+    {
+      "strengthType": "stable_window",
+      "explanation": "The market looks relatively stable instead of violently stretched.",
+      "evidenceBasis": "Latest-vs-5m 0.82%, 5m-vs-1h -0.27%.",
+      "score": 5
+    }
+  ],
+  "strengthLabels": [
+    "clean_margin",
+    "high_flow_support",
+    "fresh_signal",
+    "stable_window"
+  ],
+  "memoryNotes": [],
+  "matchedRules": [],
+  "matchedPatternKeys": [],
+  "usableProfitEstimate": 50000,
+  "grossMarginPct": 0.0273224043715847,
+  "netMarginPct": 0.01092896174863388,
+  "fiveMinuteFlow": 57228,
+  "oneHourFlow": 832168,
+  "caseCategory": "Limit-constrained grind",
+  "raw": {
+    "itemId": 560,
+    "itemName": "Death rune",
+    "members": false,
+    "buyLimit": 25000,
+    "buyPrice": 188,
+    "sellPrice": 183,
+    "apparentMargin": 5,
+    "geTax": 3,
+    "taxAdjustedMargin": 2,
+    "grossMarginPct": 0.0273224043715847,
+    "netMarginPct": 0.01092896174863388,
+    "taxDragPct": 0.6,
+    "usableProfitEstimate": 50000,
+    "capturedAt": "2026-04-05T20:15:00.674Z",
+    "freshnessSeconds": 57,
+    "freshnessLabel": "fresh",
+    "fiveMinuteHighVolume": 83748,
+    "fiveMinuteLowVolume": 57228,
+    "oneHourHighVolume": 1347988,
+    "oneHourLowVolume": 832168,
+    "fiveMinuteFlow": 57228,
+    "oneHourFlow": 832168,
+    "fiveMinuteFlowVsLimit": 2.28912,
+    "oneHourFlowVsLimit": 33.28672,
+    "fiveMinuteVolumeLabel": "very_high",
+    "oneHourVolumeLabel": "very_high",
+    "fiveMinuteTrend": "flat",
+    "oneHourTrend": "flat",
+    "fiveMinuteVsHourDeltaPct": -0.0027100271002710027,
+    "latestVsFiveMinuteDeltaPct": 0.008152173913043478,
+    "notes": "high-volume rune control case",
+    "status": "active"
+  },
+  "deliveryMode": "hosted-static",
+  "sourceLabel": "Hosted read-only snapshot feed",
+  "sourceBaseUrl": "https://onechan.github.io/trapedge-runelite-plugin/hosted-api",
+  "proofCase": {
+    "itemId": 560,
+    "itemName": "Death rune",
+    "executionConfidence": "strong",
+    "executionConfidenceLabel": "Strong",
+    "trapScore": 0,
+    "trapFlags": [
+      "limit_constrained"
+    ],
+    "recommendedAction": "small_size_only",
+    "recommendedActionLabel": "Small size only",
+    "reasonSummary": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+    "flagDetails": [
+      {
+        "trapType": "limit_constrained",
+        "severity": "low",
+        "explanation": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+        "evidenceBasis": "Usable profit estimate 50000, threshold 80000.",
+        "safeAlternative": "Prefer normal size only if you specifically want lower-risk turnover.",
+        "score": 6
+      }
+    ],
+    "strengths": [
+      {
+        "strengthType": "clean_margin",
+        "explanation": "Net margin survives tax with enough room to still matter.",
+        "evidenceBasis": "Net margin 1.09%.",
+        "score": 8
+      },
+      {
+        "strengthType": "high_flow_support",
+        "explanation": "Recent flow is strong enough that the market looks genuinely active.",
+        "evidenceBasis": "5m flow 57228, 1h flow 832168.",
+        "score": 10
+      },
+      {
+        "strengthType": "fresh_signal",
+        "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+        "evidenceBasis": "Freshness 57s.",
+        "score": 4
+      },
+      {
+        "strengthType": "stable_window",
+        "explanation": "The market looks relatively stable instead of violently stretched.",
+        "evidenceBasis": "Latest-vs-5m 0.82%, 5m-vs-1h -0.27%.",
+        "score": 5
+      }
+    ],
+    "strengthLabels": [
+      "clean_margin",
+      "high_flow_support",
+      "fresh_signal",
+      "stable_window"
+    ],
+    "memoryNotes": [],
+    "matchedRules": [],
+    "matchedPatternKeys": [],
+    "usableProfitEstimate": 50000,
+    "grossMarginPct": 0.0273224043715847,
+    "netMarginPct": 0.01092896174863388,
+    "fiveMinuteFlow": 57228,
+    "oneHourFlow": 832168,
+    "caseCategory": "Limit-constrained grind",
+    "raw": {
+      "itemId": 560,
+      "itemName": "Death rune",
+      "members": false,
+      "buyLimit": 25000,
+      "buyPrice": 188,
+      "sellPrice": 183,
+      "apparentMargin": 5,
+      "geTax": 3,
+      "taxAdjustedMargin": 2,
+      "grossMarginPct": 0.0273224043715847,
+      "netMarginPct": 0.01092896174863388,
+      "taxDragPct": 0.6,
+      "usableProfitEstimate": 50000,
+      "capturedAt": "2026-04-05T20:15:01.231Z",
+      "freshnessSeconds": 57,
+      "freshnessLabel": "fresh",
+      "fiveMinuteHighVolume": 83748,
+      "fiveMinuteLowVolume": 57228,
+      "oneHourHighVolume": 1347988,
+      "oneHourLowVolume": 832168,
+      "fiveMinuteFlow": 57228,
+      "oneHourFlow": 832168,
+      "fiveMinuteFlowVsLimit": 2.28912,
+      "oneHourFlowVsLimit": 33.28672,
+      "fiveMinuteVolumeLabel": "very_high",
+      "oneHourVolumeLabel": "very_high",
+      "fiveMinuteTrend": "flat",
+      "oneHourTrend": "flat",
+      "fiveMinuteVsHourDeltaPct": -0.0027100271002710027,
+      "latestVsFiveMinuteDeltaPct": 0.008152173913043478,
+      "notes": "high-volume rune control case",
+      "status": "active"
+    }
+  },
+  "liveAssessment": {
+    "itemId": 560,
+    "itemName": "Death rune",
+    "executionConfidence": "strong",
+    "executionConfidenceLabel": "Strong",
+    "trapScore": 0,
+    "trapFlags": [
+      "limit_constrained"
+    ],
+    "recommendedAction": "small_size_only",
+    "recommendedActionLabel": "Small size only",
+    "reasonSummary": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+    "flagDetails": [
+      {
+        "trapType": "limit_constrained",
+        "severity": "low",
+        "explanation": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+        "evidenceBasis": "Usable profit estimate 50000, threshold 80000.",
+        "safeAlternative": "Prefer normal size only if you specifically want lower-risk turnover.",
+        "score": 6
+      }
+    ],
+    "strengths": [
+      {
+        "strengthType": "clean_margin",
+        "explanation": "Net margin survives tax with enough room to still matter.",
+        "evidenceBasis": "Net margin 1.09%.",
+        "score": 8
+      },
+      {
+        "strengthType": "high_flow_support",
+        "explanation": "Recent flow is strong enough that the market looks genuinely active.",
+        "evidenceBasis": "5m flow 57228, 1h flow 832168.",
+        "score": 10
+      },
+      {
+        "strengthType": "fresh_signal",
+        "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+        "evidenceBasis": "Freshness 57s.",
+        "score": 4
+      },
+      {
+        "strengthType": "stable_window",
+        "explanation": "The market looks relatively stable instead of violently stretched.",
+        "evidenceBasis": "Latest-vs-5m 0.82%, 5m-vs-1h -0.27%.",
+        "score": 5
+      }
+    ],
+    "strengthLabels": [
+      "clean_margin",
+      "high_flow_support",
+      "fresh_signal",
+      "stable_window"
+    ],
+    "memoryNotes": [],
+    "matchedRules": [],
+    "matchedPatternKeys": [],
+    "usableProfitEstimate": 50000,
+    "grossMarginPct": 0.0273224043715847,
+    "netMarginPct": 0.01092896174863388,
+    "fiveMinuteFlow": 57228,
+    "oneHourFlow": 832168,
+    "caseCategory": "Limit-constrained grind",
+    "raw": {
+      "itemId": 560,
+      "itemName": "Death rune",
+      "members": false,
+      "buyLimit": 25000,
+      "buyPrice": 188,
+      "sellPrice": 183,
+      "apparentMargin": 5,
+      "geTax": 3,
+      "taxAdjustedMargin": 2,
+      "grossMarginPct": 0.0273224043715847,
+      "netMarginPct": 0.01092896174863388,
+      "taxDragPct": 0.6,
+      "usableProfitEstimate": 50000,
+      "capturedAt": "2026-04-05T20:15:00.674Z",
+      "freshnessSeconds": 57,
+      "freshnessLabel": "fresh",
+      "fiveMinuteHighVolume": 83748,
+      "fiveMinuteLowVolume": 57228,
+      "oneHourHighVolume": 1347988,
+      "oneHourLowVolume": 832168,
+      "fiveMinuteFlow": 57228,
+      "oneHourFlow": 832168,
+      "fiveMinuteFlowVsLimit": 2.28912,
+      "oneHourFlowVsLimit": 33.28672,
+      "fiveMinuteVolumeLabel": "very_high",
+      "oneHourVolumeLabel": "very_high",
+      "fiveMinuteTrend": "flat",
+      "oneHourTrend": "flat",
+      "fiveMinuteVsHourDeltaPct": -0.0027100271002710027,
+      "latestVsFiveMinuteDeltaPct": 0.008152173913043478,
+      "notes": "high-volume rune control case",
+      "status": "active"
+    }
+  },
+  "runtimePostmortems": []
+}

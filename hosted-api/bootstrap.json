@@ -1,0 +1,3064 @@
+{
+  "generatedAt": "2026-04-05T21:26:46.821Z",
+  "sourceGeneratedAt": "2026-04-05T20:15:00.687Z",
+  "deliveryMode": "hosted-static",
+  "sourceLabel": "Hosted read-only snapshot feed",
+  "sourceBaseUrl": "https://onechan.github.io/trapedge-runelite-plugin/hosted-api",
+  "helpText": "Default build uses a hosted read-only snapshot feed. For local live development, change API base URL to http://127.0.0.1:4311.",
+  "triage": [
+    {
+      "itemId": 11230,
+      "itemName": "Dragon dart",
+      "buyPrice": 1300,
+      "sellPrice": 1267,
+      "apparentMargin": 33,
+      "taxAdjustedMargin": 8,
+      "buyLimit": 11000,
+      "executionConfidence": "strong",
+      "executionConfidenceLabel": "Strong",
+      "trapScore": 0,
+      "trapFlagsCount": 0,
+      "recommendedAction": "enter_now",
+      "recommendedActionLabel": "Enter now",
+      "reasonSummary": "Net margin survives tax with enough room to still matter. Recent flow is strong enough that the market looks genuinely active.",
+      "usableProfitEstimate": 88000,
+      "strengthsCount": 5,
+      "caseCategory": "Clean tradable control"
+    },
+    {
+      "itemId": 2,
+      "itemName": "Steel cannonball",
+      "buyPrice": 309,
+      "sellPrice": 297,
+      "apparentMargin": 12,
+      "taxAdjustedMargin": 7,
+      "buyLimit": 11000,
+      "executionConfidence": "strong",
+      "executionConfidenceLabel": "Strong",
+      "trapScore": 0,
+      "trapFlagsCount": 1,
+      "recommendedAction": "small_size_only",
+      "recommendedActionLabel": "Small size only",
+      "reasonSummary": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+      "usableProfitEstimate": 77000,
+      "strengthsCount": 4,
+      "caseCategory": "Limit-constrained grind"
+    },
+    {
+      "itemId": 19580,
+      "itemName": "Rune javelin tips",
+      "buyPrice": 466,
+      "sellPrice": 451,
+      "apparentMargin": 15,
+      "taxAdjustedMargin": 6,
+      "buyLimit": 10000,
+      "executionConfidence": "strong",
+      "executionConfidenceLabel": "Strong",
+      "trapScore": 0,
+      "trapFlagsCount": 1,
+      "recommendedAction": "small_size_only",
+      "recommendedActionLabel": "Small size only",
+      "reasonSummary": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+      "usableProfitEstimate": 60000,
+      "strengthsCount": 4,
+      "caseCategory": "Limit-constrained grind"
+    },
+    {
+      "itemId": 560,
+      "itemName": "Death rune",
+      "buyPrice": 188,
+      "sellPrice": 183,
+      "apparentMargin": 5,
+      "taxAdjustedMargin": 2,
+      "buyLimit": 25000,
+      "executionConfidence": "strong",
+      "executionConfidenceLabel": "Strong",
+      "trapScore": 0,
+      "trapFlagsCount": 1,
+      "recommendedAction": "small_size_only",
+      "recommendedActionLabel": "Small size only",
+      "reasonSummary": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+      "usableProfitEstimate": 50000,
+      "strengthsCount": 4,
+      "caseCategory": "Limit-constrained grind"
+    },
+    {
+      "itemId": 565,
+      "itemName": "Blood rune",
+      "buyPrice": 292,
+      "sellPrice": 286,
+      "apparentMargin": 6,
+      "taxAdjustedMargin": 1,
+      "buyLimit": 25000,
+      "executionConfidence": "strong",
+      "executionConfidenceLabel": "Strong",
+      "trapScore": 0,
+      "trapFlagsCount": 2,
+      "recommendedAction": "small_size_only",
+      "recommendedActionLabel": "Small size only",
+      "reasonSummary": "The trade survives tax, but most of the edge is still too thin to trust heavily. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "usableProfitEstimate": 25000,
+      "strengthsCount": 4,
+      "caseCategory": "Limit-constrained grind"
+    },
+    {
+      "itemId": 11212,
+      "itemName": "Dragon arrow",
+      "buyPrice": 3050,
+      "sellPrice": 3001,
+      "apparentMargin": 49,
+      "taxAdjustedMargin": -11,
+      "buyLimit": 11000,
+      "executionConfidence": "tradable",
+      "executionConfidenceLabel": "Tradable",
+      "trapScore": 27,
+      "trapFlagsCount": 2,
+      "recommendedAction": "small_size_only",
+      "recommendedActionLabel": "Small size only",
+      "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "usableProfitEstimate": 0,
+      "strengthsCount": 3,
+      "caseCategory": "Limit-constrained grind"
+    },
+    {
+      "itemId": 8778,
+      "itemName": "Oak plank",
+      "buyPrice": 548,
+      "sellPrice": 544,
+      "apparentMargin": 4,
+      "taxAdjustedMargin": -6,
+      "buyLimit": 13000,
+      "executionConfidence": "tradable",
+      "executionConfidenceLabel": "Tradable",
+      "trapScore": 27,
+      "trapFlagsCount": 2,
+      "recommendedAction": "small_size_only",
+      "recommendedActionLabel": "Small size only",
+      "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "usableProfitEstimate": 0,
+      "strengthsCount": 3,
+      "caseCategory": "Limit-constrained grind"
+    },
+    {
+      "itemId": 20997,
+      "itemName": "Twisted bow",
+      "buyPrice": 1599499995,
+      "sellPrice": 1593156654,
+      "apparentMargin": 6343341,
+      "taxAdjustedMargin": 1343341,
+      "buyLimit": 8,
+      "executionConfidence": "fragile",
+      "executionConfidenceLabel": "Fragile",
+      "trapScore": 34,
+      "trapFlagsCount": 4,
+      "recommendedAction": "wait",
+      "recommendedActionLabel": "Wait",
+      "reasonSummary": "The trade survives tax, but most of the edge is still too thin to trust heavily. This is a high-ticket item with weak hourly turnover. You may be reading a highly concentrated market, not a clean opportunity.",
+      "usableProfitEstimate": 10746728,
+      "strengthsCount": 2,
+      "caseCategory": "Thin liquidity trap"
+    },
+    {
+      "itemId": 31914,
+      "itemName": "Rune cannonball",
+      "buyPrice": 702,
+      "sellPrice": 685,
+      "apparentMargin": 17,
+      "taxAdjustedMargin": 4,
+      "buyLimit": 11000,
+      "executionConfidence": "fragile",
+      "executionConfidenceLabel": "Fragile",
+      "trapScore": 32,
+      "trapFlagsCount": 4,
+      "recommendedAction": "wait",
+      "recommendedActionLabel": "Wait",
+      "reasonSummary": "This is tradeable, but the usable profit is still a bit light for the bankroll target. Recent fill flow looks too thin relative to the size the market claims to support.",
+      "usableProfitEstimate": 44000,
+      "strengthsCount": 3,
+      "caseCategory": "Fake spread trap"
+    },
+    {
+      "itemId": 13239,
+      "itemName": "Primordial boots",
+      "buyPrice": 20659059,
+      "sellPrice": 20410000,
+      "apparentMargin": 249059,
+      "taxAdjustedMargin": -159141,
+      "buyLimit": 15,
+      "executionConfidence": "fragile",
+      "executionConfidenceLabel": "Fragile",
+      "trapScore": 46,
+      "trapFlagsCount": 2,
+      "recommendedAction": "rotate_elsewhere",
+      "recommendedActionLabel": "Rotate elsewhere",
+      "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "usableProfitEstimate": 0,
+      "strengthsCount": 0,
+      "caseCategory": "Tax margin collapse"
+    },
+    {
+      "itemId": 4151,
+      "itemName": "Abyssal whip",
+      "buyPrice": 1168451,
+      "sellPrice": 1170000,
+      "apparentMargin": 0,
+      "taxAdjustedMargin": -23400,
+      "buyLimit": 70,
+      "executionConfidence": "fragile",
+      "executionConfidenceLabel": "Fragile",
+      "trapScore": 37,
+      "trapFlagsCount": 2,
+      "recommendedAction": "rotate_elsewhere",
+      "recommendedActionLabel": "Rotate elsewhere",
+      "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "usableProfitEstimate": 0,
+      "strengthsCount": 2,
+      "caseCategory": "Tax margin collapse"
+    },
+    {
+      "itemId": 25859,
+      "itemName": "Enhanced crystal weapon seed",
+      "buyPrice": 154923999,
+      "sellPrice": 152143604,
+      "apparentMargin": 2780395,
+      "taxAdjustedMargin": -262477,
+      "buyLimit": 70,
+      "executionConfidence": "avoid",
+      "executionConfidenceLabel": "Avoid",
+      "trapScore": 94,
+      "trapFlagsCount": 6,
+      "recommendedAction": "avoid",
+      "recommendedActionLabel": "Avoid",
+      "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "usableProfitEstimate": 0,
+      "strengthsCount": 1,
+      "caseCategory": "Thin liquidity trap"
+    },
+    {
+      "itemId": 26382,
+      "itemName": "Torva full helm",
+      "buyPrice": 236000000,
+      "sellPrice": 234000000,
+      "apparentMargin": 2000000,
+      "taxAdjustedMargin": -2680000,
+      "buyLimit": 8,
+      "executionConfidence": "avoid",
+      "executionConfidenceLabel": "Avoid",
+      "trapScore": 94,
+      "trapFlagsCount": 6,
+      "recommendedAction": "avoid",
+      "recommendedActionLabel": "Avoid",
+      "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "usableProfitEstimate": 0,
+      "strengthsCount": 1,
+      "caseCategory": "Thin liquidity trap"
+    },
+    {
+      "itemId": 24511,
+      "itemName": "Harmonised orb",
+      "buyPrice": 197758998,
+      "sellPrice": 196000000,
+      "apparentMargin": 1758998,
+      "taxAdjustedMargin": -2161002,
+      "buyLimit": 8,
+      "executionConfidence": "avoid",
+      "executionConfidenceLabel": "Avoid",
+      "trapScore": 94,
+      "trapFlagsCount": 6,
+      "recommendedAction": "avoid",
+      "recommendedActionLabel": "Avoid",
+      "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "usableProfitEstimate": 0,
+      "strengthsCount": 1,
+      "caseCategory": "Thin liquidity trap"
+    },
+    {
+      "itemId": 11286,
+      "itemName": "Draconic visage",
+      "buyPrice": 3210752,
+      "sellPrice": 3150001,
+      "apparentMargin": 60751,
+      "taxAdjustedMargin": -2249,
+      "buyLimit": 5,
+      "executionConfidence": "avoid",
+      "executionConfidenceLabel": "Avoid",
+      "trapScore": 100,
+      "trapFlagsCount": 7,
+      "recommendedAction": "avoid",
+      "recommendedActionLabel": "Avoid",
+      "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "usableProfitEstimate": 0,
+      "strengthsCount": 0,
+      "caseCategory": "Thin liquidity trap"
+    }
+  ],
+  "trapRows": [
+    {
+      "itemId": 2,
+      "itemName": "Steel cannonball",
+      "trapType": "limit_constrained",
+      "trapTypeLabel": "limit constrained",
+      "severity": "low",
+      "explanation": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+      "evidenceBasis": "Usable profit estimate 77000, threshold 80000.",
+      "safeAlternative": "Prefer normal size only if you specifically want lower-risk turnover."
+    },
+    {
+      "itemId": 19580,
+      "itemName": "Rune javelin tips",
+      "trapType": "limit_constrained",
+      "trapTypeLabel": "limit constrained",
+      "severity": "low",
+      "explanation": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+      "evidenceBasis": "Usable profit estimate 60000, threshold 80000.",
+      "safeAlternative": "Prefer normal size only if you specifically want lower-risk turnover."
+    },
+    {
+      "itemId": 560,
+      "itemName": "Death rune",
+      "trapType": "limit_constrained",
+      "trapTypeLabel": "limit constrained",
+      "severity": "low",
+      "explanation": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+      "evidenceBasis": "Usable profit estimate 50000, threshold 80000.",
+      "safeAlternative": "Prefer normal size only if you specifically want lower-risk turnover."
+    },
+    {
+      "itemId": 565,
+      "itemName": "Blood rune",
+      "trapType": "tax_margin_collapse",
+      "trapTypeLabel": "tax margin collapse",
+      "severity": "medium",
+      "explanation": "The trade survives tax, but most of the edge is still too thin to trust heavily.",
+      "evidenceBasis": "Apparent margin 6, tax-adjusted 1.",
+      "safeAlternative": "Treat as a thin edge unless the rest of the execution picture is exceptionally clean."
+    },
+    {
+      "itemId": 565,
+      "itemName": "Blood rune",
+      "trapType": "limit_constrained",
+      "trapTypeLabel": "limit constrained",
+      "severity": "medium",
+      "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "evidenceBasis": "Usable profit estimate 25000, threshold 80000.",
+      "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item."
+    },
+    {
+      "itemId": 11212,
+      "itemName": "Dragon arrow",
+      "trapType": "tax_margin_collapse",
+      "trapTypeLabel": "tax margin collapse",
+      "severity": "high",
+      "explanation": "Tax and spread wipe out the usable edge.",
+      "evidenceBasis": "Apparent margin 49, tax-adjusted -11.",
+      "safeAlternative": "Avoid unless the spread improves materially."
+    },
+    {
+      "itemId": 11212,
+      "itemName": "Dragon arrow",
+      "trapType": "limit_constrained",
+      "trapTypeLabel": "limit constrained",
+      "severity": "medium",
+      "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+      "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item."
+    },
+    {
+      "itemId": 8778,
+      "itemName": "Oak plank",
+      "trapType": "tax_margin_collapse",
+      "trapTypeLabel": "tax margin collapse",
+      "severity": "high",
+      "explanation": "Tax and spread wipe out the usable edge.",
+      "evidenceBasis": "Apparent margin 4, tax-adjusted -6.",
+      "safeAlternative": "Avoid unless the spread improves materially."
+    },
+    {
+      "itemId": 8778,
+      "itemName": "Oak plank",
+      "trapType": "limit_constrained",
+      "trapTypeLabel": "limit constrained",
+      "severity": "medium",
+      "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+      "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item."
+    },
+    {
+      "itemId": 20997,
+      "itemName": "Twisted bow",
+      "trapType": "tax_margin_collapse",
+      "trapTypeLabel": "tax margin collapse",
+      "severity": "medium",
+      "explanation": "The trade survives tax, but most of the edge is still too thin to trust heavily.",
+      "evidenceBasis": "Apparent margin 6343341, tax-adjusted 1343341.",
+      "safeAlternative": "Treat as a thin edge unless the rest of the execution picture is exceptionally clean."
+    },
+    {
+      "itemId": 20997,
+      "itemName": "Twisted bow",
+      "trapType": "concentration_risk",
+      "trapTypeLabel": "concentration risk",
+      "severity": "medium",
+      "explanation": "This is a high-ticket item with weak hourly turnover. You may be reading a highly concentrated market, not a clean opportunity.",
+      "evidenceBasis": "Sell price 1593156654, 1h flow 10.",
+      "safeAlternative": "Treat as trap-prone unless you have unusually strong reason to believe the fills are real."
+    },
+    {
+      "itemId": 20997,
+      "itemName": "Twisted bow",
+      "trapType": "memory_repeat_risk",
+      "trapTypeLabel": "memory repeat risk",
+      "severity": "medium",
+      "explanation": "You have repeated this same mistake on this item before.",
+      "evidenceBasis": "2 matching postmortems already exist for Twisted bow.",
+      "safeAlternative": "Treat mega-ticket items as trap-prone unless hourly flow is clearly real."
+    },
+    {
+      "itemId": 20997,
+      "itemName": "Twisted bow",
+      "trapType": "style_repeat_risk",
+      "trapTypeLabel": "style repeat risk",
+      "severity": "low",
+      "explanation": "This also matches a broader execution mistake pattern already present in your memory log.",
+      "evidenceBasis": "Repeated memory patterns: fake spread.",
+      "safeAlternative": "Treat mega-ticket items as trap-prone unless hourly flow is clearly real."
+    },
+    {
+      "itemId": 31914,
+      "itemName": "Rune cannonball",
+      "trapType": "limit_constrained",
+      "trapTypeLabel": "limit constrained",
+      "severity": "low",
+      "explanation": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+      "evidenceBasis": "Usable profit estimate 44000, threshold 80000.",
+      "safeAlternative": "Prefer normal size only if you specifically want lower-risk turnover."
+    },
+    {
+      "itemId": 31914,
+      "itemName": "Rune cannonball",
+      "trapType": "thin_liquidity",
+      "trapTypeLabel": "thin liquidity",
+      "severity": "high",
+      "explanation": "Recent fill flow looks too thin relative to the size the market claims to support.",
+      "evidenceBasis": "5m flow 0, 1h flow 4406, buy limit 11000.",
+      "safeAlternative": "Avoid or trade far smaller size."
+    },
+    {
+      "itemId": 31914,
+      "itemName": "Rune cannonball",
+      "trapType": "fake_spread_risk",
+      "trapTypeLabel": "fake spread risk",
+      "severity": "medium",
+      "explanation": "The headline spread looks exciting, but short-term execution support is too weak to trust it blindly.",
+      "evidenceBasis": "Gross margin 2.48%, 5m flow 0, 1h flow 4406.",
+      "safeAlternative": "Wait for stronger evidence instead of paying up for the headline spread."
+    },
+    {
+      "itemId": 31914,
+      "itemName": "Rune cannonball",
+      "trapType": "style_repeat_risk",
+      "trapTypeLabel": "style repeat risk",
+      "severity": "low",
+      "explanation": "This also matches a broader execution mistake pattern already present in your memory log.",
+      "evidenceBasis": "Repeated memory patterns: fake spread.",
+      "safeAlternative": "Trade smaller or wait for a cleaner setup."
+    },
+    {
+      "itemId": 13239,
+      "itemName": "Primordial boots",
+      "trapType": "tax_margin_collapse",
+      "trapTypeLabel": "tax margin collapse",
+      "severity": "high",
+      "explanation": "Tax and spread wipe out the usable edge.",
+      "evidenceBasis": "Apparent margin 249059, tax-adjusted -159141.",
+      "safeAlternative": "Avoid unless the spread improves materially."
+    },
+    {
+      "itemId": 13239,
+      "itemName": "Primordial boots",
+      "trapType": "limit_constrained",
+      "trapTypeLabel": "limit constrained",
+      "severity": "medium",
+      "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+      "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item."
+    },
+    {
+      "itemId": 4151,
+      "itemName": "Abyssal whip",
+      "trapType": "tax_margin_collapse",
+      "trapTypeLabel": "tax margin collapse",
+      "severity": "high",
+      "explanation": "Tax and spread wipe out the usable edge.",
+      "evidenceBasis": "Apparent margin 0, tax-adjusted -23400.",
+      "safeAlternative": "Avoid unless the spread improves materially."
+    },
+    {
+      "itemId": 4151,
+      "itemName": "Abyssal whip",
+      "trapType": "limit_constrained",
+      "trapTypeLabel": "limit constrained",
+      "severity": "medium",
+      "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+      "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item."
+    },
+    {
+      "itemId": 25859,
+      "itemName": "Enhanced crystal weapon seed",
+      "trapType": "tax_margin_collapse",
+      "trapTypeLabel": "tax margin collapse",
+      "severity": "high",
+      "explanation": "Tax and spread wipe out the usable edge.",
+      "evidenceBasis": "Apparent margin 2780395, tax-adjusted -262477.",
+      "safeAlternative": "Avoid unless the spread improves materially."
+    },
+    {
+      "itemId": 25859,
+      "itemName": "Enhanced crystal weapon seed",
+      "trapType": "limit_constrained",
+      "trapTypeLabel": "limit constrained",
+      "severity": "medium",
+      "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+      "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item."
+    },
+    {
+      "itemId": 25859,
+      "itemName": "Enhanced crystal weapon seed",
+      "trapType": "thin_liquidity",
+      "trapTypeLabel": "thin liquidity",
+      "severity": "high",
+      "explanation": "Recent fill flow looks too thin relative to the size the market claims to support.",
+      "evidenceBasis": "5m flow 0, 1h flow 2, buy limit 70.",
+      "safeAlternative": "Avoid or trade far smaller size."
+    },
+    {
+      "itemId": 25859,
+      "itemName": "Enhanced crystal weapon seed",
+      "trapType": "concentration_risk",
+      "trapTypeLabel": "concentration risk",
+      "severity": "medium",
+      "explanation": "This is a high-ticket item with weak hourly turnover. You may be reading a highly concentrated market, not a clean opportunity.",
+      "evidenceBasis": "Sell price 152143604, 1h flow 2.",
+      "safeAlternative": "Treat as trap-prone unless you have unusually strong reason to believe the fills are real."
+    },
+    {
+      "itemId": 25859,
+      "itemName": "Enhanced crystal weapon seed",
+      "trapType": "stale_signal",
+      "trapTypeLabel": "stale signal",
+      "severity": "low",
+      "explanation": "The latest signal is stale enough that the displayed edge may already have moved.",
+      "evidenceBasis": "Freshness 426s.",
+      "safeAlternative": "Refresh before acting aggressively."
+    },
+    {
+      "itemId": 25859,
+      "itemName": "Enhanced crystal weapon seed",
+      "trapType": "style_repeat_risk",
+      "trapTypeLabel": "style repeat risk",
+      "severity": "low",
+      "explanation": "This also matches a broader execution mistake pattern already present in your memory log.",
+      "evidenceBasis": "Repeated memory patterns: fake spread.",
+      "safeAlternative": "Trade smaller or wait for a cleaner setup."
+    },
+    {
+      "itemId": 26382,
+      "itemName": "Torva full helm",
+      "trapType": "tax_margin_collapse",
+      "trapTypeLabel": "tax margin collapse",
+      "severity": "high",
+      "explanation": "Tax and spread wipe out the usable edge.",
+      "evidenceBasis": "Apparent margin 2000000, tax-adjusted -2680000.",
+      "safeAlternative": "Avoid unless the spread improves materially."
+    },
+    {
+      "itemId": 26382,
+      "itemName": "Torva full helm",
+      "trapType": "limit_constrained",
+      "trapTypeLabel": "limit constrained",
+      "severity": "medium",
+      "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+      "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item."
+    },
+    {
+      "itemId": 26382,
+      "itemName": "Torva full helm",
+      "trapType": "thin_liquidity",
+      "trapTypeLabel": "thin liquidity",
+      "severity": "high",
+      "explanation": "Recent fill flow looks too thin relative to the size the market claims to support.",
+      "evidenceBasis": "5m flow 0, 1h flow 0, buy limit 8.",
+      "safeAlternative": "Avoid or trade far smaller size."
+    },
+    {
+      "itemId": 26382,
+      "itemName": "Torva full helm",
+      "trapType": "concentration_risk",
+      "trapTypeLabel": "concentration risk",
+      "severity": "medium",
+      "explanation": "This is a high-ticket item with weak hourly turnover. You may be reading a highly concentrated market, not a clean opportunity.",
+      "evidenceBasis": "Sell price 234000000, 1h flow 0.",
+      "safeAlternative": "Treat as trap-prone unless you have unusually strong reason to believe the fills are real."
+    },
+    {
+      "itemId": 26382,
+      "itemName": "Torva full helm",
+      "trapType": "stale_signal",
+      "trapTypeLabel": "stale signal",
+      "severity": "low",
+      "explanation": "The latest signal is stale enough that the displayed edge may already have moved.",
+      "evidenceBasis": "Freshness 364s.",
+      "safeAlternative": "Refresh before acting aggressively."
+    },
+    {
+      "itemId": 26382,
+      "itemName": "Torva full helm",
+      "trapType": "style_repeat_risk",
+      "trapTypeLabel": "style repeat risk",
+      "severity": "low",
+      "explanation": "This also matches a broader execution mistake pattern already present in your memory log.",
+      "evidenceBasis": "Repeated memory patterns: fake spread.",
+      "safeAlternative": "Trade smaller or wait for a cleaner setup."
+    },
+    {
+      "itemId": 24511,
+      "itemName": "Harmonised orb",
+      "trapType": "tax_margin_collapse",
+      "trapTypeLabel": "tax margin collapse",
+      "severity": "high",
+      "explanation": "Tax and spread wipe out the usable edge.",
+      "evidenceBasis": "Apparent margin 1758998, tax-adjusted -2161002.",
+      "safeAlternative": "Avoid unless the spread improves materially."
+    },
+    {
+      "itemId": 24511,
+      "itemName": "Harmonised orb",
+      "trapType": "limit_constrained",
+      "trapTypeLabel": "limit constrained",
+      "severity": "medium",
+      "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+      "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item."
+    },
+    {
+      "itemId": 24511,
+      "itemName": "Harmonised orb",
+      "trapType": "thin_liquidity",
+      "trapTypeLabel": "thin liquidity",
+      "severity": "high",
+      "explanation": "Recent fill flow looks too thin relative to the size the market claims to support.",
+      "evidenceBasis": "5m flow 0, 1h flow 2, buy limit 8.",
+      "safeAlternative": "Avoid or trade far smaller size."
+    },
+    {
+      "itemId": 24511,
+      "itemName": "Harmonised orb",
+      "trapType": "concentration_risk",
+      "trapTypeLabel": "concentration risk",
+      "severity": "medium",
+      "explanation": "This is a high-ticket item with weak hourly turnover. You may be reading a highly concentrated market, not a clean opportunity.",
+      "evidenceBasis": "Sell price 196000000, 1h flow 2.",
+      "safeAlternative": "Treat as trap-prone unless you have unusually strong reason to believe the fills are real."
+    },
+    {
+      "itemId": 24511,
+      "itemName": "Harmonised orb",
+      "trapType": "stale_signal",
+      "trapTypeLabel": "stale signal",
+      "severity": "low",
+      "explanation": "The latest signal is stale enough that the displayed edge may already have moved.",
+      "evidenceBasis": "Freshness 477s.",
+      "safeAlternative": "Refresh before acting aggressively."
+    },
+    {
+      "itemId": 24511,
+      "itemName": "Harmonised orb",
+      "trapType": "style_repeat_risk",
+      "trapTypeLabel": "style repeat risk",
+      "severity": "low",
+      "explanation": "This also matches a broader execution mistake pattern already present in your memory log.",
+      "evidenceBasis": "Repeated memory patterns: fake spread.",
+      "safeAlternative": "Trade smaller or wait for a cleaner setup."
+    },
+    {
+      "itemId": 11286,
+      "itemName": "Draconic visage",
+      "trapType": "tax_margin_collapse",
+      "trapTypeLabel": "tax margin collapse",
+      "severity": "high",
+      "explanation": "Tax and spread wipe out the usable edge.",
+      "evidenceBasis": "Apparent margin 60751, tax-adjusted -2249.",
+      "safeAlternative": "Avoid unless the spread improves materially."
+    },
+    {
+      "itemId": 11286,
+      "itemName": "Draconic visage",
+      "trapType": "limit_constrained",
+      "trapTypeLabel": "limit constrained",
+      "severity": "medium",
+      "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+      "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item."
+    },
+    {
+      "itemId": 11286,
+      "itemName": "Draconic visage",
+      "trapType": "thin_liquidity",
+      "trapTypeLabel": "thin liquidity",
+      "severity": "high",
+      "explanation": "Recent fill flow looks too thin relative to the size the market claims to support.",
+      "evidenceBasis": "5m flow 0, 1h flow 1, buy limit 5.",
+      "safeAlternative": "Avoid or trade far smaller size."
+    },
+    {
+      "itemId": 11286,
+      "itemName": "Draconic visage",
+      "trapType": "exit_risk",
+      "trapTypeLabel": "exit risk",
+      "severity": "medium",
+      "explanation": "The exit side looks weaker than the headline spread suggests.",
+      "evidenceBasis": "1h trend spiking_down, tax-adjusted margin -2249.",
+      "safeAlternative": "Treat as fragile until the exit quality improves."
+    },
+    {
+      "itemId": 11286,
+      "itemName": "Draconic visage",
+      "trapType": "stale_signal",
+      "trapTypeLabel": "stale signal",
+      "severity": "low",
+      "explanation": "The latest signal is stale enough that the displayed edge may already have moved.",
+      "evidenceBasis": "Freshness 290s.",
+      "safeAlternative": "Refresh before acting aggressively."
+    },
+    {
+      "itemId": 11286,
+      "itemName": "Draconic visage",
+      "trapType": "memory_repeat_risk",
+      "trapTypeLabel": "memory repeat risk",
+      "severity": "medium",
+      "explanation": "You have repeated this same mistake on this item before.",
+      "evidenceBasis": "2 matching postmortems already exist for Draconic visage.",
+      "safeAlternative": "Avoid low-flow high-ticket items unless the fill looks unusually clean."
+    },
+    {
+      "itemId": 11286,
+      "itemName": "Draconic visage",
+      "trapType": "style_repeat_risk",
+      "trapTypeLabel": "style repeat risk",
+      "severity": "low",
+      "explanation": "This also matches a broader execution mistake pattern already present in your memory log.",
+      "evidenceBasis": "Repeated memory patterns: fake spread, late exit.",
+      "safeAlternative": "Avoid low-flow high-ticket items unless the fill looks unusually clean."
+    }
+  ],
+  "actions": [
+    {
+      "itemId": 11230,
+      "itemName": "Dragon dart",
+      "currentState": "strong",
+      "currentStateLabel": "Strong",
+      "recommendedAction": "enter_now",
+      "actionLabel": "Enter now",
+      "sizeHint": "Normal size is acceptable.",
+      "urgency": "now",
+      "whyNow": "Net margin survives tax with enough room to still matter. Recent flow is strong enough that the market looks genuinely active.",
+      "caseCategory": "Clean tradable control",
+      "matchedRules": []
+    },
+    {
+      "itemId": 2,
+      "itemName": "Steel cannonball",
+      "currentState": "strong",
+      "currentStateLabel": "Strong",
+      "recommendedAction": "small_size_only",
+      "actionLabel": "Small size only",
+      "sizeHint": "Deploy partial capital only.",
+      "urgency": "caution",
+      "whyNow": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+      "caseCategory": "Limit-constrained grind",
+      "matchedRules": []
+    },
+    {
+      "itemId": 19580,
+      "itemName": "Rune javelin tips",
+      "currentState": "strong",
+      "currentStateLabel": "Strong",
+      "recommendedAction": "small_size_only",
+      "actionLabel": "Small size only",
+      "sizeHint": "Deploy partial capital only.",
+      "urgency": "caution",
+      "whyNow": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+      "caseCategory": "Limit-constrained grind",
+      "matchedRules": []
+    },
+    {
+      "itemId": 560,
+      "itemName": "Death rune",
+      "currentState": "strong",
+      "currentStateLabel": "Strong",
+      "recommendedAction": "small_size_only",
+      "actionLabel": "Small size only",
+      "sizeHint": "Deploy partial capital only.",
+      "urgency": "caution",
+      "whyNow": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+      "caseCategory": "Limit-constrained grind",
+      "matchedRules": []
+    },
+    {
+      "itemId": 565,
+      "itemName": "Blood rune",
+      "currentState": "strong",
+      "currentStateLabel": "Strong",
+      "recommendedAction": "small_size_only",
+      "actionLabel": "Small size only",
+      "sizeHint": "Deploy partial capital only.",
+      "urgency": "caution",
+      "whyNow": "The trade survives tax, but most of the edge is still too thin to trust heavily. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "caseCategory": "Limit-constrained grind",
+      "matchedRules": []
+    },
+    {
+      "itemId": 11212,
+      "itemName": "Dragon arrow",
+      "currentState": "tradable",
+      "currentStateLabel": "Tradable",
+      "recommendedAction": "small_size_only",
+      "actionLabel": "Small size only",
+      "sizeHint": "Deploy partial capital only.",
+      "urgency": "caution",
+      "whyNow": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "caseCategory": "Limit-constrained grind",
+      "matchedRules": []
+    },
+    {
+      "itemId": 8778,
+      "itemName": "Oak plank",
+      "currentState": "tradable",
+      "currentStateLabel": "Tradable",
+      "recommendedAction": "small_size_only",
+      "actionLabel": "Small size only",
+      "sizeHint": "Deploy partial capital only.",
+      "urgency": "caution",
+      "whyNow": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "caseCategory": "Limit-constrained grind",
+      "matchedRules": []
+    },
+    {
+      "itemId": 20997,
+      "itemName": "Twisted bow",
+      "currentState": "fragile",
+      "currentStateLabel": "Fragile",
+      "recommendedAction": "wait",
+      "actionLabel": "Wait",
+      "sizeHint": "Wait for a cleaner setup.",
+      "urgency": "watch",
+      "whyNow": "The trade survives tax, but most of the edge is still too thin to trust heavily. This is a high-ticket item with weak hourly turnover. You may be reading a highly concentrated market, not a clean opportunity.",
+      "caseCategory": "Thin liquidity trap",
+      "matchedRules": [
+        "Treat mega-ticket items as trap-prone unless hourly flow is clearly real."
+      ]
+    },
+    {
+      "itemId": 31914,
+      "itemName": "Rune cannonball",
+      "currentState": "fragile",
+      "currentStateLabel": "Fragile",
+      "recommendedAction": "wait",
+      "actionLabel": "Wait",
+      "sizeHint": "Wait for a cleaner setup.",
+      "urgency": "watch",
+      "whyNow": "This is tradeable, but the usable profit is still a bit light for the bankroll target. Recent fill flow looks too thin relative to the size the market claims to support.",
+      "caseCategory": "Fake spread trap",
+      "matchedRules": []
+    },
+    {
+      "itemId": 13239,
+      "itemName": "Primordial boots",
+      "currentState": "fragile",
+      "currentStateLabel": "Fragile",
+      "recommendedAction": "rotate_elsewhere",
+      "actionLabel": "Rotate elsewhere",
+      "sizeHint": "Use capital on a higher-capacity item.",
+      "urgency": "caution",
+      "whyNow": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "caseCategory": "Tax margin collapse",
+      "matchedRules": []
+    },
+    {
+      "itemId": 4151,
+      "itemName": "Abyssal whip",
+      "currentState": "fragile",
+      "currentStateLabel": "Fragile",
+      "recommendedAction": "rotate_elsewhere",
+      "actionLabel": "Rotate elsewhere",
+      "sizeHint": "Use capital on a higher-capacity item.",
+      "urgency": "caution",
+      "whyNow": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "caseCategory": "Tax margin collapse",
+      "matchedRules": []
+    },
+    {
+      "itemId": 25859,
+      "itemName": "Enhanced crystal weapon seed",
+      "currentState": "avoid",
+      "currentStateLabel": "Avoid",
+      "recommendedAction": "avoid",
+      "actionLabel": "Avoid",
+      "sizeHint": "No size recommended.",
+      "urgency": "caution",
+      "whyNow": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "caseCategory": "Thin liquidity trap",
+      "matchedRules": []
+    },
+    {
+      "itemId": 26382,
+      "itemName": "Torva full helm",
+      "currentState": "avoid",
+      "currentStateLabel": "Avoid",
+      "recommendedAction": "avoid",
+      "actionLabel": "Avoid",
+      "sizeHint": "No size recommended.",
+      "urgency": "caution",
+      "whyNow": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "caseCategory": "Thin liquidity trap",
+      "matchedRules": []
+    },
+    {
+      "itemId": 24511,
+      "itemName": "Harmonised orb",
+      "currentState": "avoid",
+      "currentStateLabel": "Avoid",
+      "recommendedAction": "avoid",
+      "actionLabel": "Avoid",
+      "sizeHint": "No size recommended.",
+      "urgency": "caution",
+      "whyNow": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "caseCategory": "Thin liquidity trap",
+      "matchedRules": []
+    },
+    {
+      "itemId": 11286,
+      "itemName": "Draconic visage",
+      "currentState": "avoid",
+      "currentStateLabel": "Avoid",
+      "recommendedAction": "avoid",
+      "actionLabel": "Avoid",
+      "sizeHint": "No size recommended.",
+      "urgency": "caution",
+      "whyNow": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "caseCategory": "Thin liquidity trap",
+      "matchedRules": [
+        "Avoid low-flow high-ticket items unless the fill looks unusually clean."
+      ]
+    }
+  ],
+  "memoryPressure": [
+    {
+      "itemId": 11286,
+      "itemName": "Draconic visage",
+      "previousMistakes": 4,
+      "dominantPatterns": [
+        "fake_spread",
+        "late_entry"
+      ],
+      "memoryRiskLevel": "high",
+      "nextRuleHints": [
+        "Avoid low-flow high-ticket items unless the fill looks unusually clean.",
+        "Do not force entry when the recent move already looks stretched."
+      ]
+    },
+    {
+      "itemId": 4151,
+      "itemName": "Abyssal whip",
+      "previousMistakes": 2,
+      "dominantPatterns": [
+        "late_exit"
+      ],
+      "memoryRiskLevel": "high",
+      "nextRuleHints": [
+        "Take partial exits sooner when the edge compresses."
+      ]
+    },
+    {
+      "itemId": 565,
+      "itemName": "Blood rune",
+      "previousMistakes": 2,
+      "dominantPatterns": [
+        "late_exit"
+      ],
+      "memoryRiskLevel": "high",
+      "nextRuleHints": [
+        "Even on liquid runes, trim the position once the spread starts compressing."
+      ]
+    },
+    {
+      "itemId": 8778,
+      "itemName": "Oak plank",
+      "previousMistakes": 2,
+      "dominantPatterns": [
+        "late_exit"
+      ],
+      "memoryRiskLevel": "high",
+      "nextRuleHints": [
+        "Take partial exits sooner on stable, grindy items once the edge compresses."
+      ]
+    },
+    {
+      "itemId": 13239,
+      "itemName": "Primordial boots",
+      "previousMistakes": 2,
+      "dominantPatterns": [
+        "late_entry"
+      ],
+      "memoryRiskLevel": "high",
+      "nextRuleHints": [
+        "Respect stretched entries even on popular gear items."
+      ]
+    },
+    {
+      "itemId": 31914,
+      "itemName": "Rune cannonball",
+      "previousMistakes": 2,
+      "dominantPatterns": [
+        "tax_margin_collapse"
+      ],
+      "memoryRiskLevel": "high",
+      "nextRuleHints": [
+        "Do not overrate high-volume items when the post-tax edge is still tiny."
+      ]
+    },
+    {
+      "itemId": 20997,
+      "itemName": "Twisted bow",
+      "previousMistakes": 2,
+      "dominantPatterns": [
+        "fake_spread"
+      ],
+      "memoryRiskLevel": "high",
+      "nextRuleHints": [
+        "Treat mega-ticket items as trap-prone unless hourly flow is clearly real."
+      ]
+    },
+    {
+      "itemId": 560,
+      "itemName": "Death rune",
+      "previousMistakes": 0,
+      "dominantPatterns": [],
+      "memoryRiskLevel": "low",
+      "nextRuleHints": []
+    },
+    {
+      "itemId": 11212,
+      "itemName": "Dragon arrow",
+      "previousMistakes": 0,
+      "dominantPatterns": [],
+      "memoryRiskLevel": "low",
+      "nextRuleHints": []
+    },
+    {
+      "itemId": 11230,
+      "itemName": "Dragon dart",
+      "previousMistakes": 0,
+      "dominantPatterns": [],
+      "memoryRiskLevel": "low",
+      "nextRuleHints": []
+    },
+    {
+      "itemId": 25859,
+      "itemName": "Enhanced crystal weapon seed",
+      "previousMistakes": 0,
+      "dominantPatterns": [],
+      "memoryRiskLevel": "low",
+      "nextRuleHints": []
+    },
+    {
+      "itemId": 24511,
+      "itemName": "Harmonised orb",
+      "previousMistakes": 0,
+      "dominantPatterns": [],
+      "memoryRiskLevel": "low",
+      "nextRuleHints": []
+    },
+    {
+      "itemId": 19580,
+      "itemName": "Rune javelin tips",
+      "previousMistakes": 0,
+      "dominantPatterns": [],
+      "memoryRiskLevel": "low",
+      "nextRuleHints": []
+    },
+    {
+      "itemId": 2,
+      "itemName": "Steel cannonball",
+      "previousMistakes": 0,
+      "dominantPatterns": [],
+      "memoryRiskLevel": "low",
+      "nextRuleHints": []
+    },
+    {
+      "itemId": 26382,
+      "itemName": "Torva full helm",
+      "previousMistakes": 0,
+      "dominantPatterns": [],
+      "memoryRiskLevel": "low",
+      "nextRuleHints": []
+    }
+  ],
+  "memoryPatterns": [
+    {
+      "patternKey": "late_exit",
+      "patternLabel": "late exit",
+      "timesSeen": 3,
+      "lastSeenAt": "2026-04-04T12:05:00Z",
+      "affectedItems": [
+        "Abyssal whip",
+        "Oak plank",
+        "Blood rune"
+      ],
+      "consequenceLabel": "You tend to hold too long after the edge weakens.",
+      "nextRule": "Even on liquid runes, trim the position once the spread starts compressing."
+    },
+    {
+      "patternKey": "fake_spread",
+      "patternLabel": "fake spread",
+      "timesSeen": 3,
+      "lastSeenAt": "2026-04-03T10:50:00Z",
+      "affectedItems": [
+        "Draconic visage",
+        "Twisted bow",
+        "Ranger boots"
+      ],
+      "consequenceLabel": "You are repeatedly trusting spreads that do not execute cleanly.",
+      "nextRule": "Do not trust premium-gear spreads unless there is convincing recent flow."
+    },
+    {
+      "patternKey": "late_entry",
+      "patternLabel": "late entry",
+      "timesSeen": 2,
+      "lastSeenAt": "2026-04-03T14:35:00Z",
+      "affectedItems": [
+        "Draconic visage",
+        "Primordial boots"
+      ],
+      "consequenceLabel": "You tend to chase moves after the best entry window has passed.",
+      "nextRule": "Respect stretched entries even on popular gear items."
+    },
+    {
+      "patternKey": "tax_margin_collapse",
+      "patternLabel": "tax margin collapse",
+      "timesSeen": 1,
+      "lastSeenAt": "2026-04-04T09:25:00Z",
+      "affectedItems": [
+        "Rune cannonball"
+      ],
+      "consequenceLabel": "You keep forcing trades where friction destroys the usable edge.",
+      "nextRule": "Do not overrate high-volume items when the post-tax edge is still tiny."
+    }
+  ],
+  "postmortemFeed": [
+    {
+      "itemId": 565,
+      "itemName": "Blood rune",
+      "enteredAt": "2026-04-04T11:10:00Z",
+      "exitedAt": "2026-04-04T12:05:00Z",
+      "expectedMargin": 105000,
+      "realizedMargin": 68000,
+      "postmortemLabel": "late_exit",
+      "whatWentWrong": "Held too long after the edge weakened.",
+      "notes": "Still a good trade, but the exit lagged after the clean part of the move.",
+      "nextRule": "Even on liquid runes, trim the position once the spread starts compressing."
+    },
+    {
+      "itemId": 31914,
+      "itemName": "Rune cannonball",
+      "enteredAt": "2026-04-04T08:10:00Z",
+      "exitedAt": "2026-04-04T09:25:00Z",
+      "expectedMargin": 88000,
+      "realizedMargin": 9000,
+      "postmortemLabel": "tax_margin_collapse",
+      "whatWentWrong": "Tax and slippage erased the paper edge.",
+      "notes": "Looked fine until tax and tiny edge left almost nothing worth the effort.",
+      "nextRule": "Do not overrate high-volume items when the post-tax edge is still tiny."
+    },
+    {
+      "itemId": 8778,
+      "itemName": "Oak plank",
+      "enteredAt": "2026-04-03T16:20:00Z",
+      "exitedAt": "2026-04-03T18:00:00Z",
+      "expectedMargin": 52000,
+      "realizedMargin": 29000,
+      "postmortemLabel": "late_exit",
+      "whatWentWrong": "Held too long after the edge weakened.",
+      "notes": "The trade worked, but too much edge was given back by holding for the full limit.",
+      "nextRule": "Take partial exits sooner on stable, grindy items once the edge compresses."
+    },
+    {
+      "itemId": 13239,
+      "itemName": "Primordial boots",
+      "enteredAt": "2026-04-03T13:00:00Z",
+      "exitedAt": "2026-04-03T14:35:00Z",
+      "expectedMargin": 550000,
+      "realizedMargin": -90000,
+      "postmortemLabel": "late_entry",
+      "whatWentWrong": "Entered too late into an already extended move.",
+      "notes": "Paid up after the move was already extended.",
+      "nextRule": "Respect stretched entries even on popular gear items."
+    },
+    {
+      "itemId": 2577,
+      "itemName": "Ranger boots",
+      "enteredAt": "2026-04-03T07:30:00Z",
+      "exitedAt": "2026-04-03T10:50:00Z",
+      "expectedMargin": 900000,
+      "realizedMargin": 120000,
+      "postmortemLabel": "fake_spread",
+      "whatWentWrong": "Trusted a spread that did not execute as cleanly as it looked.",
+      "notes": "Another low-flow premium item that looked much cleaner on paper than in reality.",
+      "nextRule": "Do not trust premium-gear spreads unless there is convincing recent flow."
+    },
+    {
+      "itemId": 20997,
+      "itemName": "Twisted bow",
+      "enteredAt": "2026-04-02T15:10:00Z",
+      "exitedAt": "2026-04-02T19:00:00Z",
+      "expectedMargin": 6200000,
+      "realizedMargin": 450000,
+      "postmortemLabel": "fake_spread",
+      "whatWentWrong": "Trusted a spread that did not execute as cleanly as it looked.",
+      "notes": "Headline margin looked huge, but the market was far too concentrated.",
+      "nextRule": "Treat mega-ticket items as trap-prone unless hourly flow is clearly real."
+    },
+    {
+      "itemId": 11286,
+      "itemName": "Draconic visage",
+      "enteredAt": "2026-04-02T12:15:00Z",
+      "exitedAt": "2026-04-02T13:50:00Z",
+      "expectedMargin": 700000,
+      "realizedMargin": -120000,
+      "postmortemLabel": "late_entry",
+      "whatWentWrong": "Entered too late into an already extended move.",
+      "notes": "Chased an already extended move.",
+      "nextRule": "Do not force entry when the recent move already looks stretched."
+    },
+    {
+      "itemId": 4151,
+      "itemName": "Abyssal whip",
+      "enteredAt": "2026-04-02T08:00:00Z",
+      "exitedAt": "2026-04-02T11:00:00Z",
+      "expectedMargin": 14000,
+      "realizedMargin": 3000,
+      "postmortemLabel": "late_exit",
+      "whatWentWrong": "Held too long after the edge weakened.",
+      "notes": "Held too long after the spread weakened.",
+      "nextRule": "Take partial exits sooner when the edge compresses."
+    },
+    {
+      "itemId": 11286,
+      "itemName": "Draconic visage",
+      "enteredAt": "2026-04-01T18:10:00Z",
+      "exitedAt": "2026-04-01T23:40:00Z",
+      "expectedMargin": 620000,
+      "realizedMargin": 50000,
+      "postmortemLabel": "fake_spread",
+      "whatWentWrong": "Trusted a spread that did not execute as cleanly as it looked.",
+      "notes": "Spread looked huge, exit quality was terrible.",
+      "nextRule": "Avoid low-flow high-ticket items unless the fill looks unusually clean."
+    }
+  ],
+  "proofCases": [
+    {
+      "itemId": 11230,
+      "itemName": "Dragon dart",
+      "executionConfidence": "strong",
+      "executionConfidenceLabel": "Strong",
+      "trapScore": 0,
+      "trapFlags": [],
+      "recommendedAction": "enter_now",
+      "recommendedActionLabel": "Enter now",
+      "reasonSummary": "Net margin survives tax with enough room to still matter. Recent flow is strong enough that the market looks genuinely active.",
+      "flagDetails": [],
+      "strengths": [
+        {
+          "strengthType": "clean_margin",
+          "explanation": "Net margin survives tax with enough room to still matter.",
+          "evidenceBasis": "Net margin 0.63%.",
+          "score": 8
+        },
+        {
+          "strengthType": "high_flow_support",
+          "explanation": "Recent flow is strong enough that the market looks genuinely active.",
+          "evidenceBasis": "5m flow 3025, 1h flow 71534.",
+          "score": 10
+        },
+        {
+          "strengthType": "fresh_signal",
+          "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+          "evidenceBasis": "Freshness 50s.",
+          "score": 4
+        },
+        {
+          "strengthType": "stable_window",
+          "explanation": "The market looks relatively stable instead of violently stretched.",
+          "evidenceBasis": "Latest-vs-5m 0.00%, 5m-vs-1h 0.47%.",
+          "score": 5
+        },
+        {
+          "strengthType": "bankroll_fit",
+          "explanation": "Usable profit clears the bankroll target for this profile.",
+          "evidenceBasis": "Usable profit estimate 88000, threshold 80000.",
+          "score": 8
+        }
+      ],
+      "strengthLabels": [
+        "clean_margin",
+        "high_flow_support",
+        "fresh_signal",
+        "stable_window",
+        "bankroll_fit"
+      ],
+      "memoryNotes": [],
+      "matchedRules": [],
+      "matchedPatternKeys": [],
+      "usableProfitEstimate": 88000,
+      "grossMarginPct": 0.026045777426992895,
+      "netMarginPct": 0.006314127861089187,
+      "fiveMinuteFlow": 3025,
+      "oneHourFlow": 71534,
+      "caseCategory": "Clean tradable control",
+      "raw": {
+        "itemId": 11230,
+        "itemName": "Dragon dart",
+        "members": true,
+        "buyLimit": 11000,
+        "buyPrice": 1300,
+        "sellPrice": 1267,
+        "apparentMargin": 33,
+        "geTax": 25,
+        "taxAdjustedMargin": 8,
+        "grossMarginPct": 0.026045777426992895,
+        "netMarginPct": 0.006314127861089187,
+        "taxDragPct": 0.7575757575757576,
+        "usableProfitEstimate": 88000,
+        "capturedAt": "2026-04-05T20:15:01.231Z",
+        "freshnessSeconds": 50,
+        "freshnessLabel": "fresh",
+        "fiveMinuteHighVolume": 17067,
+        "fiveMinuteLowVolume": 3025,
+        "oneHourHighVolume": 227286,
+        "oneHourLowVolume": 71534,
+        "fiveMinuteFlow": 3025,
+        "oneHourFlow": 71534,
+        "fiveMinuteFlowVsLimit": 0.275,
+        "oneHourFlowVsLimit": 6.5030909090909095,
+        "fiveMinuteVolumeLabel": "medium",
+        "oneHourVolumeLabel": "very_high",
+        "fiveMinuteTrend": "flat",
+        "oneHourTrend": "flat",
+        "fiveMinuteVsHourDeltaPct": 0.004696673189823875,
+        "latestVsFiveMinuteDeltaPct": 0,
+        "notes": "high-flow tradable candidate",
+        "status": "active"
+      }
+    },
+    {
+      "itemId": 2,
+      "itemName": "Steel cannonball",
+      "executionConfidence": "strong",
+      "executionConfidenceLabel": "Strong",
+      "trapScore": 0,
+      "trapFlags": [
+        "limit_constrained"
+      ],
+      "recommendedAction": "small_size_only",
+      "recommendedActionLabel": "Small size only",
+      "reasonSummary": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+      "flagDetails": [
+        {
+          "trapType": "limit_constrained",
+          "severity": "low",
+          "explanation": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+          "evidenceBasis": "Usable profit estimate 77000, threshold 80000.",
+          "safeAlternative": "Prefer normal size only if you specifically want lower-risk turnover.",
+          "score": 6
+        }
+      ],
+      "strengths": [
+        {
+          "strengthType": "clean_margin",
+          "explanation": "Net margin survives tax with enough room to still matter.",
+          "evidenceBasis": "Net margin 2.36%.",
+          "score": 8
+        },
+        {
+          "strengthType": "high_flow_support",
+          "explanation": "Recent flow is strong enough that the market looks genuinely active.",
+          "evidenceBasis": "5m flow 16721, 1h flow 390777.",
+          "score": 10
+        },
+        {
+          "strengthType": "fresh_signal",
+          "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+          "evidenceBasis": "Freshness 60s.",
+          "score": 4
+        },
+        {
+          "strengthType": "stable_window",
+          "explanation": "The market looks relatively stable instead of violently stretched.",
+          "evidenceBasis": "Latest-vs-5m 0.00%, 5m-vs-1h 0.33%.",
+          "score": 5
+        }
+      ],
+      "strengthLabels": [
+        "clean_margin",
+        "high_flow_support",
+        "fresh_signal",
+        "stable_window"
+      ],
+      "memoryNotes": [],
+      "matchedRules": [],
+      "matchedPatternKeys": [],
+      "usableProfitEstimate": 77000,
+      "grossMarginPct": 0.04040404040404041,
+      "netMarginPct": 0.02356902356902357,
+      "fiveMinuteFlow": 16721,
+      "oneHourFlow": 390777,
+      "caseCategory": "Limit-constrained grind",
+      "raw": {
+        "itemId": 2,
+        "itemName": "Steel cannonball",
+        "members": true,
+        "buyLimit": 11000,
+        "buyPrice": 309,
+        "sellPrice": 297,
+        "apparentMargin": 12,
+        "geTax": 5,
+        "taxAdjustedMargin": 7,
+        "grossMarginPct": 0.04040404040404041,
+        "netMarginPct": 0.02356902356902357,
+        "taxDragPct": 0.4166666666666667,
+        "usableProfitEstimate": 77000,
+        "capturedAt": "2026-04-05T20:15:01.231Z",
+        "freshnessSeconds": 60,
+        "freshnessLabel": "fresh",
+        "fiveMinuteHighVolume": 47071,
+        "fiveMinuteLowVolume": 16721,
+        "oneHourHighVolume": 982853,
+        "oneHourLowVolume": 390777,
+        "fiveMinuteFlow": 16721,
+        "oneHourFlow": 390777,
+        "fiveMinuteFlowVsLimit": 1.5200909090909092,
+        "oneHourFlowVsLimit": 35.52518181818182,
+        "fiveMinuteVolumeLabel": "high",
+        "oneHourVolumeLabel": "very_high",
+        "fiveMinuteTrend": "flat",
+        "oneHourTrend": "flat",
+        "fiveMinuteVsHourDeltaPct": 0.0033112582781456954,
+        "latestVsFiveMinuteDeltaPct": 0,
+        "notes": "tiny-edge high-volume grind case",
+        "status": "active"
+      }
+    },
+    {
+      "itemId": 19580,
+      "itemName": "Rune javelin tips",
+      "executionConfidence": "strong",
+      "executionConfidenceLabel": "Strong",
+      "trapScore": 0,
+      "trapFlags": [
+        "limit_constrained"
+      ],
+      "recommendedAction": "small_size_only",
+      "recommendedActionLabel": "Small size only",
+      "reasonSummary": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+      "flagDetails": [
+        {
+          "trapType": "limit_constrained",
+          "severity": "low",
+          "explanation": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+          "evidenceBasis": "Usable profit estimate 60000, threshold 80000.",
+          "safeAlternative": "Prefer normal size only if you specifically want lower-risk turnover.",
+          "score": 6
+        }
+      ],
+      "strengths": [
+        {
+          "strengthType": "clean_margin",
+          "explanation": "Net margin survives tax with enough room to still matter.",
+          "evidenceBasis": "Net margin 1.33%.",
+          "score": 8
+        },
+        {
+          "strengthType": "high_flow_support",
+          "explanation": "Recent flow is strong enough that the market looks genuinely active.",
+          "evidenceBasis": "5m flow 6154, 1h flow 26860.",
+          "score": 10
+        },
+        {
+          "strengthType": "fresh_signal",
+          "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+          "evidenceBasis": "Freshness 53s.",
+          "score": 4
+        },
+        {
+          "strengthType": "stable_window",
+          "explanation": "The market looks relatively stable instead of violently stretched.",
+          "evidenceBasis": "Latest-vs-5m 0.00%, 5m-vs-1h -0.22%.",
+          "score": 5
+        }
+      ],
+      "strengthLabels": [
+        "clean_margin",
+        "high_flow_support",
+        "fresh_signal",
+        "stable_window"
+      ],
+      "memoryNotes": [],
+      "matchedRules": [],
+      "matchedPatternKeys": [],
+      "usableProfitEstimate": 60000,
+      "grossMarginPct": 0.03325942350332594,
+      "netMarginPct": 0.013303769401330377,
+      "fiveMinuteFlow": 6154,
+      "oneHourFlow": 26860,
+      "caseCategory": "Limit-constrained grind",
+      "raw": {
+        "itemId": 19580,
+        "itemName": "Rune javelin tips",
+        "members": true,
+        "buyLimit": 10000,
+        "buyPrice": 466,
+        "sellPrice": 451,
+        "apparentMargin": 15,
+        "geTax": 9,
+        "taxAdjustedMargin": 6,
+        "grossMarginPct": 0.03325942350332594,
+        "netMarginPct": 0.013303769401330377,
+        "taxDragPct": 0.6,
+        "usableProfitEstimate": 60000,
+        "capturedAt": "2026-04-05T20:15:01.231Z",
+        "freshnessSeconds": 53,
+        "freshnessLabel": "fresh",
+        "fiveMinuteHighVolume": 6154,
+        "fiveMinuteLowVolume": 7080,
+        "oneHourHighVolume": 26860,
+        "oneHourLowVolume": 65335,
+        "fiveMinuteFlow": 6154,
+        "oneHourFlow": 26860,
+        "fiveMinuteFlowVsLimit": 0.6154,
+        "oneHourFlowVsLimit": 2.686,
+        "fiveMinuteVolumeLabel": "high",
+        "oneHourVolumeLabel": "very_high",
+        "fiveMinuteTrend": "flat",
+        "oneHourTrend": "flat",
+        "fiveMinuteVsHourDeltaPct": -0.002176278563656148,
+        "latestVsFiveMinuteDeltaPct": 0,
+        "notes": "mid-ticket tradable candidate",
+        "status": "active"
+      }
+    },
+    {
+      "itemId": 560,
+      "itemName": "Death rune",
+      "executionConfidence": "strong",
+      "executionConfidenceLabel": "Strong",
+      "trapScore": 0,
+      "trapFlags": [
+        "limit_constrained"
+      ],
+      "recommendedAction": "small_size_only",
+      "recommendedActionLabel": "Small size only",
+      "reasonSummary": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+      "flagDetails": [
+        {
+          "trapType": "limit_constrained",
+          "severity": "low",
+          "explanation": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+          "evidenceBasis": "Usable profit estimate 50000, threshold 80000.",
+          "safeAlternative": "Prefer normal size only if you specifically want lower-risk turnover.",
+          "score": 6
+        }
+      ],
+      "strengths": [
+        {
+          "strengthType": "clean_margin",
+          "explanation": "Net margin survives tax with enough room to still matter.",
+          "evidenceBasis": "Net margin 1.09%.",
+          "score": 8
+        },
+        {
+          "strengthType": "high_flow_support",
+          "explanation": "Recent flow is strong enough that the market looks genuinely active.",
+          "evidenceBasis": "5m flow 57228, 1h flow 832168.",
+          "score": 10
+        },
+        {
+          "strengthType": "fresh_signal",
+          "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+          "evidenceBasis": "Freshness 57s.",
+          "score": 4
+        },
+        {
+          "strengthType": "stable_window",
+          "explanation": "The market looks relatively stable instead of violently stretched.",
+          "evidenceBasis": "Latest-vs-5m 0.82%, 5m-vs-1h -0.27%.",
+          "score": 5
+        }
+      ],
+      "strengthLabels": [
+        "clean_margin",
+        "high_flow_support",
+        "fresh_signal",
+        "stable_window"
+      ],
+      "memoryNotes": [],
+      "matchedRules": [],
+      "matchedPatternKeys": [],
+      "usableProfitEstimate": 50000,
+      "grossMarginPct": 0.0273224043715847,
+      "netMarginPct": 0.01092896174863388,
+      "fiveMinuteFlow": 57228,
+      "oneHourFlow": 832168,
+      "caseCategory": "Limit-constrained grind",
+      "raw": {
+        "itemId": 560,
+        "itemName": "Death rune",
+        "members": false,
+        "buyLimit": 25000,
+        "buyPrice": 188,
+        "sellPrice": 183,
+        "apparentMargin": 5,
+        "geTax": 3,
+        "taxAdjustedMargin": 2,
+        "grossMarginPct": 0.0273224043715847,
+        "netMarginPct": 0.01092896174863388,
+        "taxDragPct": 0.6,
+        "usableProfitEstimate": 50000,
+        "capturedAt": "2026-04-05T20:15:01.231Z",
+        "freshnessSeconds": 57,
+        "freshnessLabel": "fresh",
+        "fiveMinuteHighVolume": 83748,
+        "fiveMinuteLowVolume": 57228,
+        "oneHourHighVolume": 1347988,
+        "oneHourLowVolume": 832168,
+        "fiveMinuteFlow": 57228,
+        "oneHourFlow": 832168,
+        "fiveMinuteFlowVsLimit": 2.28912,
+        "oneHourFlowVsLimit": 33.28672,
+        "fiveMinuteVolumeLabel": "very_high",
+        "oneHourVolumeLabel": "very_high",
+        "fiveMinuteTrend": "flat",
+        "oneHourTrend": "flat",
+        "fiveMinuteVsHourDeltaPct": -0.0027100271002710027,
+        "latestVsFiveMinuteDeltaPct": 0.008152173913043478,
+        "notes": "high-volume rune control case",
+        "status": "active"
+      }
+    },
+    {
+      "itemId": 10034,
+      "itemName": "Red chinchompa",
+      "executionConfidence": "strong",
+      "executionConfidenceLabel": "Strong",
+      "trapScore": 0,
+      "trapFlags": [
+        "limit_constrained"
+      ],
+      "recommendedAction": "small_size_only",
+      "recommendedActionLabel": "Small size only",
+      "reasonSummary": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+      "flagDetails": [
+        {
+          "trapType": "limit_constrained",
+          "severity": "low",
+          "explanation": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+          "evidenceBasis": "Usable profit estimate 49000, threshold 80000.",
+          "safeAlternative": "Prefer normal size only if you specifically want lower-risk turnover.",
+          "score": 6
+        }
+      ],
+      "strengths": [
+        {
+          "strengthType": "clean_margin",
+          "explanation": "Net margin survives tax with enough room to still matter.",
+          "evidenceBasis": "Net margin 0.63%.",
+          "score": 8
+        },
+        {
+          "strengthType": "high_flow_support",
+          "explanation": "Recent flow is strong enough that the market looks genuinely active.",
+          "evidenceBasis": "5m flow 600, 1h flow 31507.",
+          "score": 10
+        },
+        {
+          "strengthType": "fresh_signal",
+          "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+          "evidenceBasis": "Freshness 50s.",
+          "score": 4
+        },
+        {
+          "strengthType": "stable_window",
+          "explanation": "The market looks relatively stable instead of violently stretched.",
+          "evidenceBasis": "Latest-vs-5m 0.09%, 5m-vs-1h -0.44%.",
+          "score": 5
+        }
+      ],
+      "strengthLabels": [
+        "clean_margin",
+        "high_flow_support",
+        "fresh_signal",
+        "stable_window"
+      ],
+      "memoryNotes": [],
+      "matchedRules": [],
+      "matchedPatternKeys": [],
+      "usableProfitEstimate": 49000,
+      "grossMarginPct": 0.02600896860986547,
+      "netMarginPct": 0.006278026905829596,
+      "fiveMinuteFlow": 600,
+      "oneHourFlow": 31507,
+      "caseCategory": "Limit-constrained grind",
+      "raw": {
+        "itemId": 10034,
+        "itemName": "Red chinchompa",
+        "members": true,
+        "buyLimit": 7000,
+        "buyPrice": 1144,
+        "sellPrice": 1115,
+        "apparentMargin": 29,
+        "geTax": 22,
+        "taxAdjustedMargin": 7,
+        "grossMarginPct": 0.02600896860986547,
+        "netMarginPct": 0.006278026905829596,
+        "taxDragPct": 0.7586206896551724,
+        "usableProfitEstimate": 49000,
+        "capturedAt": "2026-04-05T20:15:01.231Z",
+        "freshnessSeconds": 50,
+        "freshnessLabel": "fresh",
+        "fiveMinuteHighVolume": 600,
+        "fiveMinuteLowVolume": 26920,
+        "oneHourHighVolume": 55705,
+        "oneHourLowVolume": 31507,
+        "fiveMinuteFlow": 600,
+        "oneHourFlow": 31507,
+        "fiveMinuteFlowVsLimit": 0.08571428571428572,
+        "oneHourFlowVsLimit": 4.501,
+        "fiveMinuteVolumeLabel": "low",
+        "oneHourVolumeLabel": "very_high",
+        "fiveMinuteTrend": "flat",
+        "oneHourTrend": "flat",
+        "fiveMinuteVsHourDeltaPct": -0.004411116012351125,
+        "latestVsFiveMinuteDeltaPct": 0.0008861320336730173,
+        "notes": "higher-margin but still liquid control case",
+        "status": "active"
+      }
+    },
+    {
+      "itemId": 563,
+      "itemName": "Law rune",
+      "executionConfidence": "strong",
+      "executionConfidenceLabel": "Strong",
+      "trapScore": 0,
+      "trapFlags": [
+        "limit_constrained"
+      ],
+      "recommendedAction": "small_size_only",
+      "recommendedActionLabel": "Small size only",
+      "reasonSummary": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+      "flagDetails": [
+        {
+          "trapType": "limit_constrained",
+          "severity": "low",
+          "explanation": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+          "evidenceBasis": "Usable profit estimate 36000, threshold 80000.",
+          "safeAlternative": "Prefer normal size only if you specifically want lower-risk turnover.",
+          "score": 6
+        }
+      ],
+      "strengths": [
+        {
+          "strengthType": "clean_margin",
+          "explanation": "Net margin survives tax with enough room to still matter.",
+          "evidenceBasis": "Net margin 1.63%.",
+          "score": 8
+        },
+        {
+          "strengthType": "high_flow_support",
+          "explanation": "Recent flow is strong enough that the market looks genuinely active.",
+          "evidenceBasis": "5m flow 3148, 1h flow 215632.",
+          "score": 10
+        },
+        {
+          "strengthType": "fresh_signal",
+          "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+          "evidenceBasis": "Freshness 50s.",
+          "score": 4
+        },
+        {
+          "strengthType": "stable_window",
+          "explanation": "The market looks relatively stable instead of violently stretched.",
+          "evidenceBasis": "Latest-vs-5m 0.00%, 5m-vs-1h 0.40%.",
+          "score": 5
+        }
+      ],
+      "strengthLabels": [
+        "clean_margin",
+        "high_flow_support",
+        "fresh_signal",
+        "stable_window"
+      ],
+      "memoryNotes": [],
+      "matchedRules": [],
+      "matchedPatternKeys": [],
+      "usableProfitEstimate": 36000,
+      "grossMarginPct": 0.032520325203252036,
+      "netMarginPct": 0.016260162601626018,
+      "fiveMinuteFlow": 3148,
+      "oneHourFlow": 215632,
+      "caseCategory": "Limit-constrained grind",
+      "raw": {
+        "itemId": 563,
+        "itemName": "Law rune",
+        "members": false,
+        "buyLimit": 18000,
+        "buyPrice": 127,
+        "sellPrice": 123,
+        "apparentMargin": 4,
+        "geTax": 2,
+        "taxAdjustedMargin": 2,
+        "grossMarginPct": 0.032520325203252036,
+        "netMarginPct": 0.016260162601626018,
+        "taxDragPct": 0.5,
+        "usableProfitEstimate": 36000,
+        "capturedAt": "2026-04-05T20:15:01.231Z",
+        "freshnessSeconds": 50,
+        "freshnessLabel": "fresh",
+        "fiveMinuteHighVolume": 3148,
+        "fiveMinuteLowVolume": 22763,
+        "oneHourHighVolume": 354912,
+        "oneHourLowVolume": 215632,
+        "fiveMinuteFlow": 3148,
+        "oneHourFlow": 215632,
+        "fiveMinuteFlowVsLimit": 0.1748888888888889,
+        "oneHourFlowVsLimit": 11.979555555555555,
+        "fiveMinuteVolumeLabel": "medium",
+        "oneHourVolumeLabel": "very_high",
+        "fiveMinuteTrend": "flat",
+        "oneHourTrend": "flat",
+        "fiveMinuteVsHourDeltaPct": 0.004016064257028112,
+        "latestVsFiveMinuteDeltaPct": 0,
+        "notes": "high-volume rune control case",
+        "status": "active"
+      }
+    },
+    {
+      "itemId": 2577,
+      "itemName": "Ranger boots",
+      "executionConfidence": "trap_risk",
+      "executionConfidenceLabel": "Trap-risk",
+      "trapScore": 55,
+      "trapFlags": [
+        "tax_margin_collapse",
+        "fake_spread_risk",
+        "concentration_risk",
+        "stale_signal",
+        "memory_repeat_risk",
+        "style_repeat_risk"
+      ],
+      "recommendedAction": "wait",
+      "recommendedActionLabel": "Wait",
+      "reasonSummary": "The trade survives tax, but most of the edge is still too thin to trust heavily. The headline spread looks exciting, but short-term execution support is too weak to trust it blindly.",
+      "flagDetails": [
+        {
+          "trapType": "tax_margin_collapse",
+          "severity": "medium",
+          "explanation": "The trade survives tax, but most of the edge is still too thin to trust heavily.",
+          "evidenceBasis": "Apparent margin 687290, tax-adjusted 133790.",
+          "safeAlternative": "Treat as a thin edge unless the rest of the execution picture is exceptionally clean.",
+          "score": 14
+        },
+        {
+          "trapType": "fake_spread_risk",
+          "severity": "medium",
+          "explanation": "The headline spread looks exciting, but short-term execution support is too weak to trust it blindly.",
+          "evidenceBasis": "Gross margin 2.48%, 5m flow 0, 1h flow 7.",
+          "safeAlternative": "Wait for stronger evidence instead of paying up for the headline spread.",
+          "score": 16
+        },
+        {
+          "trapType": "concentration_risk",
+          "severity": "medium",
+          "explanation": "This is a high-ticket item with weak hourly turnover. You may be reading a highly concentrated market, not a clean opportunity.",
+          "evidenceBasis": "Sell price 27675025, 1h flow 7.",
+          "safeAlternative": "Treat as trap-prone unless you have unusually strong reason to believe the fills are real.",
+          "score": 18
+        },
+        {
+          "trapType": "stale_signal",
+          "severity": "low",
+          "explanation": "The latest signal is stale enough that the displayed edge may already have moved.",
+          "evidenceBasis": "Freshness 459s.",
+          "safeAlternative": "Refresh before acting aggressively.",
+          "score": 8
+        },
+        {
+          "trapType": "memory_repeat_risk",
+          "severity": "medium",
+          "explanation": "You have repeated this same mistake on this item before.",
+          "evidenceBasis": "2 matching postmortems already exist for Ranger boots.",
+          "safeAlternative": "Do not trust premium-gear spreads unless there is convincing recent flow.",
+          "score": 12
+        },
+        {
+          "trapType": "style_repeat_risk",
+          "severity": "low",
+          "explanation": "This also matches a broader execution mistake pattern already present in your memory log.",
+          "evidenceBasis": "Repeated memory patterns: fake spread.",
+          "safeAlternative": "Do not trust premium-gear spreads unless there is convincing recent flow.",
+          "score": 3
+        }
+      ],
+      "strengths": [
+        {
+          "strengthType": "clean_margin",
+          "explanation": "Net margin survives tax with enough room to still matter.",
+          "evidenceBasis": "Net margin 0.48%.",
+          "score": 8
+        },
+        {
+          "strengthType": "bankroll_fit",
+          "explanation": "Usable profit clears the bankroll target for this profile.",
+          "evidenceBasis": "Usable profit estimate 1070320, threshold 80000.",
+          "score": 8
+        }
+      ],
+      "strengthLabels": [
+        "clean_margin",
+        "bankroll_fit"
+      ],
+      "memoryNotes": [
+        "Repeated item-specific mistake history on Ranger boots.",
+        "Broader repeated style pattern detected: fake spread."
+      ],
+      "matchedRules": [
+        "Do not trust premium-gear spreads unless there is convincing recent flow."
+      ],
+      "matchedPatternKeys": [
+        "fake_spread"
+      ],
+      "usableProfitEstimate": 1070320,
+      "grossMarginPct": 0.024834304576057294,
+      "netMarginPct": 0.004834322642888308,
+      "fiveMinuteFlow": 0,
+      "oneHourFlow": 7,
+      "caseCategory": "Fake spread trap",
+      "raw": {
+        "itemId": 2577,
+        "itemName": "Ranger boots",
+        "members": true,
+        "buyLimit": 8,
+        "buyPrice": 28362315,
+        "sellPrice": 27675025,
+        "apparentMargin": 687290,
+        "geTax": 553500,
+        "taxAdjustedMargin": 133790,
+        "grossMarginPct": 0.024834304576057294,
+        "netMarginPct": 0.004834322642888308,
+        "taxDragPct": 0.8053369029085248,
+        "usableProfitEstimate": 1070320,
+        "capturedAt": "2026-04-05T20:15:01.231Z",
+        "freshnessSeconds": 459,
+        "freshnessLabel": "stale",
+        "fiveMinuteHighVolume": 0,
+        "fiveMinuteLowVolume": 1,
+        "oneHourHighVolume": 9,
+        "oneHourLowVolume": 7,
+        "fiveMinuteFlow": 0,
+        "oneHourFlow": 7,
+        "fiveMinuteFlowVsLimit": 0,
+        "oneHourFlowVsLimit": 0.875,
+        "fiveMinuteVolumeLabel": "very_low",
+        "oneHourVolumeLabel": "very_low",
+        "fiveMinuteTrend": "flat",
+        "oneHourTrend": "flat",
+        "fiveMinuteVsHourDeltaPct": -0.011424334424397204,
+        "latestVsFiveMinuteDeltaPct": 0.012417152288028647,
+        "notes": "low-flow premium gear trap candidate",
+        "status": "active"
+      }
+    },
+    {
+      "itemId": 29801,
+      "itemName": "Amulet of rancour",
+      "executionConfidence": "fragile",
+      "executionConfidenceLabel": "Fragile",
+      "trapScore": 49,
+      "trapFlags": [
+        "tax_margin_collapse",
+        "limit_constrained",
+        "stale_signal"
+      ],
+      "recommendedAction": "wait",
+      "recommendedActionLabel": "Wait",
+      "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "flagDetails": [
+        {
+          "trapType": "tax_margin_collapse",
+          "severity": "high",
+          "explanation": "Tax and spread wipe out the usable edge.",
+          "evidenceBasis": "Apparent margin 259310, tax-adjusted -951264.",
+          "safeAlternative": "Avoid unless the spread improves materially.",
+          "score": 34
+        },
+        {
+          "trapType": "limit_constrained",
+          "severity": "medium",
+          "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+          "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+          "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item.",
+          "score": 12
+        },
+        {
+          "trapType": "stale_signal",
+          "severity": "low",
+          "explanation": "The latest signal is stale enough that the displayed edge may already have moved.",
+          "evidenceBasis": "Freshness 274s.",
+          "safeAlternative": "Refresh before acting aggressively.",
+          "score": 8
+        }
+      ],
+      "strengths": [
+        {
+          "strengthType": "stable_window",
+          "explanation": "The market looks relatively stable instead of violently stretched.",
+          "evidenceBasis": "Latest-vs-5m 0.21%, 5m-vs-1h -1.38%.",
+          "score": 5
+        }
+      ],
+      "strengthLabels": [
+        "stable_window"
+      ],
+      "memoryNotes": [],
+      "matchedRules": [],
+      "matchedPatternKeys": [],
+      "usableProfitEstimate": 0,
+      "grossMarginPct": 0.004284082427391403,
+      "netMarginPct": -0.015715912946704932,
+      "fiveMinuteFlow": 0,
+      "oneHourFlow": 45,
+      "caseCategory": "Tax margin collapse",
+      "raw": {
+        "itemId": 29801,
+        "itemName": "Amulet of rancour",
+        "members": true,
+        "buyLimit": 8,
+        "buyPrice": 60788024,
+        "sellPrice": 60528714,
+        "apparentMargin": 259310,
+        "geTax": 1210574,
+        "taxAdjustedMargin": -951264,
+        "grossMarginPct": 0.004284082427391403,
+        "netMarginPct": -0.015715912946704932,
+        "taxDragPct": 4.668443176121245,
+        "usableProfitEstimate": 0,
+        "capturedAt": "2026-04-05T20:15:01.231Z",
+        "freshnessSeconds": 274,
+        "freshnessLabel": "stale",
+        "fiveMinuteHighVolume": 0,
+        "fiveMinuteLowVolume": 1,
+        "oneHourHighVolume": 46,
+        "oneHourLowVolume": 45,
+        "fiveMinuteFlow": 0,
+        "oneHourFlow": 45,
+        "fiveMinuteFlowVsLimit": 0,
+        "oneHourFlowVsLimit": 5.625,
+        "fiveMinuteVolumeLabel": "very_low",
+        "oneHourVolumeLabel": "very_low",
+        "fiveMinuteTrend": "flat",
+        "oneHourTrend": "flat",
+        "fiveMinuteVsHourDeltaPct": -0.01380792734746398,
+        "latestVsFiveMinuteDeltaPct": 0.0021420412136957017,
+        "notes": "current hype-item trap candidate",
+        "status": "active"
+      }
+    },
+    {
+      "itemId": 13239,
+      "itemName": "Primordial boots",
+      "executionConfidence": "fragile",
+      "executionConfidenceLabel": "Fragile",
+      "trapScore": 46,
+      "trapFlags": [
+        "tax_margin_collapse",
+        "limit_constrained"
+      ],
+      "recommendedAction": "rotate_elsewhere",
+      "recommendedActionLabel": "Rotate elsewhere",
+      "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "flagDetails": [
+        {
+          "trapType": "tax_margin_collapse",
+          "severity": "high",
+          "explanation": "Tax and spread wipe out the usable edge.",
+          "evidenceBasis": "Apparent margin 249059, tax-adjusted -159141.",
+          "safeAlternative": "Avoid unless the spread improves materially.",
+          "score": 34
+        },
+        {
+          "trapType": "limit_constrained",
+          "severity": "medium",
+          "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+          "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+          "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item.",
+          "score": 12
+        }
+      ],
+      "strengths": [],
+      "strengthLabels": [],
+      "memoryNotes": [],
+      "matchedRules": [],
+      "matchedPatternKeys": [],
+      "usableProfitEstimate": 0,
+      "grossMarginPct": 0.012202792748652621,
+      "netMarginPct": -0.007797207251347379,
+      "fiveMinuteFlow": 7,
+      "oneHourFlow": 55,
+      "caseCategory": "Tax margin collapse",
+      "raw": {
+        "itemId": 13239,
+        "itemName": "Primordial boots",
+        "members": true,
+        "buyLimit": 15,
+        "buyPrice": 20659059,
+        "sellPrice": 20410000,
+        "apparentMargin": 249059,
+        "geTax": 408200,
+        "taxAdjustedMargin": -159141,
+        "grossMarginPct": 0.012202792748652621,
+        "netMarginPct": -0.007797207251347379,
+        "taxDragPct": 1.6389690796156733,
+        "usableProfitEstimate": 0,
+        "capturedAt": "2026-04-05T20:15:01.231Z",
+        "freshnessSeconds": 106,
+        "freshnessLabel": "recent",
+        "fiveMinuteHighVolume": 11,
+        "fiveMinuteLowVolume": 7,
+        "oneHourHighVolume": 67,
+        "oneHourLowVolume": 55,
+        "fiveMinuteFlow": 7,
+        "oneHourFlow": 55,
+        "fiveMinuteFlowVsLimit": 0.4666666666666667,
+        "oneHourFlowVsLimit": 3.6666666666666665,
+        "fiveMinuteVolumeLabel": "very_low",
+        "oneHourVolumeLabel": "very_low",
+        "fiveMinuteTrend": "flat",
+        "oneHourTrend": "flat",
+        "fiveMinuteVsHourDeltaPct": -0.009473673762195734,
+        "latestVsFiveMinuteDeltaPct": 0.013662093836013309,
+        "notes": "popular gear piece with low-flow risk",
+        "status": "active"
+      }
+    },
+    {
+      "itemId": 4695,
+      "itemName": "Mist rune",
+      "executionConfidence": "fragile",
+      "executionConfidenceLabel": "Fragile",
+      "trapScore": 37,
+      "trapFlags": [
+        "tax_margin_collapse",
+        "limit_constrained"
+      ],
+      "recommendedAction": "rotate_elsewhere",
+      "recommendedActionLabel": "Rotate elsewhere",
+      "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "flagDetails": [
+        {
+          "trapType": "tax_margin_collapse",
+          "severity": "high",
+          "explanation": "Tax and spread wipe out the usable edge.",
+          "evidenceBasis": "Apparent margin 1, tax-adjusted 0.",
+          "safeAlternative": "Avoid unless the spread improves materially.",
+          "score": 34
+        },
+        {
+          "trapType": "limit_constrained",
+          "severity": "medium",
+          "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+          "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+          "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item.",
+          "score": 12
+        }
+      ],
+      "strengths": [
+        {
+          "strengthType": "fresh_signal",
+          "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+          "evidenceBasis": "Freshness 66s.",
+          "score": 4
+        },
+        {
+          "strengthType": "stable_window",
+          "explanation": "The market looks relatively stable instead of violently stretched.",
+          "evidenceBasis": "Latest-vs-5m -0.63%, 5m-vs-1h 0.00%.",
+          "score": 5
+        }
+      ],
+      "strengthLabels": [
+        "fresh_signal",
+        "stable_window"
+      ],
+      "memoryNotes": [],
+      "matchedRules": [],
+      "matchedPatternKeys": [],
+      "usableProfitEstimate": 0,
+      "grossMarginPct": 0.012658227848101266,
+      "netMarginPct": 0,
+      "fiveMinuteFlow": 30,
+      "oneHourFlow": 14603,
+      "caseCategory": "Tax margin collapse",
+      "raw": {
+        "itemId": 4695,
+        "itemName": "Mist rune",
+        "members": true,
+        "buyLimit": 18000,
+        "buyPrice": 80,
+        "sellPrice": 79,
+        "apparentMargin": 1,
+        "geTax": 1,
+        "taxAdjustedMargin": 0,
+        "grossMarginPct": 0.012658227848101266,
+        "netMarginPct": 0,
+        "taxDragPct": 1,
+        "usableProfitEstimate": 0,
+        "capturedAt": "2026-04-05T20:15:01.231Z",
+        "freshnessSeconds": 66,
+        "freshnessLabel": "recent",
+        "fiveMinuteHighVolume": 30,
+        "fiveMinuteLowVolume": 15085,
+        "oneHourHighVolume": 14603,
+        "oneHourLowVolume": 40391,
+        "fiveMinuteFlow": 30,
+        "oneHourFlow": 14603,
+        "fiveMinuteFlowVsLimit": 0.0016666666666666668,
+        "oneHourFlowVsLimit": 0.8112777777777778,
+        "fiveMinuteVolumeLabel": "very_low",
+        "oneHourVolumeLabel": "high",
+        "fiveMinuteTrend": "flat",
+        "oneHourTrend": "flat",
+        "fiveMinuteVsHourDeltaPct": 0,
+        "latestVsFiveMinuteDeltaPct": -0.00625,
+        "notes": "hybrid rune control case",
+        "status": "active"
+      }
+    },
+    {
+      "itemId": 4151,
+      "itemName": "Abyssal whip",
+      "executionConfidence": "fragile",
+      "executionConfidenceLabel": "Fragile",
+      "trapScore": 37,
+      "trapFlags": [
+        "tax_margin_collapse",
+        "limit_constrained"
+      ],
+      "recommendedAction": "rotate_elsewhere",
+      "recommendedActionLabel": "Rotate elsewhere",
+      "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "flagDetails": [
+        {
+          "trapType": "tax_margin_collapse",
+          "severity": "high",
+          "explanation": "Tax and spread wipe out the usable edge.",
+          "evidenceBasis": "Apparent margin 0, tax-adjusted -23400.",
+          "safeAlternative": "Avoid unless the spread improves materially.",
+          "score": 34
+        },
+        {
+          "trapType": "limit_constrained",
+          "severity": "medium",
+          "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+          "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+          "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item.",
+          "score": 12
+        }
+      ],
+      "strengths": [
+        {
+          "strengthType": "fresh_signal",
+          "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+          "evidenceBasis": "Freshness 52s.",
+          "score": 4
+        },
+        {
+          "strengthType": "stable_window",
+          "explanation": "The market looks relatively stable instead of violently stretched.",
+          "evidenceBasis": "Latest-vs-5m 0.19%, 5m-vs-1h -0.58%.",
+          "score": 5
+        }
+      ],
+      "strengthLabels": [
+        "fresh_signal",
+        "stable_window"
+      ],
+      "memoryNotes": [],
+      "matchedRules": [],
+      "matchedPatternKeys": [],
+      "usableProfitEstimate": 0,
+      "grossMarginPct": 0,
+      "netMarginPct": -0.02,
+      "fiveMinuteFlow": 12,
+      "oneHourFlow": 88,
+      "caseCategory": "Tax margin collapse",
+      "raw": {
+        "itemId": 4151,
+        "itemName": "Abyssal whip",
+        "members": true,
+        "buyLimit": 70,
+        "buyPrice": 1168451,
+        "sellPrice": 1170000,
+        "apparentMargin": 0,
+        "geTax": 23400,
+        "taxAdjustedMargin": -23400,
+        "grossMarginPct": 0,
+        "netMarginPct": -0.02,
+        "taxDragPct": 0.02,
+        "usableProfitEstimate": 0,
+        "capturedAt": "2026-04-05T20:15:01.231Z",
+        "freshnessSeconds": 52,
+        "freshnessLabel": "fresh",
+        "fiveMinuteHighVolume": 12,
+        "fiveMinuteLowVolume": 17,
+        "oneHourHighVolume": 88,
+        "oneHourLowVolume": 152,
+        "fiveMinuteFlow": 12,
+        "oneHourFlow": 88,
+        "fiveMinuteFlowVsLimit": 0.17142857142857143,
+        "oneHourFlowVsLimit": 1.2571428571428571,
+        "fiveMinuteVolumeLabel": "very_low",
+        "oneHourVolumeLabel": "very_low",
+        "fiveMinuteTrend": "flat",
+        "oneHourTrend": "flat",
+        "fiveMinuteVsHourDeltaPct": -0.005788472212223819,
+        "latestVsFiveMinuteDeltaPct": 0.0019035924469839006,
+        "notes": "classic fake-spread / thin-liquidity candidate",
+        "status": "active"
+      }
+    },
+    {
+      "itemId": 11286,
+      "itemName": "Draconic visage",
+      "executionConfidence": "avoid",
+      "executionConfidenceLabel": "Avoid",
+      "trapScore": 100,
+      "trapFlags": [
+        "tax_margin_collapse",
+        "limit_constrained",
+        "thin_liquidity",
+        "exit_risk",
+        "stale_signal",
+        "memory_repeat_risk",
+        "style_repeat_risk"
+      ],
+      "recommendedAction": "avoid",
+      "recommendedActionLabel": "Avoid",
+      "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "flagDetails": [
+        {
+          "trapType": "tax_margin_collapse",
+          "severity": "high",
+          "explanation": "Tax and spread wipe out the usable edge.",
+          "evidenceBasis": "Apparent margin 60751, tax-adjusted -2249.",
+          "safeAlternative": "Avoid unless the spread improves materially.",
+          "score": 34
+        },
+        {
+          "trapType": "limit_constrained",
+          "severity": "medium",
+          "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+          "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+          "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item.",
+          "score": 12
+        },
+        {
+          "trapType": "thin_liquidity",
+          "severity": "high",
+          "explanation": "Recent fill flow looks too thin relative to the size the market claims to support.",
+          "evidenceBasis": "5m flow 0, 1h flow 1, buy limit 5.",
+          "safeAlternative": "Avoid or trade far smaller size.",
+          "score": 24
+        },
+        {
+          "trapType": "exit_risk",
+          "severity": "medium",
+          "explanation": "The exit side looks weaker than the headline spread suggests.",
+          "evidenceBasis": "1h trend spiking_down, tax-adjusted margin -2249.",
+          "safeAlternative": "Treat as fragile until the exit quality improves.",
+          "score": 12
+        },
+        {
+          "trapType": "stale_signal",
+          "severity": "low",
+          "explanation": "The latest signal is stale enough that the displayed edge may already have moved.",
+          "evidenceBasis": "Freshness 290s.",
+          "safeAlternative": "Refresh before acting aggressively.",
+          "score": 8
+        },
+        {
+          "trapType": "memory_repeat_risk",
+          "severity": "medium",
+          "explanation": "You have repeated this same mistake on this item before.",
+          "evidenceBasis": "2 matching postmortems already exist for Draconic visage.",
+          "safeAlternative": "Avoid low-flow high-ticket items unless the fill looks unusually clean.",
+          "score": 12
+        },
+        {
+          "trapType": "style_repeat_risk",
+          "severity": "low",
+          "explanation": "This also matches a broader execution mistake pattern already present in your memory log.",
+          "evidenceBasis": "Repeated memory patterns: fake spread, late exit.",
+          "safeAlternative": "Avoid low-flow high-ticket items unless the fill looks unusually clean.",
+          "score": 3
+        }
+      ],
+      "strengths": [],
+      "strengthLabels": [],
+      "memoryNotes": [
+        "Repeated item-specific mistake history on Draconic visage.",
+        "Broader repeated style pattern detected: fake spread, late exit."
+      ],
+      "matchedRules": [
+        "Avoid low-flow high-ticket items unless the fill looks unusually clean."
+      ],
+      "matchedPatternKeys": [
+        "fake_spread",
+        "late_exit"
+      ],
+      "usableProfitEstimate": 0,
+      "grossMarginPct": 0.01928602562348393,
+      "netMarginPct": -0.0007139680273117373,
+      "fiveMinuteFlow": 0,
+      "oneHourFlow": 1,
+      "caseCategory": "Thin liquidity trap",
+      "raw": {
+        "itemId": 11286,
+        "itemName": "Draconic visage",
+        "members": true,
+        "buyLimit": 5,
+        "buyPrice": 3210752,
+        "sellPrice": 3150001,
+        "apparentMargin": 60751,
+        "geTax": 63000,
+        "taxAdjustedMargin": -2249,
+        "grossMarginPct": 0.01928602562348393,
+        "netMarginPct": -0.0007139680273117373,
+        "taxDragPct": 1.0370199667495186,
+        "usableProfitEstimate": 0,
+        "capturedAt": "2026-04-05T20:15:01.231Z",
+        "freshnessSeconds": 290,
+        "freshnessLabel": "stale",
+        "fiveMinuteHighVolume": 0,
+        "fiveMinuteLowVolume": 0,
+        "oneHourHighVolume": 1,
+        "oneHourLowVolume": 7,
+        "fiveMinuteFlow": 0,
+        "oneHourFlow": 1,
+        "fiveMinuteFlowVsLimit": 0,
+        "oneHourFlowVsLimit": 0.2,
+        "fiveMinuteVolumeLabel": "very_low",
+        "oneHourVolumeLabel": "very_low",
+        "fiveMinuteTrend": "flat",
+        "oneHourTrend": "spiking_down",
+        "fiveMinuteVsHourDeltaPct": -1,
+        "latestVsFiveMinuteDeltaPct": 0,
+        "notes": "high-ticket trap candidate",
+        "status": "active"
+      }
+    },
+    {
+      "itemId": 25859,
+      "itemName": "Enhanced crystal weapon seed",
+      "executionConfidence": "avoid",
+      "executionConfidenceLabel": "Avoid",
+      "trapScore": 94,
+      "trapFlags": [
+        "tax_margin_collapse",
+        "limit_constrained",
+        "thin_liquidity",
+        "concentration_risk",
+        "stale_signal",
+        "style_repeat_risk"
+      ],
+      "recommendedAction": "avoid",
+      "recommendedActionLabel": "Avoid",
+      "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "flagDetails": [
+        {
+          "trapType": "tax_margin_collapse",
+          "severity": "high",
+          "explanation": "Tax and spread wipe out the usable edge.",
+          "evidenceBasis": "Apparent margin 2780395, tax-adjusted -262477.",
+          "safeAlternative": "Avoid unless the spread improves materially.",
+          "score": 34
+        },
+        {
+          "trapType": "limit_constrained",
+          "severity": "medium",
+          "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+          "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+          "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item.",
+          "score": 12
+        },
+        {
+          "trapType": "thin_liquidity",
+          "severity": "high",
+          "explanation": "Recent fill flow looks too thin relative to the size the market claims to support.",
+          "evidenceBasis": "5m flow 0, 1h flow 2, buy limit 70.",
+          "safeAlternative": "Avoid or trade far smaller size.",
+          "score": 24
+        },
+        {
+          "trapType": "concentration_risk",
+          "severity": "medium",
+          "explanation": "This is a high-ticket item with weak hourly turnover. You may be reading a highly concentrated market, not a clean opportunity.",
+          "evidenceBasis": "Sell price 152143604, 1h flow 2.",
+          "safeAlternative": "Treat as trap-prone unless you have unusually strong reason to believe the fills are real.",
+          "score": 18
+        },
+        {
+          "trapType": "stale_signal",
+          "severity": "low",
+          "explanation": "The latest signal is stale enough that the displayed edge may already have moved.",
+          "evidenceBasis": "Freshness 426s.",
+          "safeAlternative": "Refresh before acting aggressively.",
+          "score": 8
+        },
+        {
+          "trapType": "style_repeat_risk",
+          "severity": "low",
+          "explanation": "This also matches a broader execution mistake pattern already present in your memory log.",
+          "evidenceBasis": "Repeated memory patterns: fake spread.",
+          "safeAlternative": "Trade smaller or wait for a cleaner setup.",
+          "score": 3
+        }
+      ],
+      "strengths": [
+        {
+          "strengthType": "stable_window",
+          "explanation": "The market looks relatively stable instead of violently stretched.",
+          "evidenceBasis": "Latest-vs-5m 0.91%, 5m-vs-1h -0.77%.",
+          "score": 5
+        }
+      ],
+      "strengthLabels": [
+        "stable_window"
+      ],
+      "memoryNotes": [
+        "Broader repeated style pattern detected: fake spread."
+      ],
+      "matchedRules": [],
+      "matchedPatternKeys": [
+        "fake_spread"
+      ],
+      "usableProfitEstimate": 0,
+      "grossMarginPct": 0.018274807004045993,
+      "netMarginPct": -0.0017251924701349917,
+      "fiveMinuteFlow": 0,
+      "oneHourFlow": 2,
+      "caseCategory": "Thin liquidity trap",
+      "raw": {
+        "itemId": 25859,
+        "itemName": "Enhanced crystal weapon seed",
+        "members": true,
+        "buyLimit": 70,
+        "buyPrice": 154923999,
+        "sellPrice": 152143604,
+        "apparentMargin": 2780395,
+        "geTax": 3042872,
+        "taxAdjustedMargin": -262477,
+        "grossMarginPct": 0.018274807004045993,
+        "netMarginPct": -0.0017251924701349917,
+        "taxDragPct": 1.0944027737066135,
+        "usableProfitEstimate": 0,
+        "capturedAt": "2026-04-05T20:15:01.231Z",
+        "freshnessSeconds": 426,
+        "freshnessLabel": "stale",
+        "fiveMinuteHighVolume": 0,
+        "fiveMinuteLowVolume": 1,
+        "oneHourHighVolume": 3,
+        "oneHourLowVolume": 2,
+        "fiveMinuteFlow": 0,
+        "oneHourFlow": 2,
+        "fiveMinuteFlowVsLimit": 0,
+        "oneHourFlowVsLimit": 0.02857142857142857,
+        "fiveMinuteVolumeLabel": "very_low",
+        "oneHourVolumeLabel": "very_low",
+        "fiveMinuteTrend": "flat",
+        "oneHourTrend": "flat",
+        "fiveMinuteVsHourDeltaPct": -0.007686882289077385,
+        "latestVsFiveMinuteDeltaPct": 0.009137403502022997,
+        "notes": "high-price stale / thin market candidate",
+        "status": "active"
+      }
+    },
+    {
+      "itemId": 26382,
+      "itemName": "Torva full helm",
+      "executionConfidence": "avoid",
+      "executionConfidenceLabel": "Avoid",
+      "trapScore": 94,
+      "trapFlags": [
+        "tax_margin_collapse",
+        "limit_constrained",
+        "thin_liquidity",
+        "concentration_risk",
+        "stale_signal",
+        "style_repeat_risk"
+      ],
+      "recommendedAction": "avoid",
+      "recommendedActionLabel": "Avoid",
+      "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "flagDetails": [
+        {
+          "trapType": "tax_margin_collapse",
+          "severity": "high",
+          "explanation": "Tax and spread wipe out the usable edge.",
+          "evidenceBasis": "Apparent margin 2000000, tax-adjusted -2680000.",
+          "safeAlternative": "Avoid unless the spread improves materially.",
+          "score": 34
+        },
+        {
+          "trapType": "limit_constrained",
+          "severity": "medium",
+          "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+          "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+          "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item.",
+          "score": 12
+        },
+        {
+          "trapType": "thin_liquidity",
+          "severity": "high",
+          "explanation": "Recent fill flow looks too thin relative to the size the market claims to support.",
+          "evidenceBasis": "5m flow 0, 1h flow 0, buy limit 8.",
+          "safeAlternative": "Avoid or trade far smaller size.",
+          "score": 24
+        },
+        {
+          "trapType": "concentration_risk",
+          "severity": "medium",
+          "explanation": "This is a high-ticket item with weak hourly turnover. You may be reading a highly concentrated market, not a clean opportunity.",
+          "evidenceBasis": "Sell price 234000000, 1h flow 0.",
+          "safeAlternative": "Treat as trap-prone unless you have unusually strong reason to believe the fills are real.",
+          "score": 18
+        },
+        {
+          "trapType": "stale_signal",
+          "severity": "low",
+          "explanation": "The latest signal is stale enough that the displayed edge may already have moved.",
+          "evidenceBasis": "Freshness 364s.",
+          "safeAlternative": "Refresh before acting aggressively.",
+          "score": 8
+        },
+        {
+          "trapType": "style_repeat_risk",
+          "severity": "low",
+          "explanation": "This also matches a broader execution mistake pattern already present in your memory log.",
+          "evidenceBasis": "Repeated memory patterns: fake spread.",
+          "safeAlternative": "Trade smaller or wait for a cleaner setup.",
+          "score": 3
+        }
+      ],
+      "strengths": [
+        {
+          "strengthType": "stable_window",
+          "explanation": "The market looks relatively stable instead of violently stretched.",
+          "evidenceBasis": "Latest-vs-5m -0.42%, 5m-vs-1h 0.28%.",
+          "score": 5
+        }
+      ],
+      "strengthLabels": [
+        "stable_window"
+      ],
+      "memoryNotes": [
+        "Broader repeated style pattern detected: fake spread."
+      ],
+      "matchedRules": [],
+      "matchedPatternKeys": [
+        "fake_spread"
+      ],
+      "usableProfitEstimate": 0,
+      "grossMarginPct": 0.008547008547008548,
+      "netMarginPct": -0.011452991452991453,
+      "fiveMinuteFlow": 0,
+      "oneHourFlow": 0,
+      "caseCategory": "Thin liquidity trap",
+      "raw": {
+        "itemId": 26382,
+        "itemName": "Torva full helm",
+        "members": true,
+        "buyLimit": 8,
+        "buyPrice": 236000000,
+        "sellPrice": 234000000,
+        "apparentMargin": 2000000,
+        "geTax": 4680000,
+        "taxAdjustedMargin": -2680000,
+        "grossMarginPct": 0.008547008547008548,
+        "netMarginPct": -0.011452991452991453,
+        "taxDragPct": 2.34,
+        "usableProfitEstimate": 0,
+        "capturedAt": "2026-04-05T20:15:01.231Z",
+        "freshnessSeconds": 364,
+        "freshnessLabel": "stale",
+        "fiveMinuteHighVolume": 1,
+        "fiveMinuteLowVolume": 0,
+        "oneHourHighVolume": 8,
+        "oneHourLowVolume": 0,
+        "fiveMinuteFlow": 0,
+        "oneHourFlow": 0,
+        "fiveMinuteFlowVsLimit": 0,
+        "oneHourFlowVsLimit": 0,
+        "fiveMinuteVolumeLabel": "very_low",
+        "oneHourVolumeLabel": "very_low",
+        "fiveMinuteTrend": "flat",
+        "oneHourTrend": "flat",
+        "fiveMinuteVsHourDeltaPct": 0.0027563818411662612,
+        "latestVsFiveMinuteDeltaPct": -0.00423728813559322,
+        "notes": "low-flow premium item trap",
+        "status": "active"
+      }
+    },
+    {
+      "itemId": 24511,
+      "itemName": "Harmonised orb",
+      "executionConfidence": "avoid",
+      "executionConfidenceLabel": "Avoid",
+      "trapScore": 94,
+      "trapFlags": [
+        "tax_margin_collapse",
+        "limit_constrained",
+        "thin_liquidity",
+        "concentration_risk",
+        "stale_signal",
+        "style_repeat_risk"
+      ],
+      "recommendedAction": "avoid",
+      "recommendedActionLabel": "Avoid",
+      "reasonSummary": "Tax and spread wipe out the usable edge. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "flagDetails": [
+        {
+          "trapType": "tax_margin_collapse",
+          "severity": "high",
+          "explanation": "Tax and spread wipe out the usable edge.",
+          "evidenceBasis": "Apparent margin 1758998, tax-adjusted -2161002.",
+          "safeAlternative": "Avoid unless the spread improves materially.",
+          "score": 34
+        },
+        {
+          "trapType": "limit_constrained",
+          "severity": "medium",
+          "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+          "evidenceBasis": "Usable profit estimate 0, threshold 80000.",
+          "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item.",
+          "score": 12
+        },
+        {
+          "trapType": "thin_liquidity",
+          "severity": "high",
+          "explanation": "Recent fill flow looks too thin relative to the size the market claims to support.",
+          "evidenceBasis": "5m flow 0, 1h flow 2, buy limit 8.",
+          "safeAlternative": "Avoid or trade far smaller size.",
+          "score": 24
+        },
+        {
+          "trapType": "concentration_risk",
+          "severity": "medium",
+          "explanation": "This is a high-ticket item with weak hourly turnover. You may be reading a highly concentrated market, not a clean opportunity.",
+          "evidenceBasis": "Sell price 196000000, 1h flow 2.",
+          "safeAlternative": "Treat as trap-prone unless you have unusually strong reason to believe the fills are real.",
+          "score": 18
+        },
+        {
+          "trapType": "stale_signal",
+          "severity": "low",
+          "explanation": "The latest signal is stale enough that the displayed edge may already have moved.",
+          "evidenceBasis": "Freshness 477s.",
+          "safeAlternative": "Refresh before acting aggressively.",
+          "score": 8
+        },
+        {
+          "trapType": "style_repeat_risk",
+          "severity": "low",
+          "explanation": "This also matches a broader execution mistake pattern already present in your memory log.",
+          "evidenceBasis": "Repeated memory patterns: fake spread.",
+          "safeAlternative": "Trade smaller or wait for a cleaner setup.",
+          "score": 3
+        }
+      ],
+      "strengths": [
+        {
+          "strengthType": "stable_window",
+          "explanation": "The market looks relatively stable instead of violently stretched.",
+          "evidenceBasis": "Latest-vs-5m 0.45%, 5m-vs-1h 0.35%.",
+          "score": 5
+        }
+      ],
+      "strengthLabels": [
+        "stable_window"
+      ],
+      "memoryNotes": [
+        "Broader repeated style pattern detected: fake spread."
+      ],
+      "matchedRules": [],
+      "matchedPatternKeys": [
+        "fake_spread"
+      ],
+      "usableProfitEstimate": 0,
+      "grossMarginPct": 0.008974479591836735,
+      "netMarginPct": -0.011025520408163266,
+      "fiveMinuteFlow": 0,
+      "oneHourFlow": 2,
+      "caseCategory": "Thin liquidity trap",
+      "raw": {
+        "itemId": 24511,
+        "itemName": "Harmonised orb",
+        "members": true,
+        "buyLimit": 8,
+        "buyPrice": 197758998,
+        "sellPrice": 196000000,
+        "apparentMargin": 1758998,
+        "geTax": 3920000,
+        "taxAdjustedMargin": -2161002,
+        "grossMarginPct": 0.008974479591836735,
+        "netMarginPct": -0.011025520408163266,
+        "taxDragPct": 2.2285414764542084,
+        "usableProfitEstimate": 0,
+        "capturedAt": "2026-04-05T20:15:01.231Z",
+        "freshnessSeconds": 477,
+        "freshnessLabel": "stale",
+        "fiveMinuteHighVolume": 0,
+        "fiveMinuteLowVolume": 2,
+        "oneHourHighVolume": 6,
+        "oneHourLowVolume": 2,
+        "fiveMinuteFlow": 0,
+        "oneHourFlow": 2,
+        "fiveMinuteFlowVsLimit": 0,
+        "oneHourFlowVsLimit": 0.25,
+        "fiveMinuteVolumeLabel": "very_low",
+        "oneHourVolumeLabel": "very_low",
+        "fiveMinuteTrend": "flat",
+        "oneHourTrend": "flat",
+        "fiveMinuteVsHourDeltaPct": 0.003452686146079304,
+        "latestVsFiveMinuteDeltaPct": 0.004487239795918367,
+        "notes": "ultra-thin high-ticket trap",
+        "status": "active"
+      }
+    },
+    {
+      "itemId": 565,
+      "itemName": "Blood rune",
+      "executionConfidence": "strong",
+      "executionConfidenceLabel": "Strong",
+      "trapScore": 0,
+      "trapFlags": [
+        "tax_margin_collapse",
+        "limit_constrained"
+      ],
+      "recommendedAction": "small_size_only",
+      "recommendedActionLabel": "Small size only",
+      "reasonSummary": "The trade survives tax, but most of the edge is still too thin to trust heavily. Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+      "flagDetails": [
+        {
+          "trapType": "tax_margin_collapse",
+          "severity": "medium",
+          "explanation": "The trade survives tax, but most of the edge is still too thin to trust heavily.",
+          "evidenceBasis": "Apparent margin 6, tax-adjusted 1.",
+          "safeAlternative": "Treat as a thin edge unless the rest of the execution picture is exceptionally clean.",
+          "score": 14
+        },
+        {
+          "trapType": "limit_constrained",
+          "severity": "medium",
+          "explanation": "Buy limit makes the opportunity smaller than it first appears for this bankroll bucket.",
+          "evidenceBasis": "Usable profit estimate 25000, threshold 80000.",
+          "safeAlternative": "Either trade small on purpose or rotate into a better-capacity item.",
+          "score": 12
+        }
+      ],
+      "strengths": [
+        {
+          "strengthType": "clean_margin",
+          "explanation": "Net margin survives tax with enough room to still matter.",
+          "evidenceBasis": "Net margin 0.35%.",
+          "score": 8
+        },
+        {
+          "strengthType": "high_flow_support",
+          "explanation": "Recent flow is strong enough that the market looks genuinely active.",
+          "evidenceBasis": "5m flow 77880, 1h flow 663506.",
+          "score": 10
+        },
+        {
+          "strengthType": "fresh_signal",
+          "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+          "evidenceBasis": "Freshness 55s.",
+          "score": 4
+        },
+        {
+          "strengthType": "stable_window",
+          "explanation": "The market looks relatively stable instead of violently stretched.",
+          "evidenceBasis": "Latest-vs-5m -0.52%, 5m-vs-1h 0.35%.",
+          "score": 5
+        }
+      ],
+      "strengthLabels": [
+        "clean_margin",
+        "high_flow_support",
+        "fresh_signal",
+        "stable_window"
+      ],
+      "memoryNotes": [],
+      "matchedRules": [],
+      "matchedPatternKeys": [],
+      "usableProfitEstimate": 25000,
+      "grossMarginPct": 0.02097902097902098,
+      "netMarginPct": 0.0034965034965034965,
+      "fiveMinuteFlow": 77880,
+      "oneHourFlow": 663506,
+      "caseCategory": "Limit-constrained grind",
+      "raw": {
+        "itemId": 565,
+        "itemName": "Blood rune",
+        "members": true,
+        "buyLimit": 25000,
+        "buyPrice": 292,
+        "sellPrice": 286,
+        "apparentMargin": 6,
+        "geTax": 5,
+        "taxAdjustedMargin": 1,
+        "grossMarginPct": 0.02097902097902098,
+        "netMarginPct": 0.0034965034965034965,
+        "taxDragPct": 0.8333333333333334,
+        "usableProfitEstimate": 25000,
+        "capturedAt": "2026-04-05T20:15:01.231Z",
+        "freshnessSeconds": 55,
+        "freshnessLabel": "fresh",
+        "fiveMinuteHighVolume": 77880,
+        "fiveMinuteLowVolume": 134720,
+        "oneHourHighVolume": 2236639,
+        "oneHourLowVolume": 663506,
+        "fiveMinuteFlow": 77880,
+        "oneHourFlow": 663506,
+        "fiveMinuteFlowVsLimit": 3.1152,
+        "oneHourFlowVsLimit": 26.54024,
+        "fiveMinuteVolumeLabel": "very_high",
+        "oneHourVolumeLabel": "very_high",
+        "fiveMinuteTrend": "flat",
+        "oneHourTrend": "flat",
+        "fiveMinuteVsHourDeltaPct": 0.0034542314335060447,
+        "latestVsFiveMinuteDeltaPct": -0.0051635111876075735,
+        "notes": "high-volume rune control case",
+        "status": "active"
+      }
+    }
+  ],
+  "replaySummary": {
+    "generatedAt": "2026-04-05T20:15:01.482Z",
+    "total": 12,
+    "exactPasses": 10,
+    "confidencePasses": 12,
+    "actionPasses": 12,
+    "categoryPasses": 10,
+    "flagCoveragePasses": 12,
+    "liveAssessmentSummary": {
+      "total": 12,
+      "confidenceCounts": {
+        "strong": 3,
+        "tradable": 3,
+        "fragile": 2,
+        "trap_risk": 2,
+        "avoid": 2
+      },
+      "topTrapFlags": [
+        {
+          "trapType": "tax_margin_collapse",
+          "count": 8
+        },
+        {
+          "trapType": "style_repeat_risk",
+          "count": 7
+        },
+        {
+          "trapType": "limit_constrained",
+          "count": 6
+        },
+        {
+          "trapType": "fake_spread_risk",
+          "count": 4
+        },
+        {
+          "trapType": "stale_signal",
+          "count": 4
+        },
+        {
+          "trapType": "concentration_risk",
+          "count": 4
+        },
+        {
+          "trapType": "thin_liquidity",
+          "count": 3
+        },
+        {
+          "trapType": "memory_repeat_risk",
+          "count": 2
+        }
+      ]
+    }
+  },
+  "assessmentSummary": {
+    "total": 15,
+    "confidenceCounts": {
+      "strong": 5,
+      "tradable": 2,
+      "fragile": 4,
+      "trap_risk": 0,
+      "avoid": 4
+    },
+    "topTrapFlags": [
+      {
+        "trapType": "limit_constrained",
+        "count": 13
+      },
+      {
+        "trapType": "tax_margin_collapse",
+        "count": 10
+      },
+      {
+        "trapType": "style_repeat_risk",
+        "count": 6
+      },
+      {
+        "trapType": "thin_liquidity",
+        "count": 5
+      },
+      {
+        "trapType": "concentration_risk",
+        "count": 4
+      },
+      {
+        "trapType": "stale_signal",
+        "count": 4
+      },
+      {
+        "trapType": "memory_repeat_risk",
+        "count": 2
+      },
+      {
+        "trapType": "fake_spread_risk",
+        "count": 1
+      }
+    ]
+  },
+  "runtimePostmortemCount": 0
+}

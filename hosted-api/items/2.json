@@ -1,0 +1,298 @@
+{
+  "itemId": 2,
+  "itemName": "Steel cannonball",
+  "executionConfidence": "strong",
+  "executionConfidenceLabel": "Strong",
+  "trapScore": 0,
+  "trapFlags": [
+    "limit_constrained"
+  ],
+  "recommendedAction": "small_size_only",
+  "recommendedActionLabel": "Small size only",
+  "reasonSummary": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+  "flagDetails": [
+    {
+      "trapType": "limit_constrained",
+      "severity": "low",
+      "explanation": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+      "evidenceBasis": "Usable profit estimate 77000, threshold 80000.",
+      "safeAlternative": "Prefer normal size only if you specifically want lower-risk turnover.",
+      "score": 6
+    }
+  ],
+  "strengths": [
+    {
+      "strengthType": "clean_margin",
+      "explanation": "Net margin survives tax with enough room to still matter.",
+      "evidenceBasis": "Net margin 2.36%.",
+      "score": 8
+    },
+    {
+      "strengthType": "high_flow_support",
+      "explanation": "Recent flow is strong enough that the market looks genuinely active.",
+      "evidenceBasis": "5m flow 16721, 1h flow 390777.",
+      "score": 10
+    },
+    {
+      "strengthType": "fresh_signal",
+      "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+      "evidenceBasis": "Freshness 60s.",
+      "score": 4
+    },
+    {
+      "strengthType": "stable_window",
+      "explanation": "The market looks relatively stable instead of violently stretched.",
+      "evidenceBasis": "Latest-vs-5m 0.00%, 5m-vs-1h 0.33%.",
+      "score": 5
+    }
+  ],
+  "strengthLabels": [
+    "clean_margin",
+    "high_flow_support",
+    "fresh_signal",
+    "stable_window"
+  ],
+  "memoryNotes": [],
+  "matchedRules": [],
+  "matchedPatternKeys": [],
+  "usableProfitEstimate": 77000,
+  "grossMarginPct": 0.04040404040404041,
+  "netMarginPct": 0.02356902356902357,
+  "fiveMinuteFlow": 16721,
+  "oneHourFlow": 390777,
+  "caseCategory": "Limit-constrained grind",
+  "raw": {
+    "itemId": 2,
+    "itemName": "Steel cannonball",
+    "members": true,
+    "buyLimit": 11000,
+    "buyPrice": 309,
+    "sellPrice": 297,
+    "apparentMargin": 12,
+    "geTax": 5,
+    "taxAdjustedMargin": 7,
+    "grossMarginPct": 0.04040404040404041,
+    "netMarginPct": 0.02356902356902357,
+    "taxDragPct": 0.4166666666666667,
+    "usableProfitEstimate": 77000,
+    "capturedAt": "2026-04-05T20:15:00.674Z",
+    "freshnessSeconds": 60,
+    "freshnessLabel": "fresh",
+    "fiveMinuteHighVolume": 47071,
+    "fiveMinuteLowVolume": 16721,
+    "oneHourHighVolume": 982853,
+    "oneHourLowVolume": 390777,
+    "fiveMinuteFlow": 16721,
+    "oneHourFlow": 390777,
+    "fiveMinuteFlowVsLimit": 1.5200909090909092,
+    "oneHourFlowVsLimit": 35.52518181818182,
+    "fiveMinuteVolumeLabel": "high",
+    "oneHourVolumeLabel": "very_high",
+    "fiveMinuteTrend": "flat",
+    "oneHourTrend": "flat",
+    "fiveMinuteVsHourDeltaPct": 0.0033112582781456954,
+    "latestVsFiveMinuteDeltaPct": 0,
+    "notes": "tiny-edge high-volume grind case",
+    "status": "active"
+  },
+  "deliveryMode": "hosted-static",
+  "sourceLabel": "Hosted read-only snapshot feed",
+  "sourceBaseUrl": "https://onechan.github.io/trapedge-runelite-plugin/hosted-api",
+  "proofCase": {
+    "itemId": 2,
+    "itemName": "Steel cannonball",
+    "executionConfidence": "strong",
+    "executionConfidenceLabel": "Strong",
+    "trapScore": 0,
+    "trapFlags": [
+      "limit_constrained"
+    ],
+    "recommendedAction": "small_size_only",
+    "recommendedActionLabel": "Small size only",
+    "reasonSummary": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+    "flagDetails": [
+      {
+        "trapType": "limit_constrained",
+        "severity": "low",
+        "explanation": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+        "evidenceBasis": "Usable profit estimate 77000, threshold 80000.",
+        "safeAlternative": "Prefer normal size only if you specifically want lower-risk turnover.",
+        "score": 6
+      }
+    ],
+    "strengths": [
+      {
+        "strengthType": "clean_margin",
+        "explanation": "Net margin survives tax with enough room to still matter.",
+        "evidenceBasis": "Net margin 2.36%.",
+        "score": 8
+      },
+      {
+        "strengthType": "high_flow_support",
+        "explanation": "Recent flow is strong enough that the market looks genuinely active.",
+        "evidenceBasis": "5m flow 16721, 1h flow 390777.",
+        "score": 10
+      },
+      {
+        "strengthType": "fresh_signal",
+        "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+        "evidenceBasis": "Freshness 60s.",
+        "score": 4
+      },
+      {
+        "strengthType": "stable_window",
+        "explanation": "The market looks relatively stable instead of violently stretched.",
+        "evidenceBasis": "Latest-vs-5m 0.00%, 5m-vs-1h 0.33%.",
+        "score": 5
+      }
+    ],
+    "strengthLabels": [
+      "clean_margin",
+      "high_flow_support",
+      "fresh_signal",
+      "stable_window"
+    ],
+    "memoryNotes": [],
+    "matchedRules": [],
+    "matchedPatternKeys": [],
+    "usableProfitEstimate": 77000,
+    "grossMarginPct": 0.04040404040404041,
+    "netMarginPct": 0.02356902356902357,
+    "fiveMinuteFlow": 16721,
+    "oneHourFlow": 390777,
+    "caseCategory": "Limit-constrained grind",
+    "raw": {
+      "itemId": 2,
+      "itemName": "Steel cannonball",
+      "members": true,
+      "buyLimit": 11000,
+      "buyPrice": 309,
+      "sellPrice": 297,
+      "apparentMargin": 12,
+      "geTax": 5,
+      "taxAdjustedMargin": 7,
+      "grossMarginPct": 0.04040404040404041,
+      "netMarginPct": 0.02356902356902357,
+      "taxDragPct": 0.4166666666666667,
+      "usableProfitEstimate": 77000,
+      "capturedAt": "2026-04-05T20:15:01.231Z",
+      "freshnessSeconds": 60,
+      "freshnessLabel": "fresh",
+      "fiveMinuteHighVolume": 47071,
+      "fiveMinuteLowVolume": 16721,
+      "oneHourHighVolume": 982853,
+      "oneHourLowVolume": 390777,
+      "fiveMinuteFlow": 16721,
+      "oneHourFlow": 390777,
+      "fiveMinuteFlowVsLimit": 1.5200909090909092,
+      "oneHourFlowVsLimit": 35.52518181818182,
+      "fiveMinuteVolumeLabel": "high",
+      "oneHourVolumeLabel": "very_high",
+      "fiveMinuteTrend": "flat",
+      "oneHourTrend": "flat",
+      "fiveMinuteVsHourDeltaPct": 0.0033112582781456954,
+      "latestVsFiveMinuteDeltaPct": 0,
+      "notes": "tiny-edge high-volume grind case",
+      "status": "active"
+    }
+  },
+  "liveAssessment": {
+    "itemId": 2,
+    "itemName": "Steel cannonball",
+    "executionConfidence": "strong",
+    "executionConfidenceLabel": "Strong",
+    "trapScore": 0,
+    "trapFlags": [
+      "limit_constrained"
+    ],
+    "recommendedAction": "small_size_only",
+    "recommendedActionLabel": "Small size only",
+    "reasonSummary": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+    "flagDetails": [
+      {
+        "trapType": "limit_constrained",
+        "severity": "low",
+        "explanation": "This is tradeable, but the usable profit is still a bit light for the bankroll target.",
+        "evidenceBasis": "Usable profit estimate 77000, threshold 80000.",
+        "safeAlternative": "Prefer normal size only if you specifically want lower-risk turnover.",
+        "score": 6
+      }
+    ],
+    "strengths": [
+      {
+        "strengthType": "clean_margin",
+        "explanation": "Net margin survives tax with enough room to still matter.",
+        "evidenceBasis": "Net margin 2.36%.",
+        "score": 8
+      },
+      {
+        "strengthType": "high_flow_support",
+        "explanation": "Recent flow is strong enough that the market looks genuinely active.",
+        "evidenceBasis": "5m flow 16721, 1h flow 390777.",
+        "score": 10
+      },
+      {
+        "strengthType": "fresh_signal",
+        "explanation": "The latest signal is fresh enough to trust more than a stale quote.",
+        "evidenceBasis": "Freshness 60s.",
+        "score": 4
+      },
+      {
+        "strengthType": "stable_window",
+        "explanation": "The market looks relatively stable instead of violently stretched.",
+        "evidenceBasis": "Latest-vs-5m 0.00%, 5m-vs-1h 0.33%.",
+        "score": 5
+      }
+    ],
+    "strengthLabels": [
+      "clean_margin",
+      "high_flow_support",
+      "fresh_signal",
+      "stable_window"
+    ],
+    "memoryNotes": [],
+    "matchedRules": [],
+    "matchedPatternKeys": [],
+    "usableProfitEstimate": 77000,
+    "grossMarginPct": 0.04040404040404041,
+    "netMarginPct": 0.02356902356902357,
+    "fiveMinuteFlow": 16721,
+    "oneHourFlow": 390777,
+    "caseCategory": "Limit-constrained grind",
+    "raw": {
+      "itemId": 2,
+      "itemName": "Steel cannonball",
+      "members": true,
+      "buyLimit": 11000,
+      "buyPrice": 309,
+      "sellPrice": 297,
+      "apparentMargin": 12,
+      "geTax": 5,
+      "taxAdjustedMargin": 7,
+      "grossMarginPct": 0.04040404040404041,
+      "netMarginPct": 0.02356902356902357,
+      "taxDragPct": 0.4166666666666667,
+      "usableProfitEstimate": 77000,
+      "capturedAt": "2026-04-05T20:15:00.674Z",
+      "freshnessSeconds": 60,
+      "freshnessLabel": "fresh",
+      "fiveMinuteHighVolume": 47071,
+      "fiveMinuteLowVolume": 16721,
+      "oneHourHighVolume": 982853,
+      "oneHourLowVolume": 390777,
+      "fiveMinuteFlow": 16721,
+      "oneHourFlow": 390777,
+      "fiveMinuteFlowVsLimit": 1.5200909090909092,
+      "oneHourFlowVsLimit": 35.52518181818182,
+      "fiveMinuteVolumeLabel": "high",
+      "oneHourVolumeLabel": "very_high",
+      "fiveMinuteTrend": "flat",
+      "oneHourTrend": "flat",
+      "fiveMinuteVsHourDeltaPct": 0.0033112582781456954,
+      "latestVsFiveMinuteDeltaPct": 0,
+      "notes": "tiny-edge high-volume grind case",
+      "status": "active"
+    }
+  },
+  "runtimePostmortems": []
+}
